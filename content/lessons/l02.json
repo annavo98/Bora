@@ -1,0 +1,1930 @@
+{
+  "id": "l02",
+  "number": 2,
+  "phase": 0,
+  "level": "A1",
+  "title": "Em casa com a família",
+  "title_de": "Zu Hause bei der Familie",
+  "cover": "family",
+  "goals_de": [
+    "Familienmitglieder und Räume benennen",
+    "Fragen, wo etwas ist: cadê? onde fica?",
+    "Höflich sein: com licença, posso ajudar?, obrigada",
+    "ser und estar unterscheiden, gesprochen tô und tá",
+    "no, na, do, da und né? sicher benutzen"
+  ],
+  "listening": {
+    "dialogs": [
+      {
+        "id": "l02d1",
+        "title": "Conhecendo a casa",
+        "situation_de": "Leo zeigt dir das Haus seiner Eltern.",
+        "lines": [
+          {
+            "speaker": "Leo",
+            "voice": "m",
+            "pt": "Vem, Anna, vou te mostrar a casa.",
+            "de": "Komm, Anna, ich zeig dir das Haus."
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Que casa bonita! É bem grande, né?",
+            "de": "Was für ein schönes Haus! Es ist ziemlich groß, oder?"
+          },
+          {
+            "speaker": "Leo",
+            "voice": "m",
+            "pt": "Mais ou menos. Aqui é a sala, e ali é a cozinha.",
+            "de": "Geht so. Hier ist das Wohnzimmer und dort die Küche."
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "E cadê o banheiro?",
+            "de": "Und wo ist das Bad?"
+          },
+          {
+            "speaker": "Leo",
+            "voice": "m",
+            "pt": "O banheiro fica no corredor, do lado do meu quarto.",
+            "de": "Das Bad ist im Flur, neben meinem Zimmer."
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "E a gente vai dormir no seu quarto?",
+            "de": "Und wir schlafen in deinem Zimmer?"
+          },
+          {
+            "speaker": "Leo",
+            "voice": "m",
+            "pt": "Isso. Minha mãe arrumou tudo pra você. Tem toalha nova na cama.",
+            "de": "Genau. Meine Mutter hat alles für dich hergerichtet. Auf dem Bett liegt ein neues Handtuch."
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Que fofa a sua mãe!",
+            "de": "Wie lieb von deiner Mutter!"
+          },
+          {
+            "speaker": "Leo",
+            "voice": "m",
+            "pt": "Lá fora é o quintal. O cachorro tá lá. Ele se chama Pipoca.",
+            "de": "Draußen ist der Garten. Der Hund ist dort. Er heißt Pipoca."
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Pipoca? Que nome engraçado!",
+            "de": "Pipoca? Was für ein lustiger Name!"
+          },
+          {
+            "speaker": "Leo",
+            "voice": "m",
+            "pt": "Fica à vontade, tá? A casa é sua.",
+            "de": "Fühl dich wie zu Hause, ja? Das Haus gehört dir."
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Obrigada, amor. Tô muito feliz de estar aqui.",
+            "de": "Danke, Schatz. Ich bin sehr glücklich, hier zu sein."
+          }
+        ],
+        "questions": [
+          {
+            "q_de": "Wo ist das Bad?",
+            "options_de": [
+              "Neben der Küche",
+              "Im Flur, neben Leos Zimmer",
+              "Draußen im Garten"
+            ],
+            "answer": 1
+          },
+          {
+            "q_de": "Was hat Leos Mutter auf das Bett gelegt?",
+            "options_de": [
+              "Ein neues Handtuch",
+              "Blumen",
+              "Einen Brief"
+            ],
+            "answer": 0
+          },
+          {
+            "q_de": "Wie heißt der Hund?",
+            "options_de": [
+              "Pipoca",
+              "Pudim",
+              "Paçoca"
+            ],
+            "answer": 0
+          }
+        ],
+        "new_words": [
+          {
+            "pt": "mostrar",
+            "de": "zeigen (ES: mostrar)"
+          },
+          {
+            "pt": "ali",
+            "de": "dort (ES: allí)"
+          },
+          {
+            "pt": "mais ou menos",
+            "de": "geht so, mehr oder weniger"
+          },
+          {
+            "pt": "dormir",
+            "de": "schlafen"
+          },
+          {
+            "pt": "isso",
+            "de": "genau, richtig"
+          },
+          {
+            "pt": "arrumou",
+            "de": "hat hergerichtet, aufgeräumt (arrumar)"
+          },
+          {
+            "pt": "a toalha nova",
+            "de": "das neue Handtuch"
+          },
+          {
+            "pt": "a cama",
+            "de": "das Bett (ES: la cama)"
+          },
+          {
+            "pt": "que fofa!",
+            "de": "wie lieb, wie süß!"
+          },
+          {
+            "pt": "feliz de estar aqui",
+            "de": "glücklich, hier zu sein"
+          }
+        ]
+      },
+      {
+        "id": "l02d2",
+        "title": "No jantar",
+        "situation_de": "Abendessen mit Leos Eltern. Es gibt typisches Alltagsessen.",
+        "lines": [
+          {
+            "speaker": "Dona Márcia",
+            "voice": "f2",
+            "pt": "Senta aqui, Anna. Fica à vontade!",
+            "de": "Setz dich hierher, Anna. Fühl dich wie zu Hause!"
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Com licença. Hum, que cheiro bom!",
+            "de": "Entschuldigung, darf ich? Mmh, das riecht gut!"
+          },
+          {
+            "speaker": "Dona Márcia",
+            "voice": "f2",
+            "pt": "É arroz, feijão e frango assado. Comida simples, né?",
+            "de": "Reis, Bohnen und Brathähnchen. Einfaches Essen, oder?"
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Simples nada! Tá uma delícia!",
+            "de": "Von wegen einfach! Es ist köstlich!"
+          },
+          {
+            "speaker": "Seu Paulo",
+            "voice": "m",
+            "pt": "E aí, Anna, tá gostando de São Paulo?",
+            "de": "Na, Anna, gefällt dir São Paulo?"
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Tô adorando! A cidade é enorme. Mas tá muito quente!",
+            "de": "Ich liebe es! Die Stadt ist riesig. Aber es ist sehr heiß!"
+          },
+          {
+            "speaker": "Seu Paulo",
+            "voice": "m",
+            "pt": "Quente? Hoje tá até fresquinho!",
+            "de": "Heiß? Heute ist es sogar angenehm kühl!"
+          },
+          {
+            "speaker": "Dona Márcia",
+            "voice": "f2",
+            "pt": "Não liga, não. Ele é muito brincalhão.",
+            "de": "Hör nicht auf ihn. Er macht gern Witze."
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "O senhor é muito engraçado, Seu Paulo!",
+            "de": "Sie sind sehr lustig, Herr Paulo!"
+          },
+          {
+            "speaker": "Seu Paulo",
+            "voice": "m",
+            "pt": "Quer mais um pouco de feijão?",
+            "de": "Möchtest du noch ein paar Bohnen?"
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Quero sim, por favor! O feijão da senhora é o melhor do Brasil.",
+            "de": "Ja, gern! Ihre Bohnen sind die besten in Brasilien."
+          },
+          {
+            "speaker": "Dona Márcia",
+            "voice": "f2",
+            "pt": "Ai, obrigada, querida! A gente tá muito feliz que você tá aqui.",
+            "de": "Ach, danke, Liebes! Wir sind sehr froh, dass du hier bist."
+          }
+        ],
+        "questions": [
+          {
+            "q_de": "Was gibt es zu essen?",
+            "options_de": [
+              "Pizza und Salat",
+              "Reis, Bohnen und Brathähnchen",
+              "Fisch und Kartoffeln"
+            ],
+            "answer": 1
+          },
+          {
+            "q_de": "Warum sagt Seu Paulo, heute sei es „fresquinho“?",
+            "options_de": [
+              "Weil er einen Witz macht",
+              "Weil es regnet",
+              "Weil die Klimaanlage an ist"
+            ],
+            "answer": 0
+          },
+          {
+            "q_de": "Was sagt Anna über die Bohnen?",
+            "options_de": [
+              "Sie sind zu salzig",
+              "Sie sind die besten in Brasilien",
+              "Sie mag keine Bohnen"
+            ],
+            "answer": 1
+          }
+        ],
+        "new_words": [
+          {
+            "pt": "o frango assado",
+            "de": "das Brathähnchen"
+          },
+          {
+            "pt": "simples nada!",
+            "de": "von wegen einfach!"
+          },
+          {
+            "pt": "tá gostando de …?",
+            "de": "gefällt dir …?"
+          },
+          {
+            "pt": "enorme",
+            "de": "riesig"
+          },
+          {
+            "pt": "até",
+            "de": "sogar"
+          },
+          {
+            "pt": "fresquinho",
+            "de": "schön kühl (Verkleinerung von fresco)"
+          },
+          {
+            "pt": "não liga, não",
+            "de": "hör nicht drauf, mach dir nichts draus"
+          },
+          {
+            "pt": "quero sim",
+            "de": "ja, gern"
+          },
+          {
+            "pt": "o melhor",
+            "de": "der/das beste (ES: el mejor)"
+          }
+        ]
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "l02v01",
+      "pt": "a família",
+      "de": "die Familie",
+      "ipa": "[a faˈmiljɐ]",
+      "pron_de": "a fa-MI-lja",
+      "es": "la familia",
+      "ex_pt": "A família do Leo é muito grande.",
+      "ex_de": "Leos Familie ist sehr groß.",
+      "kind": "word",
+      "icon": "family"
+    },
+    {
+      "id": "l02v02",
+      "pt": "a casa",
+      "de": "das Haus, das Zuhause",
+      "ipa": "[a ˈkazɐ]",
+      "pron_de": "a KA-sa (weiches s)",
+      "es": "la casa",
+      "hint_es_de": "Das s zwischen Vokalen ist weich und summend wie in „Rose“.",
+      "ex_pt": "A gente tá em casa.",
+      "ex_de": "Wir sind zu Hause.",
+      "kind": "word",
+      "icon": "house"
+    },
+    {
+      "id": "l02v03",
+      "pt": "a sala",
+      "de": "das Wohnzimmer",
+      "ipa": "[a ˈsalɐ]",
+      "pron_de": "a SA-la",
+      "es": "la sala, el salón",
+      "ex_pt": "O Leo tá na sala.",
+      "ex_de": "Leo ist im Wohnzimmer.",
+      "kind": "word",
+      "icon": "sofa"
+    },
+    {
+      "id": "l02v04",
+      "pt": "a cozinha",
+      "de": "die Küche",
+      "ipa": "[a koˈziɲɐ]",
+      "pron_de": "a ko-SI-nja",
+      "es": "la cocina",
+      "hint_es_de": "Mit z und nh, nicht wie spanisch „cocina“.",
+      "ex_pt": "A Márcia tá na cozinha.",
+      "ex_de": "Márcia ist in der Küche.",
+      "kind": "word",
+      "icon": "kitchen"
+    },
+    {
+      "id": "l02v05",
+      "pt": "o quarto",
+      "de": "das Schlafzimmer, das Zimmer",
+      "ipa": "[ʊ ˈkwaɾtʊ]",
+      "pron_de": "u KWAR-tu",
+      "es": "el cuarto, la habitación",
+      "hint_es_de": "„Quarto“ heißt auch Viertel: um quarto = ein Viertel.",
+      "ex_pt": "Esse é o meu quarto.",
+      "ex_de": "Das ist mein Zimmer.",
+      "kind": "word",
+      "icon": "bed"
+    },
+    {
+      "id": "l02v06",
+      "pt": "o banheiro",
+      "de": "das Badezimmer, die Toilette",
+      "ipa": "[ʊ bɐˈɲejɾʊ]",
+      "pron_de": "u ba-NJEI-ru",
+      "es": "el baño",
+      "hint_es_de": "„Banho“ ist das Bad im Sinne von Duschen: tomar banho = duschen.",
+      "ex_pt": "O banheiro fica no corredor.",
+      "ex_de": "Das Bad ist im Flur.",
+      "kind": "word",
+      "icon": "bath"
+    },
+    {
+      "id": "l02v07",
+      "pt": "o quintal",
+      "de": "der Hof, der Garten hinterm Haus",
+      "ipa": "[ʊ kĩˈtaw]",
+      "pron_de": "u kin-TAU",
+      "es": "el patio",
+      "hint_es_de": "Ein l am Silbenende klingt wie u: kin-TAU.",
+      "ex_pt": "O cachorro tá no quintal.",
+      "ex_de": "Der Hund ist im Hof.",
+      "kind": "word",
+      "icon": "plant"
+    },
+    {
+      "id": "l02v08",
+      "pt": "o corredor",
+      "de": "der Flur",
+      "ipa": "[ʊ koheˈdoɾ]",
+      "pron_de": "u ko-he-DOR",
+      "es": "el pasillo",
+      "hint_es_de": "rr klingt wie h. Im Spanischen heißt „corredor“ auch Flur, üblicher ist dort aber „pasillo“.",
+      "ex_pt": "O banheiro fica no corredor.",
+      "ex_de": "Das Bad ist im Flur.",
+      "kind": "word"
+    },
+    {
+      "id": "l02v09",
+      "pt": "cadê …?",
+      "de": "wo ist …?",
+      "ipa": "[kaˈde]",
+      "pron_de": "ka-DE",
+      "es": "¿dónde está …?",
+      "hint_es_de": "Typisch brasilianisch und sehr umgangssprachlich. Kein Verb nötig: Cadê o Leo?",
+      "ex_pt": "Cadê o controle da TV?",
+      "ex_de": "Wo ist die Fernbedienung?",
+      "kind": "word"
+    },
+    {
+      "id": "l02v10",
+      "pt": "onde fica o banheiro?",
+      "de": "wo ist das Bad?",
+      "ipa": "[ˈõdʒi ˈfikɐ ʊ bɐˈɲejɾʊ]",
+      "pron_de": "ON-dschi FI-ka u ba-NJEI-ru",
+      "es": "¿dónde está el baño?",
+      "hint_es_de": "Für Räume und Gebäude sagt man meist „ficar“, nicht „estar“.",
+      "ex_pt": "Com licença, onde fica o banheiro?",
+      "ex_de": "Entschuldigung, wo ist das Bad?",
+      "kind": "phrase"
+    },
+    {
+      "id": "l02v11",
+      "pt": "fica à vontade",
+      "de": "fühl dich wie zu Hause",
+      "ipa": "[ˈfikɐ a võˈtadʒi]",
+      "pron_de": "FI-ka a wong-TA-dschi",
+      "es": "estás en tu casa, ponte cómoda",
+      "hint_es_de": "Hörst du in jeder brasilianischen Familie. Antwort: „Obrigada!“",
+      "ex_pt": "Senta, fica à vontade!",
+      "ex_de": "Setz dich, mach es dir bequem!",
+      "kind": "phrase"
+    },
+    {
+      "id": "l02v12",
+      "pt": "a casa é sua",
+      "de": "fühl dich wie zu Hause (wörtlich: das Haus gehört dir)",
+      "ipa": "[a ˈkazɐ ɛ ˈsuɐ]",
+      "pron_de": "a KA-sa ä SU-a",
+      "es": "estás en tu casa",
+      "ex_pt": "Fica à vontade, a casa é sua!",
+      "ex_de": "Mach es dir bequem, fühl dich wie zu Hause!",
+      "kind": "phrase"
+    },
+    {
+      "id": "l02v13",
+      "pt": "com licença",
+      "de": "Entschuldigung, darf ich? (beim Vorbeigehen, Eintreten, Hinsetzen)",
+      "ipa": "[kõ liˈsẽsɐ]",
+      "pron_de": "kong li-SSEN-ssa",
+      "es": "con permiso",
+      "hint_es_de": "Wie spanisch „con permiso“. „Licencia“ im Sinne von Erlaubnis.",
+      "ex_pt": "Com licença, posso entrar?",
+      "ex_de": "Entschuldigung, darf ich reinkommen?",
+      "kind": "phrase"
+    },
+    {
+      "id": "l02v14",
+      "pt": "posso ajudar?",
+      "de": "kann ich helfen?",
+      "ipa": "[ˈpɔsʊ aʒuˈdaɾ]",
+      "pron_de": "PO-ssu a-schu-DAR",
+      "es": "¿puedo ayudar?",
+      "hint_es_de": "Gute Frage für jede Küche. Das j klingt wie „sch“.",
+      "ex_pt": "Márcia, posso ajudar?",
+      "ex_de": "Márcia, kann ich helfen?",
+      "kind": "phrase"
+    },
+    {
+      "id": "l02v15",
+      "pt": "não precisa",
+      "de": "nicht nötig",
+      "ipa": "[ˈnɐ̃w̃ pɾeˈsizɐ]",
+      "pron_de": "naung pre-SSI-sa",
+      "es": "no hace falta",
+      "ex_pt": "Posso ajudar? Não precisa, querida!",
+      "ex_de": "Kann ich helfen? Nicht nötig, Liebes!",
+      "kind": "phrase"
+    },
+    {
+      "id": "l02v16",
+      "pt": "os pais",
+      "de": "die Eltern",
+      "ipa": "[us ˈpajs]",
+      "pron_de": "us PAIS",
+      "es": "los padres",
+      "hint_es_de": "„Os pais“ sind die Eltern. Die Verwandten heißen „os parentes“.",
+      "ex_pt": "Os pais do Leo são muito simpáticos.",
+      "ex_de": "Leos Eltern sind sehr nett.",
+      "kind": "word",
+      "icon": "family"
+    },
+    {
+      "id": "l02v17",
+      "pt": "o irmão",
+      "de": "der Bruder",
+      "ipa": "[ʊ iɾˈmɐ̃w̃]",
+      "pron_de": "u ir-MAUNG",
+      "es": "el hermano",
+      "ex_pt": "Você tem irmãos?",
+      "ex_de": "Hast du Geschwister?",
+      "kind": "word",
+      "icon": "family"
+    },
+    {
+      "id": "l02v18",
+      "pt": "o tio / a tia",
+      "de": "der Onkel / die Tante",
+      "ipa": "[ʊ ˈtʃiʊ] / [a ˈtʃiɐ]",
+      "pron_de": "u TSCHI-u / a TSCHI-a",
+      "es": "el tío / la tía",
+      "hint_es_de": "Wie im Spanischen, aber mit „tschi“ gesprochen.",
+      "ex_pt": "A tia Cris vem no domingo.",
+      "ex_de": "Tante Cris kommt am Sonntag.",
+      "kind": "word",
+      "icon": "family"
+    },
+    {
+      "id": "l02v19",
+      "pt": "o primo / a prima",
+      "de": "der Cousin / die Cousine",
+      "ipa": "[ʊ ˈpɾimʊ] / [a ˈpɾimɐ]",
+      "pron_de": "u PRI-mu / a PRI-ma",
+      "es": "el primo / la prima",
+      "ex_pt": "O Leo tem muitos primos.",
+      "ex_de": "Leo hat viele Cousins.",
+      "kind": "word",
+      "icon": "family"
+    },
+    {
+      "id": "l02v20",
+      "pt": "o cunhado / a cunhada",
+      "de": "der Schwager / die Schwägerin",
+      "ipa": "[ʊ kuˈɲadʊ] / [a kuˈɲadɐ]",
+      "pron_de": "u ku-NJA-du / a ku-NJA-da",
+      "es": "el cuñado / la cuñada",
+      "hint_es_de": "Spanisches ñ wird auf Portugiesisch nh geschrieben.",
+      "ex_pt": "A Júlia vai ser minha cunhada.",
+      "ex_de": "Júlia wird meine Schwägerin.",
+      "kind": "word",
+      "icon": "family"
+    },
+    {
+      "id": "l02v21",
+      "pt": "o sogro",
+      "de": "der Schwiegervater",
+      "ipa": "[ʊ ˈsoɡɾʊ]",
+      "pron_de": "u SO-gru (geschlossenes o)",
+      "es": "el suegro",
+      "hint_es_de": "Beim Schwiegervater ist das o geschlossen, bei der Schwiegermutter (sogra) offen.",
+      "ex_pt": "Meu sogro é muito brincalhão.",
+      "ex_de": "Mein Schwiegervater macht gern Witze.",
+      "kind": "word",
+      "icon": "family"
+    },
+    {
+      "id": "l02v22",
+      "pt": "o cachorro",
+      "de": "der Hund",
+      "ipa": "[ʊ kaˈʃohʊ]",
+      "pron_de": "u ka-SCHO-hu",
+      "es": "el perro",
+      "false_friend_de": "Falscher Freund: „cachorro“ heißt im Spanischen Welpe. In Brasilien ist „cachorro“ jeder Hund, egal wie alt. Ein Welpe ist „um filhote“.",
+      "ex_pt": "O cachorro se chama Pipoca.",
+      "ex_de": "Der Hund heißt Pipoca.",
+      "kind": "word",
+      "icon": "dog"
+    },
+    {
+      "id": "l02v23",
+      "pt": "a cadeira",
+      "de": "der Stuhl",
+      "ipa": "[a kaˈdejɾɐ]",
+      "pron_de": "a ka-DEI-ra",
+      "es": "la silla",
+      "false_friend_de": "Falscher Freund: „cadera“ heißt im Spanischen Hüfte. „Cadeira“ ist der Stuhl.",
+      "ex_pt": "Pega mais uma cadeira, por favor.",
+      "ex_de": "Hol bitte noch einen Stuhl.",
+      "kind": "word",
+      "icon": "chair"
+    },
+    {
+      "id": "l02v24",
+      "pt": "o escritório",
+      "de": "das Büro, das Arbeitszimmer",
+      "ipa": "[ʊ iskɾiˈtɔɾjʊ]",
+      "pron_de": "u is-kri-TO-rju",
+      "es": "la oficina, el despacho",
+      "false_friend_de": "Falscher Freund: „escritorio“ ist im Spanischen der Schreibtisch. Auf Portugiesisch ist „escritório“ das Büro, der Schreibtisch heißt „escrivaninha“. Und „oficina“ heißt auf Portugiesisch Werkstatt!",
+      "ex_pt": "O Paulo trabalha no escritório.",
+      "ex_de": "Paulo arbeitet im Arbeitszimmer.",
+      "kind": "word"
+    },
+    {
+      "id": "l02v25",
+      "pt": "o jantar",
+      "de": "das Abendessen",
+      "ipa": "[ʊ ʒɐ̃ˈtaɾ]",
+      "pron_de": "u schang-TAR",
+      "es": "la cena",
+      "false_friend_de": "Falscher Freund: spanisch „cena“ ist das Abendessen, portugiesisch „a cena“ ist eine Szene, zum Beispiel im Film. Abendessen heißt „o jantar“, gesprochen oft „a janta“.",
+      "ex_pt": "O jantar tá pronto!",
+      "ex_de": "Das Abendessen ist fertig!",
+      "kind": "word",
+      "icon": "plate"
+    },
+    {
+      "id": "l02v26",
+      "pt": "a mesa",
+      "de": "der Tisch",
+      "ipa": "[a ˈmezɐ]",
+      "pron_de": "a ME-sa (weiches s)",
+      "es": "la mesa",
+      "ex_pt": "O celular tá na mesa.",
+      "ex_de": "Das Handy liegt auf dem Tisch.",
+      "kind": "word",
+      "icon": "table"
+    },
+    {
+      "id": "l02v27",
+      "pt": "arroz e feijão",
+      "de": "Reis und Bohnen",
+      "ipa": "[aˈhoz i fejˈʒɐ̃w̃]",
+      "pron_de": "a-HOS i fei-SCHAUNG",
+      "es": "arroz y frijoles",
+      "hint_es_de": "Das Grundgericht in Brasilien, fast jeden Tag zum Mittagessen.",
+      "ex_pt": "Aqui a gente come arroz e feijão todo dia.",
+      "ex_de": "Hier essen wir jeden Tag Reis und Bohnen.",
+      "kind": "phrase",
+      "icon": "plate"
+    },
+    {
+      "id": "l02v28",
+      "pt": "tá uma delícia!",
+      "de": "das ist köstlich!",
+      "ipa": "[ˈta ˈumɐ deˈlisjɐ]",
+      "pron_de": "TA U-ma de-LI-ssja",
+      "es": "¡está riquísimo!",
+      "hint_es_de": "Das beste Lob für die Köchin. Mit estar, weil du es gerade probierst.",
+      "ex_pt": "Márcia, tá uma delícia!",
+      "ex_de": "Márcia, das ist köstlich!",
+      "kind": "phrase"
+    },
+    {
+      "id": "l02v29",
+      "pt": "que cheiro bom!",
+      "de": "das riecht gut!",
+      "ipa": "[ki ˈʃejɾʊ ˈbõ]",
+      "pron_de": "ki SCHEI-ru BONG",
+      "es": "¡qué bien huele!",
+      "ex_pt": "Hum, que cheiro bom!",
+      "ex_de": "Mmh, das riecht gut!",
+      "kind": "phrase"
+    },
+    {
+      "id": "l02v30",
+      "pt": "mais um pouco?",
+      "de": "noch ein bisschen?",
+      "ipa": "[ˈmajz ũ ˈpokʊ]",
+      "pron_de": "MAIS ung PO-ku",
+      "es": "¿un poco más?",
+      "hint_es_de": "Wortstellung andersherum als im Spanischen: mais um pouco.",
+      "ex_pt": "Quer mais um pouco de feijão?",
+      "ex_de": "Möchtest du noch ein paar Bohnen?",
+      "kind": "phrase"
+    },
+    {
+      "id": "l02v31",
+      "pt": "tô satisfeita",
+      "de": "ich bin satt (als Frau)",
+      "ipa": "[ˈto satʃisˈfejtɐ]",
+      "pron_de": "TO sa-tschis-FEI-ta",
+      "es": "estoy llena",
+      "hint_es_de": "Höflicher als „tô cheia“. Ein Mann sagt „satisfeito“.",
+      "ex_pt": "Obrigada, tô satisfeita.",
+      "ex_de": "Danke, ich bin satt.",
+      "kind": "phrase"
+    },
+    {
+      "id": "l02v32",
+      "pt": "tô adorando",
+      "de": "ich liebe es, es gefällt mir total",
+      "ipa": "[ˈto adoˈɾɐ̃dʊ]",
+      "pron_de": "TO a-do-RAN-du",
+      "es": "me está encantando",
+      "ex_pt": "Tô adorando São Paulo!",
+      "ex_de": "Mir gefällt São Paulo total!",
+      "kind": "phrase"
+    },
+    {
+      "id": "l02v33",
+      "pt": "engraçado / engraçada",
+      "de": "lustig",
+      "ipa": "[ẽɡɾaˈsadʊ]",
+      "pron_de": "äng-gra-SSA-du",
+      "es": "gracioso / graciosa",
+      "hint_es_de": "Nicht verwechseln mit spanisch „engrasado“ (fettig).",
+      "ex_pt": "O Seu Paulo é muito engraçado.",
+      "ex_de": "Herr Paulo ist sehr lustig.",
+      "kind": "word"
+    },
+    {
+      "id": "l02v34",
+      "pt": "né?",
+      "de": "oder? ne?",
+      "ipa": "[ˈnɛ]",
+      "pron_de": "NÄ",
+      "es": "¿no? ¿verdad?",
+      "hint_es_de": "Kurz für „não é?“. Am Satzende, wenn du Zustimmung erwartest.",
+      "ex_pt": "Tá calor, né?",
+      "ex_de": "Heiß, oder?",
+      "kind": "word"
+    },
+    {
+      "id": "l02v35",
+      "pt": "do lado de …",
+      "de": "neben …",
+      "ipa": "[du ˈladʊ dʒi]",
+      "pron_de": "du LA-du dschi",
+      "es": "al lado de …",
+      "hint_es_de": "Achtung: de + o lado = do lado (nicht „al lado“). „Ao lado de“ ist auch richtig, klingt aber etwas förmlicher.",
+      "ex_pt": "O banheiro fica do lado do quarto.",
+      "ex_de": "Das Bad ist neben dem Zimmer.",
+      "kind": "phrase"
+    },
+    {
+      "id": "l02v36",
+      "pt": "lá fora",
+      "de": "draußen",
+      "ipa": "[ˈla ˈfɔɾɐ]",
+      "pron_de": "LA FO-ra",
+      "es": "afuera",
+      "ex_pt": "O Pipoca tá lá fora.",
+      "ex_de": "Pipoca ist draußen.",
+      "kind": "phrase"
+    },
+    {
+      "id": "l02v37",
+      "pt": "a geladeira",
+      "de": "der Kühlschrank",
+      "ipa": "[a ʒelaˈdejɾɐ]",
+      "pron_de": "a sche-la-DEI-ra",
+      "es": "la nevera, el refrigerador",
+      "ex_pt": "Tem suco na geladeira.",
+      "ex_de": "Im Kühlschrank ist Saft.",
+      "kind": "word",
+      "icon": "fridge"
+    },
+    {
+      "id": "l02v38",
+      "pt": "o chuveiro",
+      "de": "die Dusche",
+      "ipa": "[ʊ ʃuˈvejɾʊ]",
+      "pron_de": "u schu-WEI-ru",
+      "es": "la ducha",
+      "hint_es_de": "Viele Duschen in Brasilien sind elektrisch. Für warmes Wasser den Schalter auf „inverno“ (Winter) stellen.",
+      "ex_pt": "O chuveiro fica no banheiro, né?",
+      "ex_de": "Die Dusche ist im Bad, oder?",
+      "kind": "word",
+      "icon": "shower"
+    },
+    {
+      "id": "l02v39",
+      "pt": "o senhor / a senhora",
+      "de": "Sie (zu älteren Männern / Frauen)",
+      "ipa": "[ʊ siˈɲoɾ] / [a siˈɲɔɾɐ]",
+      "pron_de": "u si-NJOR / a si-NJO-ra",
+      "es": "usted (señor / señora)",
+      "hint_es_de": "Wie „usted“, aber nur für Ältere und Respektspersonen. Das Verb steht in der 3. Person.",
+      "ex_pt": "A senhora quer ajuda?",
+      "ex_de": "Möchten Sie Hilfe?",
+      "kind": "word"
+    },
+    {
+      "id": "l02v40",
+      "pt": "a toalha",
+      "de": "das Handtuch",
+      "ipa": "[a toˈaʎɐ]",
+      "pron_de": "a to-A-lja",
+      "es": "la toalla",
+      "hint_es_de": "lh klingt ungefähr wie „lj“ in „Familie“, nicht wie das meist gesprochene spanische ll.",
+      "ex_pt": "A toalha azul é sua.",
+      "ex_de": "Das blaue Handtuch gehört dir.",
+      "kind": "word",
+      "icon": "towel"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l02g1",
+      "title_de": "ser und estar (gesprochen: tô, tá)",
+      "explain_de": [
+        "Portugiesisch hat wie Spanisch zwei Verben für „sein“. ser beschreibt, wer oder wie jemand grundsätzlich ist: Herkunft, Beruf, Charakter, Aussehen. A Márcia é simpática. Eu sou alemã.",
+        "estar beschreibt, wie es gerade jetzt ist: müde, glücklich, zu Hause, krank. Auch das Wetter und Essen, das man gerade probiert: Tá calor! Tá uma delícia!",
+        "Gesprochen wird estar fast immer verkürzt: estou wird zu tô, está zu tá, estão zu tão. In WhatsApp-Nachrichten ist das völlig normal. In Schreibaufgaben sind beide Formen richtig.",
+        "Für feste Orte wie Räume und Gebäude sagt man meistens ficar: Onde fica o banheiro? Für Personen und Dinge, die mal hier, mal dort sind, nimmt man estar: O Leo tá na cozinha."
+      ],
+      "table": {
+        "head": [
+          "",
+          "ser",
+          "estar",
+          "gesprochen"
+        ],
+        "rows": [
+          [
+            "eu",
+            "sou",
+            "estou",
+            "tô"
+          ],
+          [
+            "você / ele / ela / a gente",
+            "é",
+            "está",
+            "tá"
+          ],
+          [
+            "nós (formell)",
+            "somos",
+            "estamos",
+            "(a gente tá)"
+          ],
+          [
+            "vocês / eles / elas",
+            "são",
+            "estão",
+            "tão"
+          ]
+        ]
+      },
+      "es_compare_de": "Wie im Spanischen? Ja, fast genauso: soy alemana und estoy cansada funktionieren gleich. Drei Unterschiede: Für Räume und Gebäude sagt man ficar statt estar (¿Dónde está el baño? wird zu Onde fica o banheiro?). Beim Wetter geht estar oder fazer (hace calor wird zu tá calor oder faz calor). Und Hunger, Durst, Schlaf gehen im Alltag mit estar com: tô com fome statt tengo hambre.",
+      "memo_de": "Merke: ser = wer oder wie jemand ist. estar = wie es gerade ist. Gesprochen: tô, tá, tão.",
+      "examples": [
+        {
+          "pt": "O Seu Paulo é muito brincalhão.",
+          "de": "Herr Paulo macht immer gern Witze."
+        },
+        {
+          "pt": "Hoje ele tá cansado.",
+          "de": "Heute ist er müde."
+        },
+        {
+          "pt": "A casa é grande e bonita.",
+          "de": "Das Haus ist groß und schön."
+        },
+        {
+          "pt": "Tá muito quente hoje, né?",
+          "de": "Heute ist es sehr heiß, oder?"
+        },
+        {
+          "pt": "Os pais do Leo tão na sala.",
+          "de": "Leos Eltern sind im Wohnzimmer."
+        }
+      ]
+    },
+    {
+      "id": "l02g2",
+      "title_de": "no, na, do, da und né?",
+      "explain_de": [
+        "Die Präpositionen em (in, an, auf) und de (von, aus) verschmelzen immer mit dem Artikel. Das ist Pflicht, nicht nur Umgangssprache: em + a cozinha = na cozinha, de + o Leo = do Leo.",
+        "In São Paulo steht vor Namen von Personen meist ein Artikel: o Leo, a Júlia. Darum heißt es: a mãe do Leo, o quarto da Júlia, na casa da vó.",
+        "Achtung: „no“ heißt hier „im“ oder „auf dem“, nicht „nein“. Nein heißt „não“.",
+        "né? ist die Kurzform von „não é?“ und steht wie „oder?“ am Satzende, wenn du Zustimmung erwartest: A casa é bonita, né? Brasilianer benutzen es ständig, oft auch einfach als Füllwort mitten im Satz."
+      ],
+      "table": {
+        "head": [
+          "",
+          "o",
+          "a",
+          "os",
+          "as"
+        ],
+        "rows": [
+          [
+            "em",
+            "no",
+            "na",
+            "nos",
+            "nas"
+          ],
+          [
+            "de",
+            "do",
+            "da",
+            "dos",
+            "das"
+          ]
+        ]
+      },
+      "es_compare_de": "Wie im Spanischen? Nur teilweise. Spanisch verschmilzt nur de + el = del und a + el = al. „En la cocina“ bleibt im Spanischen getrennt, auf Portugiesisch muss es „na cozinha“ heißen. Auch die weiblichen Formen verschmelzen: da, das, na, nas. Und „né?“ entspricht ungefähr spanischem „¿no?“ oder „¿verdad?“.",
+      "memo_de": "Merke: em + o/a = no/na, de + o/a = do/da. Immer zusammen. Und né? = oder?",
+      "examples": [
+        {
+          "pt": "O cachorro tá no quintal.",
+          "de": "Der Hund ist im Hof."
+        },
+        {
+          "pt": "A Márcia tá na cozinha.",
+          "de": "Márcia ist in der Küche."
+        },
+        {
+          "pt": "Essa é a irmã do Leo.",
+          "de": "Das ist Leos Schwester."
+        },
+        {
+          "pt": "Eu gosto muito da comida da Márcia.",
+          "de": "Ich mag Márcias Essen sehr."
+        },
+        {
+          "pt": "O feijão tá ótimo, né?",
+          "de": "Die Bohnen sind super, oder?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l02e1",
+      "type": "gap",
+      "grammar": "l02g1",
+      "title_de": "ser oder estar?",
+      "prompt_de": "Setz die richtige Form von ser oder estar ein. Die gesprochene Form (tô, tá, tão) gilt auch.",
+      "items": [
+        {
+          "pt": "A Márcia ___ muito simpática.",
+          "answers": [
+            "é"
+          ],
+          "hint_de": "Charakter"
+        },
+        {
+          "pt": "Eu ___ cansada hoje.",
+          "answers": [
+            "tô",
+            "estou"
+          ],
+          "hint_de": "Zustand jetzt"
+        },
+        {
+          "pt": "O Leo ___ na cozinha.",
+          "answers": [
+            "tá",
+            "está"
+          ],
+          "hint_de": "Wo ist er gerade?"
+        },
+        {
+          "pt": "Eu ___ da Alemanha.",
+          "answers": [
+            "sou"
+          ],
+          "hint_de": "Herkunft"
+        },
+        {
+          "pt": "Hoje ___ muito calor!",
+          "answers": [
+            "tá",
+            "está",
+            "faz"
+          ],
+          "hint_de": "Wetter"
+        },
+        {
+          "pt": "A casa ___ grande, né?",
+          "answers": [
+            "é"
+          ],
+          "hint_de": "Eigenschaft"
+        },
+        {
+          "pt": "Os pais do Leo ___ em casa.",
+          "answers": [
+            "tão",
+            "estão"
+          ],
+          "hint_de": "Wo sind sie gerade?"
+        },
+        {
+          "pt": "O feijão ___ uma delícia!",
+          "answers": [
+            "tá",
+            "está"
+          ],
+          "hint_de": "Gerade probiert"
+        }
+      ]
+    },
+    {
+      "id": "l02e2",
+      "type": "choice",
+      "grammar": "l02g1",
+      "title_de": "Was passt?",
+      "prompt_de": "Wähle die richtige Form.",
+      "items": [
+        {
+          "q_pt": "O Paulo ___ brincalhão.",
+          "options": [
+            "é",
+            "tá",
+            "fica"
+          ],
+          "answer": 0,
+          "explain_de": "Charakter: ser."
+        },
+        {
+          "q_de": "Wie fragst du am natürlichsten nach dem Bad?",
+          "options": [
+            "Onde fica o banheiro?",
+            "Onde está o baño?",
+            "Onde estão o banheiro?"
+          ],
+          "answer": 0,
+          "explain_de": "Für Räume sagt man gern ficar. „Baño“ ist Spanisch."
+        },
+        {
+          "q_pt": "Eu ___ com fome.",
+          "options": [
+            "sou",
+            "tô",
+            "tenho"
+          ],
+          "answer": 1,
+          "explain_de": "Hunger geht mit estar com: tô com fome. Nicht wie spanisch „tengo hambre“."
+        },
+        {
+          "q_pt": "A Júlia ___ estudante.",
+          "options": [
+            "é",
+            "tá",
+            "fica"
+          ],
+          "answer": 0,
+          "explain_de": "Beruf oder Tätigkeit: ser."
+        },
+        {
+          "q_pt": "Nossa, ___ muito quente hoje!",
+          "options": [
+            "é",
+            "tá",
+            "sou"
+          ],
+          "answer": 1,
+          "explain_de": "Wetter jetzt: estar, gesprochen tá."
+        },
+        {
+          "q_de": "Was ist die gesprochene Form von „eles estão“?",
+          "options": [
+            "eles tão",
+            "eles tá",
+            "eles são"
+          ],
+          "answer": 0,
+          "explain_de": "estão wird zu tão. „São“ ist eine Form von ser."
+        }
+      ]
+    },
+    {
+      "id": "l02e3",
+      "type": "gap",
+      "grammar": "l02g2",
+      "title_de": "no, na, do, da",
+      "prompt_de": "Setz die Verschmelzung ein.",
+      "items": [
+        {
+          "pt": "O Leo tá ___ cozinha.",
+          "answers": [
+            "na"
+          ],
+          "hint_de": "em + a"
+        },
+        {
+          "pt": "O cachorro tá ___ quintal.",
+          "answers": [
+            "no"
+          ],
+          "hint_de": "em + o"
+        },
+        {
+          "pt": "Essa é a mãe ___ Leo.",
+          "answers": [
+            "do"
+          ],
+          "hint_de": "de + o"
+        },
+        {
+          "pt": "O quarto ___ Júlia é pequeno.",
+          "answers": [
+            "da"
+          ],
+          "hint_de": "de + a"
+        },
+        {
+          "pt": "A gente almoça ___ casa da vó.",
+          "answers": [
+            "na"
+          ],
+          "hint_de": "em + a"
+        },
+        {
+          "pt": "As toalhas tão ___ banheiro.",
+          "answers": [
+            "no"
+          ],
+          "hint_de": "em + o"
+        },
+        {
+          "pt": "Os pais ___ Anna moram na Alemanha.",
+          "answers": [
+            "da"
+          ],
+          "hint_de": "de + a"
+        },
+        {
+          "pt": "A chave tá ___ gaveta.",
+          "answers": [
+            "na"
+          ],
+          "hint_de": "em + a"
+        }
+      ]
+    },
+    {
+      "id": "l02e4",
+      "type": "transform",
+      "grammar": "l02g2",
+      "title_de": "Zusammenziehen",
+      "prompt_de": "Schreib den ganzen Satz mit der richtigen Verschmelzung.",
+      "items": [
+        {
+          "from_pt": "A Júlia tá (em + o) quarto.",
+          "answers": [
+            "A Júlia tá no quarto.",
+            "A Júlia está no quarto."
+          ],
+          "explain_de": "em + o = no"
+        },
+        {
+          "from_pt": "Essa é a casa (de + os) pais do Leo.",
+          "answers": [
+            "Essa é a casa dos pais do Leo.",
+            "Esta é a casa dos pais do Leo."
+          ],
+          "explain_de": "de + os = dos"
+        },
+        {
+          "from_pt": "A gente janta (em + a) sala.",
+          "answers": [
+            "A gente janta na sala."
+          ],
+          "explain_de": "em + a = na"
+        },
+        {
+          "from_pt": "O banheiro fica (em + o) corredor.",
+          "answers": [
+            "O banheiro fica no corredor."
+          ],
+          "explain_de": "em + o = no"
+        },
+        {
+          "from_pt": "Eu gosto (de + a) comida brasileira.",
+          "answers": [
+            "Eu gosto da comida brasileira.",
+            "Gosto da comida brasileira."
+          ],
+          "explain_de": "gostar braucht immer de: gosto da comida. Im Spanischen: me gusta la comida."
+        },
+        {
+          "from_pt": "Os copos tão (em + o) armário.",
+          "answers": [
+            "Os copos tão no armário.",
+            "Os copos estão no armário."
+          ],
+          "explain_de": "em + o = no"
+        },
+        {
+          "from_pt": "A vó (de + o) Leo faz pudim.",
+          "answers": [
+            "A vó do Leo faz pudim."
+          ],
+          "explain_de": "de + o = do, auch vor Namen."
+        }
+      ]
+    },
+    {
+      "id": "l02e5",
+      "type": "order",
+      "title_de": "Satzbau: zu Hause",
+      "prompt_de": "Bring die Wörter in die richtige Reihenfolge.",
+      "items": [
+        {
+          "words": [
+            "Onde",
+            "fica",
+            "o",
+            "banheiro"
+          ],
+          "answers": [
+            "Onde fica o banheiro?"
+          ],
+          "de": "Wo ist das Bad?"
+        },
+        {
+          "words": [
+            "Fica",
+            "à",
+            "vontade",
+            "a",
+            "casa",
+            "é",
+            "sua"
+          ],
+          "answers": [
+            "Fica à vontade, a casa é sua."
+          ],
+          "de": "Fühl dich wie zu Hause, das Haus gehört dir."
+        },
+        {
+          "words": [
+            "Com",
+            "licença",
+            "posso",
+            "entrar"
+          ],
+          "answers": [
+            "Com licença, posso entrar?"
+          ],
+          "de": "Entschuldigung, darf ich reinkommen?"
+        },
+        {
+          "words": [
+            "A",
+            "casa",
+            "é",
+            "muito",
+            "bonita",
+            "né"
+          ],
+          "answers": [
+            "A casa é muito bonita, né?"
+          ],
+          "de": "Das Haus ist sehr schön, oder?"
+        },
+        {
+          "words": [
+            "O",
+            "Leo",
+            "tá",
+            "na",
+            "sala"
+          ],
+          "answers": [
+            "O Leo tá na sala."
+          ],
+          "de": "Leo ist im Wohnzimmer."
+        },
+        {
+          "words": [
+            "Cadê",
+            "a",
+            "mãe",
+            "do",
+            "Leo"
+          ],
+          "answers": [
+            "Cadê a mãe do Leo?"
+          ],
+          "de": "Wo ist Leos Mutter?"
+        },
+        {
+          "words": [
+            "Tô",
+            "satisfeita",
+            "obrigada"
+          ],
+          "answers": [
+            "Tô satisfeita, obrigada."
+          ],
+          "de": "Ich bin satt, danke."
+        }
+      ]
+    },
+    {
+      "id": "l02e6",
+      "type": "dictation",
+      "title_de": "Hördiktat",
+      "prompt_de": "Hör genau hin und schreib den Satz auf.",
+      "items": [
+        {
+          "pt": "Cadê o Leo?",
+          "answers": [
+            "Cadê o Leo?"
+          ]
+        },
+        {
+          "pt": "O banheiro fica no corredor.",
+          "answers": [
+            "O banheiro fica no corredor."
+          ]
+        },
+        {
+          "pt": "Fica à vontade!",
+          "answers": [
+            "Fica à vontade!"
+          ]
+        },
+        {
+          "pt": "Tá uma delícia!",
+          "answers": [
+            "Tá uma delícia!",
+            "Está uma delícia!"
+          ]
+        },
+        {
+          "pt": "A Júlia tá na cozinha.",
+          "answers": [
+            "A Júlia tá na cozinha.",
+            "A Júlia está na cozinha."
+          ]
+        },
+        {
+          "pt": "Com licença, posso ajudar?",
+          "answers": [
+            "Com licença, posso ajudar?"
+          ]
+        },
+        {
+          "pt": "A família do Leo é muito simpática, né?",
+          "answers": [
+            "A família do Leo é muito simpática, né?"
+          ]
+        }
+      ]
+    }
+  ],
+  "speaking": {
+    "shadowing": [
+      {
+        "pt": "Com licença, onde fica o banheiro?",
+        "de": "Entschuldigung, wo ist das Bad?",
+        "tip_de": "„licença“ mit Nase: li-SSEN-ssa. „onde“ klingt ON-dschi, „banheiro“ ba-NJEI-ru."
+      },
+      {
+        "pt": "Cadê o Leo?",
+        "de": "Wo ist Leo?",
+        "tip_de": "Betonung hinten: ka-DE. „Leo“ endet auf u: LE-u."
+      },
+      {
+        "pt": "Fica à vontade, tá?",
+        "de": "Fühl dich wie zu Hause, ja?",
+        "tip_de": "„vontade“ klingt wong-TA-dschi. Das „tá?“ am Ende kurz und fragend."
+      },
+      {
+        "pt": "Tá uma delícia!",
+        "de": "Das ist köstlich!",
+        "tip_de": "„delícia“ mit weichem Ende: de-LI-ssja. Ruhig mit Begeisterung sprechen!"
+      },
+      {
+        "pt": "A Júlia tá na cozinha.",
+        "de": "Júlia ist in der Küche.",
+        "tip_de": "„Júlia“ klingt SCHU-lja. „cozinha“ mit weichem s und nj: ko-SI-nja."
+      },
+      {
+        "pt": "O cachorro tá lá fora, no quintal.",
+        "de": "Der Hund ist draußen im Hof.",
+        "tip_de": "rr wie h: ka-SCHO-hu. Das l in „quintal“ klingt wie u: kin-TAU."
+      },
+      {
+        "pt": "A família do Leo é muito simpática, né?",
+        "de": "Leos Familie ist sehr nett, oder?",
+        "tip_de": "„do“ klingt wie „du“. „simpática“: sing-PA-tschi-ka. „né“ kurz und offen."
+      },
+      {
+        "pt": "Tô satisfeita, obrigada!",
+        "de": "Ich bin satt, danke!",
+        "tip_de": "„ti“ wird „tschi“: sa-tschis-FEI-ta."
+      }
+    ],
+    "roleplay": {
+      "title_de": "Hilfe in der Küche",
+      "situation_de": "Vor dem Abendessen gehst du in die Küche. Dona Márcia kocht. Biete deine Hilfe an und unterhalte dich mit ihr.",
+      "turns": [
+        {
+          "other": "Dona Márcia",
+          "voice": "f2",
+          "pt": "Ah, Anna! Tá procurando alguma coisa?",
+          "de": "Ach, Anna! Suchst du etwas?",
+          "you_hint_de": "Entschuldige dich höflich und frag, ob du helfen kannst.",
+          "sample_pt": "Com licença, Márcia. Posso ajudar?"
+        },
+        {
+          "other": "Dona Márcia",
+          "voice": "f2",
+          "pt": "Não precisa, querida! Senta, fica à vontade.",
+          "de": "Nicht nötig, Liebes! Setz dich, mach es dir bequem.",
+          "you_hint_de": "Bestehe freundlich darauf und frag, wo die Teller sind.",
+          "sample_pt": "Eu quero ajudar, sim! Onde ficam os pratos?"
+        },
+        {
+          "other": "Dona Márcia",
+          "voice": "f2",
+          "pt": "Tá bom, então. Os pratos ficam no armário, do lado da geladeira.",
+          "de": "Na gut. Die Teller sind im Schrank neben dem Kühlschrank.",
+          "you_hint_de": "Frag, wo die Gläser (os copos) sind.",
+          "sample_pt": "E os copos? Cadê os copos?"
+        },
+        {
+          "other": "Dona Márcia",
+          "voice": "f2",
+          "pt": "Os copos já tão na mesa. E cadê o Leo, hein?",
+          "de": "Die Gläser stehen schon auf dem Tisch. Und wo ist Leo eigentlich?",
+          "you_hint_de": "Sag, dass Leo mit seinem Vater im Wohnzimmer ist.",
+          "sample_pt": "O Leo tá na sala com o Seu Paulo."
+        },
+        {
+          "other": "Dona Márcia",
+          "voice": "f2",
+          "pt": "Típico! Os homens na sala e a gente aqui na cozinha, né?",
+          "de": "Typisch! Die Männer im Wohnzimmer und wir hier in der Küche, oder?",
+          "you_hint_de": "Stimm lachend zu und lobe ihre Küche.",
+          "sample_pt": "Pois é! Mas a cozinha da senhora é muito bonita."
+        },
+        {
+          "other": "Dona Márcia",
+          "voice": "f2",
+          "pt": "Ai, obrigada! Você é um amor. Tá com fome?",
+          "de": "Ach, danke! Du bist ein Schatz. Hast du Hunger?",
+          "you_hint_de": "Sag, dass du großen Hunger hast und dass es gut riecht.",
+          "sample_pt": "Tô, sim! Tô com muita fome. E que cheiro bom!"
+        }
+      ]
+    },
+    "monologue": {
+      "task_de": "Beschreib in etwa einer Minute Leos Familie und das Haus: Wer gehört dazu, wie sind die Leute, wie ist das Haus, wo ist was? Benutze ser, estar und no/na/do/da.",
+      "prompts_pt": [
+        "A família do Leo é …",
+        "A mãe do Leo se chama … Ela é …",
+        "O pai do Leo …",
+        "A casa é …",
+        "Na casa tem …",
+        "Agora eu tô …"
+      ],
+      "sample_pt": "A família do Leo é muito simpática. A mãe do Leo se chama Márcia. Ela é carinhosa e cozinha muito bem. O pai do Leo, o Seu Paulo, é muito engraçado. A irmã do Leo é a Júlia. Ela é estudante. A casa não é muito grande, mas é bonita. Na casa tem uma sala, uma cozinha, três quartos e um quintal. O cachorro, o Pipoca, fica no quintal. Agora eu tô na sala e tô muito feliz aqui, né?"
+    }
+  },
+  "reading": [
+    {
+      "id": "l02r1",
+      "kind": "whatsapp",
+      "title_de": "Mittagessen am Sonntag",
+      "intro_de": "In der Familiengruppe wird das Sonntagsessen geplant. Tante Cris kommt mit ihren Kindern.",
+      "messages": [
+        {
+          "from": "Márcia",
+          "pt": "Gente, domingo tem almoço aqui em casa! Todo mundo convidado 🍖",
+          "me": false
+        },
+        {
+          "from": "Tia Cris",
+          "pt": "Oba! A gente leva a sobremesa",
+          "me": false
+        },
+        {
+          "from": "Márcia",
+          "pt": "Ótimo, Cris! Vem com os meninos?",
+          "me": false
+        },
+        {
+          "from": "Tia Cris",
+          "pt": "Claro! O Pedro e a Bia tão doidos pra conhecer a Anna 😍",
+          "me": false
+        },
+        {
+          "from": "Júlia",
+          "pt": "Mãe, cadê minha blusa azul? Tá no seu quarto?",
+          "me": false
+        },
+        {
+          "from": "Márcia",
+          "pt": "Júlia, isso não é pro grupo 🙄 Tá na lavanderia",
+          "me": false
+        },
+        {
+          "from": "Júlia",
+          "pt": "kkkkk desculpa",
+          "me": false
+        },
+        {
+          "from": "Anna",
+          "pt": "Que legal! Posso ajudar com alguma coisa no domingo?",
+          "me": true
+        },
+        {
+          "from": "Márcia",
+          "pt": "Não precisa, querida! Só vem com fome",
+          "me": false
+        },
+        {
+          "from": "Vó Cida",
+          "pt": "Eu faço o pudim!!!",
+          "me": false
+        }
+      ],
+      "glossary": [
+        {
+          "pt": "domingo",
+          "de": "Sonntag"
+        },
+        {
+          "pt": "o almoço",
+          "de": "das Mittagessen"
+        },
+        {
+          "pt": "todo mundo",
+          "de": "alle"
+        },
+        {
+          "pt": "convidado",
+          "de": "eingeladen"
+        },
+        {
+          "pt": "a sobremesa",
+          "de": "der Nachtisch"
+        },
+        {
+          "pt": "os meninos",
+          "de": "die Kinder, die Jungs"
+        },
+        {
+          "pt": "tão doidos pra",
+          "de": "können es kaum erwarten"
+        },
+        {
+          "pt": "a blusa",
+          "de": "das Oberteil, die Bluse"
+        },
+        {
+          "pt": "a lavanderia",
+          "de": "die Waschküche"
+        },
+        {
+          "pt": "o pudim",
+          "de": "Karamellpudding, ein Klassiker"
+        }
+      ],
+      "questions": [
+        {
+          "q_de": "Was bringt Tante Cris mit?",
+          "options_de": [
+            "Den Nachtisch",
+            "Das Fleisch",
+            "Getränke"
+          ],
+          "answer": 0
+        },
+        {
+          "q_de": "Wo ist Júlias blaue Bluse?",
+          "options_de": [
+            "Im Zimmer der Mutter",
+            "In der Waschküche",
+            "Im Auto"
+          ],
+          "answer": 1
+        },
+        {
+          "q_de": "Was soll Anna am Sonntag mitbringen?",
+          "options_de": [
+            "Einen Kuchen",
+            "Nichts außer Hunger",
+            "Stühle"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "l02r2",
+      "kind": "text",
+      "title_de": "Ein Zettel am Kühlschrank",
+      "intro_de": "Am Morgen findest du eine Nachricht von Dona Márcia am Kühlschrank.",
+      "text_pt": "Bom dia, meus amores! O Paulo e eu estamos na feira. A gente volta às onze. O café tá na garrafa térmica e o pão tá no armário, do lado da geladeira. Tem mamão e suco na geladeira. A chave do portão fica na gaveta da cozinha. Anna, a toalha azul no banheiro é sua. Fica à vontade! Beijos, Márcia",
+      "glossary": [
+        {
+          "pt": "meus amores",
+          "de": "meine Lieben"
+        },
+        {
+          "pt": "a feira",
+          "de": "der Wochenmarkt"
+        },
+        {
+          "pt": "volta",
+          "de": "kommt zurück"
+        },
+        {
+          "pt": "a garrafa térmica",
+          "de": "die Thermoskanne"
+        },
+        {
+          "pt": "o armário",
+          "de": "der Schrank"
+        },
+        {
+          "pt": "o mamão",
+          "de": "die Papaya"
+        },
+        {
+          "pt": "a chave do portão",
+          "de": "der Schlüssel fürs Tor"
+        },
+        {
+          "pt": "a gaveta",
+          "de": "die Schublade"
+        }
+      ],
+      "questions": [
+        {
+          "q_de": "Wo sind Márcia und Paulo?",
+          "options_de": [
+            "Auf dem Wochenmarkt",
+            "Bei der Arbeit",
+            "Bei Oma Cida"
+          ],
+          "answer": 0
+        },
+        {
+          "q_de": "Wo ist das Brot?",
+          "options_de": [
+            "Im Kühlschrank",
+            "Im Schrank neben dem Kühlschrank",
+            "Auf dem Tisch"
+          ],
+          "answer": 1
+        },
+        {
+          "q_de": "Wo findest du den Schlüssel fürs Tor?",
+          "options_de": [
+            "In der Küchenschublade",
+            "Unter der Fußmatte",
+            "Im Bad"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "writing": {
+    "id": "l02w1",
+    "title_de": "Mein neues Zuhause",
+    "task_de": "Schreib einer Freundin eine Nachricht über dein Zuhause bei der Familie von {partner}: Wer wohnt dort, wie sind die Leute, wie ist das Haus, wo ist was? Benutze ser und estar und mindestens drei Verschmelzungen (no, na, do, da).",
+    "task_pt": "Escreva uma mensagem para uma amiga sobre a sua vida na casa da família de {partner}: quem mora lá, como as pessoas são, como é a casa e onde ficam as coisas. Use ser e estar e pelo menos três contrações (no, na, do, da).",
+    "min_words": 50,
+    "max_words": 100,
+    "sample_pt": "Oi, Carol! Tudo bem? Eu tô em São Paulo, na casa da família do {partner}. A casa não é muito grande, mas é muito bonita. Tem uma sala, uma cozinha, três quartos e um quintal com um cachorro, o Pipoca. A mãe do {partner} é muito simpática e cozinha super bem. O pai dele é engraçado. A irmã é estudante e é muito legal. Hoje tá muito quente, então a gente tá no quintal. Tô muito feliz aqui! Beijos!",
+    "checklist_de": [
+      "Habe ich ser für Eigenschaften und Herkunft und estar für Zustand, Ort und Wetter benutzt?",
+      "Habe ich em + Artikel zusammengezogen: na casa, no quintal (nicht „en la casa“ oder „em a casa“)?",
+      "Habe ich de + Artikel zusammengezogen: da família, do {partner}?",
+      "Steht vor Namen von Personen ein Artikel: a mãe do {partner}, a Júlia?",
+      "Spanisch-Fallen vermieden: cozinha statt cocina, quarto statt habitación, muito statt muy?",
+      "Akzente richtig: é (ist) und e (und), tá, tô, família?"
+    ],
+    "focus_en": [
+      "describing family and house",
+      "ser vs. estar (including spoken tô / tá)",
+      "contractions of em / de with articles (no, na, do, da)",
+      "definite article before people's names",
+      "Spanish interference (en la / na, muy / muito, cocina / cozinha)",
+      "accents (é vs. e)"
+    ]
+  },
+  "conversations": [
+    {
+      "id": "l02c1",
+      "title_pt": "A vó quer saber da sua família",
+      "title_de": "Oma will alles über deine Familie wissen",
+      "minutes": 12,
+      "situation_de": "Nachmittagskaffee mit der Oma von {partner}. Sie ist neugierig und will alles über deine Familie in Deutschland wissen.",
+      "situation_pt": "Café da tarde com a avó de {partner}. Ela é curiosa e quer saber tudo sobre a família de {learner} na Alemanha.",
+      "role_learner_de": "Du bist du selbst und erzählst von deiner Familie und deinem Zuhause in Deutschland.",
+      "role_partner_pt": "Você faz o papel de uma avó carinhosa e muito curiosa (pode ser a sua avó). Ela fala devagar e adora uma fofoca.",
+      "goal_de": "Deine Familie und dein Zuhause beschreiben, mit ser und estar und Verschmelzungen.",
+      "goal_pt": "{learner} descreve a família e a casa dela, usando ser, estar e contrações (no, na, do, da).",
+      "cheatsheet": [
+        {
+          "pt": "Minha mãe se chama … Ela é …",
+          "de": "Meine Mutter heißt … Sie ist …"
+        },
+        {
+          "pt": "Meu pai é …",
+          "de": "Mein Vater ist …"
+        },
+        {
+          "pt": "Eu tenho um irmão / uma irmã.",
+          "de": "Ich habe einen Bruder / eine Schwester."
+        },
+        {
+          "pt": "Eles moram em … numa casa / num apartamento.",
+          "de": "Sie wohnen in … in einem Haus / einer Wohnung."
+        },
+        {
+          "pt": "Agora eles tão …",
+          "de": "Jetzt sind sie gerade …"
+        },
+        {
+          "pt": "Na casa dos meus pais tem …",
+          "de": "Im Haus meiner Eltern gibt es …"
+        },
+        {
+          "pt": "Aqui é diferente, né?",
+          "de": "Hier ist es anders, oder?"
+        },
+        {
+          "pt": "Eu gosto muito da …",
+          "de": "Ich mag … sehr."
+        },
+        {
+          "pt": "Tô com saudade deles.",
+          "de": "Ich vermisse sie."
+        },
+        {
+          "pt": "Como se diz … em português?",
+          "de": "Wie sagt man … auf Portugiesisch?"
+        }
+      ],
+      "questions": [
+        {
+          "pt": "Oi, querida! Você tá bem? Tá gostando da casa?",
+          "followups_pt": [
+            "Qual é o seu lugar preferido da casa?"
+          ]
+        },
+        {
+          "pt": "Me conta da sua família. Quem faz parte da sua família?",
+          "followups_pt": [
+            "Você tem irmãos?",
+            "E avós?"
+          ]
+        },
+        {
+          "pt": "Como se chama a sua mãe? Como ela é?",
+          "followups_pt": [
+            "E o seu pai, como ele é?"
+          ]
+        },
+        {
+          "pt": "Onde a sua família mora? Numa casa ou num apartamento?",
+          "followups_pt": [
+            "Como é a casa?",
+            "Tem quintal?"
+          ]
+        },
+        {
+          "pt": "E agora, como eles tão? Tão com saudade de você?",
+          "followups_pt": [
+            "Vocês se falam todo dia?"
+          ]
+        },
+        {
+          "pt": "Na Alemanha, a família almoça junta no domingo, como aqui?",
+          "followups_pt": [
+            "O que vocês comem?"
+          ]
+        },
+        {
+          "pt": "O que é diferente aqui em casa, comparado com a casa dos seus pais?",
+          "followups_pt": [
+            "E o que você mais gosta aqui?"
+          ]
+        }
+      ],
+      "partner_tips_pt": [
+        "Fale devagar e use frases curtas.",
+        "Não corrija na hora. Deixe {learner} terminar.",
+        "Guarde de cabeça 1 a 3 erros que se repetem, principalmente com ser/estar ou no/na/do/da, e comente só no final.",
+        "Se ela travar, dê duas opções: “É grande ou pequena?”",
+        "Se a resposta for muito curta, use a pergunta extra.",
+        "Elogie quando ela usar “tô”, “tá” ou “né?” com naturalidade."
+      ],
+      "target_grammar_de": [
+        "ser vs. estar",
+        "no, na, do, da",
+        "né?"
+      ],
+      "target_words": [
+        "a família",
+        "os pais",
+        "o irmão / a irmã",
+        "a casa",
+        "o quarto",
+        "tô com saudade"
+      ]
+    },
+    {
+      "id": "l02c2",
+      "title_pt": "Almoço de domingo",
+      "title_de": "Mittagessen am Sonntag",
+      "minutes": 10,
+      "situation_de": "Großes Sonntagsessen bei den Eltern von {partner}. Neben dir sitzt Tante Cris, die dich zum ersten Mal trifft.",
+      "situation_pt": "Grande almoço de domingo na casa dos pais de {partner}. Do lado de {learner} está a tia Cris, que vai conhecer {learner} hoje.",
+      "role_learner_de": "Du bist du selbst, gut gelaunt und höflich am Tisch.",
+      "role_partner_pt": "Você faz o papel da tia Cris: animada, fala bastante e oferece comida o tempo todo.",
+      "goal_de": "Small Talk am Tisch: Essen loben, höflich ablehnen oder annehmen, sagen, wo etwas ist.",
+      "goal_pt": "{learner} conversa na mesa: elogia a comida, aceita ou recusa com educação e diz onde estão as coisas.",
+      "cheatsheet": [
+        {
+          "pt": "Tá uma delícia!",
+          "de": "Das ist köstlich!"
+        },
+        {
+          "pt": "Quero sim, obrigada!",
+          "de": "Ja, gern, danke!"
+        },
+        {
+          "pt": "Não, obrigada, tô satisfeita.",
+          "de": "Nein danke, ich bin satt."
+        },
+        {
+          "pt": "Tá na mesa, do lado do …",
+          "de": "Das steht auf dem Tisch, neben dem …"
+        },
+        {
+          "pt": "Com licença, …",
+          "de": "Entschuldigung, … (höflich)"
+        },
+        {
+          "pt": "Tô adorando morar aqui.",
+          "de": "Ich wohne total gern hier."
+        },
+        {
+          "pt": "Na Alemanha, a gente …",
+          "de": "In Deutschland machen wir …"
+        },
+        {
+          "pt": "O {partner} é muito …",
+          "de": "{partner} ist sehr …"
+        },
+        {
+          "pt": "Pode repetir, por favor?",
+          "de": "Kannst du das bitte wiederholen?"
+        }
+      ],
+      "questions": [
+        {
+          "pt": "Oi! Você que é a {learner}? Eu sou a Cris, tia do {partner}. Tudo bom?",
+          "followups_pt": [
+            "Tá muito calor pra você?"
+          ]
+        },
+        {
+          "pt": "Você tá gostando de morar aqui com a família?",
+          "followups_pt": [
+            "E o quarto, é confortável?"
+          ]
+        },
+        {
+          "pt": "Quer mais arroz? Feijão? Tá gostando da comida?",
+          "followups_pt": [
+            "Qual é a sua comida preferida até agora?"
+          ]
+        },
+        {
+          "pt": "Ué, cadê o sal? Você tá vendo o sal?",
+          "followups_pt": [
+            "E a farofa, cadê?"
+          ]
+        },
+        {
+          "pt": "O que você faz aqui durante a semana?",
+          "followups_pt": [
+            "Você sai sozinha ou com o {partner}?"
+          ]
+        },
+        {
+          "pt": "Como é um almoço de domingo na Alemanha?",
+          "followups_pt": [
+            "É muito diferente daqui?"
+          ]
+        },
+        {
+          "pt": "E o {partner}, ele é organizado em casa ou bagunceiro?",
+          "followups_pt": [
+            "E você, como você é?"
+          ]
+        }
+      ],
+      "partner_tips_pt": [
+        "Fale devagar, mesmo sendo uma tia animada.",
+        "Não corrija na hora. Deixe a conversa fluir.",
+        "Guarde de cabeça 1 a 3 erros que se repetem e comente só no final.",
+        "Na pergunta do sal, coloque algo na mesa de verdade, pra ela poder dizer onde está.",
+        "Se ela travar, ajude com uma palavra ou dê duas opções.",
+        "Elogie quando ela usar “com licença”, “obrigada” ou “né?”."
+      ],
+      "target_grammar_de": [
+        "ser vs. estar (tô, tá)",
+        "no, na, do, da",
+        "né?"
+      ],
+      "target_words": [
+        "tá uma delícia",
+        "tô satisfeita",
+        "com licença",
+        "cadê",
+        "do lado de",
+        "mais um pouco"
+      ]
+    }
+  ]
+}

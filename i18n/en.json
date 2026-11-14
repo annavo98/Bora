@@ -1,0 +1,13 @@
+{
+  "rubric": {
+    "understood": "Could you understand what {learner} said?",
+    "und_yes": "Yes, almost everything",
+    "und_partly": "Partly",
+    "und_no": "Not yet",
+    "errors": "Which mistakes came up most often? (1 to 3, please give the correct form)",
+    "errorsHint": "Write what {partner} says, in the correct Portuguese form.",
+    "errorPh": "Correct form",
+    "praise": "What did {learner} do well? One compliment.",
+    "praisePh": "e.g. spoke with confidence"
+  }
+}

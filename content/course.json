@@ -1,0 +1,13 @@
+{
+  "id": "pt-br-de",
+  "title": "Brasilianisch-Portugiesisch für Deutschsprachige",
+  "target": "pt-BR",
+  "explain": "de",
+  "compare": "es",
+  "lessons": [
+    { "id": "l01", "number": 1, "phase": 0, "file": "content/lessons/l01.json" },
+    { "id": "l02", "number": 2, "phase": 0, "file": "content/lessons/l02.json" },
+    { "id": "l03", "number": 3, "phase": 0, "title_de": "Unterwegs in São Paulo" },
+    { "id": "l04", "number": 4, "phase": 0, "title_de": "Wiederholung und Level-Test A1" }
+  ]
+}

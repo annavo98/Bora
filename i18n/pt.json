@@ -1,0 +1,51 @@
+{
+  "handover": {
+    "to": "Passa o celular para {art} {partner}!",
+    "toSub": "A partir de agora, a tela está em português.",
+    "ready": "Pronto, peguei o celular",
+    "back": "Voltar"
+  },
+  "partner": {
+    "kicker": "Conversa · Sua parte",
+    "situation": "Situação",
+    "yourRole": "Seu papel",
+    "goal": "Objetivo",
+    "tipsTitle": "Dicas para você",
+    "questions": "Perguntas",
+    "questionsHint": "Vá em ordem, das mais fáceis às mais difíceis. Toque numa pergunta para marcar como feita. Se a resposta for curta demais, use as perguntas extras.",
+    "followups": "Se responder pouco",
+    "finish": "Terminar e avaliar"
+  },
+  "timer": { "start": "Começar", "pause": "Pausar", "resume": "Continuar", "reset": "Zerar" },
+  "rate": {
+    "title": "Sua avaliação",
+    "save": "Salvar avaliação",
+    "needUnderstood": "Escolha uma resposta na pergunta 1."
+  },
+  "rubric": {
+    "understood": "Deu para entender o que {learner} disse?",
+    "und_yes": "Sim, quase tudo",
+    "und_partly": "Mais ou menos",
+    "und_no": "Ainda não",
+    "errors": "Quais erros apareceram mais vezes? (1 a 3)",
+    "errorsHint": "Escreva a forma correta, por exemplo: \"eu tenho 25 anos\" (não \"eu sou 25 anos\").",
+    "errorPh": "Forma correta",
+    "praise": "O que {learner} fez bem? Um elogio.",
+    "praisePh": "Por exemplo: falou com coragem!"
+  },
+  "handback": {
+    "title": "Valeu! Agora devolve o celular para {art} {learner}.",
+    "btn": "Devolvido"
+  },
+  "wa": {
+    "title": "Conversa de treino",
+    "situation": "Situação",
+    "role": "Seu papel",
+    "goal": "Objetivo",
+    "questions": "Perguntas (das mais fáceis às mais difíceis)",
+    "followups": "Se ela responder pouco",
+    "tips": "Dicas",
+    "rubricIntro": "Depois da conversa, a {learner} vai te fazer estas perguntas (em inglês). Preste atenção nisso:",
+    "thanks": "Obrigada! ❤️"
+  }
+}

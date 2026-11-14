@@ -1,0 +1,1939 @@
+{
+  "id": "l01",
+  "number": 1,
+  "phase": 0,
+  "level": "A1",
+  "title": "Cheguei!",
+  "title_de": "Ankommen in der Familie",
+  "cover": "arrival",
+  "goals_de": [
+    "Leos Familie begrüßen und auf „tudo bem?“ antworten",
+    "Dich vorstellen: Name, Herkunft, Alter, Studium oder Beruf, Sprachen",
+    "Sagen, wie es dir geht: müde, hungrig, glücklich",
+    "você und a gente mit dem Verb in der 3. Person benutzen",
+    "Die wichtigsten Laute aus São Paulo erkennen und sprechen"
+  ],
+  "listening": {
+    "dialogs": [
+      {
+        "id": "l01d1",
+        "title": "No aeroporto de Guarulhos",
+        "situation_de": "Du landest morgens in Guarulhos. Leo wartet in der Ankunftshalle auf dich.",
+        "lines": [
+          {
+            "speaker": "Leo",
+            "voice": "m",
+            "pt": "Anna! Aqui! Oi, amor!",
+            "de": "Anna! Hier! Hallo, Schatz!"
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Leo! Oi! Que saudade!",
+            "de": "Leo! Hallo! Ich hab dich so vermisst!"
+          },
+          {
+            "speaker": "Leo",
+            "voice": "m",
+            "pt": "Bem-vinda ao Brasil! Como foi a viagem?",
+            "de": "Willkommen in Brasilien! Wie war die Reise?"
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Foi longa. Doze horas de voo. Tô muito cansada.",
+            "de": "Lang. Zwölf Stunden Flug. Ich bin sehr müde."
+          },
+          {
+            "speaker": "Leo",
+            "voice": "m",
+            "pt": "Imagino. Você tá com fome?",
+            "de": "Kann ich mir vorstellen. Hast du Hunger?"
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Um pouco. Mas tô mais com sono.",
+            "de": "Ein bisschen. Aber ich bin eher schläfrig."
+          },
+          {
+            "speaker": "Leo",
+            "voice": "m",
+            "pt": "Tranquilo. A gente vai direto pra casa. Minha mãe tá fazendo um café da manhã enorme.",
+            "de": "Kein Problem. Wir fahren direkt nach Hause. Meine Mutter macht ein riesiges Frühstück."
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Que legal! Mas tô um pouco nervosa.",
+            "de": "Wie schön! Aber ich bin ein bisschen nervös."
+          },
+          {
+            "speaker": "Leo",
+            "voice": "m",
+            "pt": "Relaxa, eles já te adoram. Deixa que eu levo a mala.",
+            "de": "Entspann dich, sie lieben dich schon. Lass mich den Koffer tragen."
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Obrigada! Nossa, que calor!",
+            "de": "Danke! Wow, ist das heiß!"
+          },
+          {
+            "speaker": "Leo",
+            "voice": "m",
+            "pt": "Pois é, aqui é verão em dezembro. Bem-vinda a São Paulo!",
+            "de": "Tja, hier ist im Dezember Sommer. Willkommen in São Paulo!"
+          }
+        ],
+        "questions": [
+          {
+            "q_de": "Wie lange hat der Flug gedauert?",
+            "options_de": [
+              "Zehn Stunden",
+              "Zwölf Stunden",
+              "Zwanzig Stunden"
+            ],
+            "answer": 1
+          },
+          {
+            "q_de": "Was macht Leos Mutter gerade?",
+            "options_de": [
+              "Sie schläft noch",
+              "Sie macht ein großes Frühstück",
+              "Sie wartet im Auto"
+            ],
+            "answer": 1
+          },
+          {
+            "q_de": "Warum sagt Anna „que calor!“?",
+            "options_de": [
+              "Weil es heiß ist, in Brasilien ist Dezember Sommer",
+              "Weil das Essen scharf ist",
+              "Weil sie Fieber hat"
+            ],
+            "answer": 0
+          }
+        ],
+        "new_words": [
+          {
+            "pt": "amor",
+            "de": "Schatz (Kosewort)"
+          },
+          {
+            "pt": "doze horas",
+            "de": "zwölf Stunden (ES: doce horas)"
+          },
+          {
+            "pt": "imagino",
+            "de": "kann ich mir vorstellen"
+          },
+          {
+            "pt": "mas",
+            "de": "aber (ES: pero)"
+          },
+          {
+            "pt": "mais",
+            "de": "mehr, eher (ES: más)"
+          },
+          {
+            "pt": "tá fazendo",
+            "de": "macht gerade"
+          },
+          {
+            "pt": "o café da manhã",
+            "de": "das Frühstück"
+          },
+          {
+            "pt": "que legal!",
+            "de": "wie cool! (nicht „legal“ im Sinne von erlaubt)"
+          },
+          {
+            "pt": "o verão",
+            "de": "der Sommer (ES: el verano)"
+          }
+        ]
+      },
+      {
+        "id": "l01d2",
+        "title": "Conhecendo a família",
+        "situation_de": "Ihr kommt bei Leos Eltern an. Dona Márcia und Seu Paulo öffnen die Tür.",
+        "lines": [
+          {
+            "speaker": "Dona Márcia",
+            "voice": "f2",
+            "pt": "Oi, querida! Finalmente! Seja bem-vinda!",
+            "de": "Hallo, Liebes! Endlich! Herzlich willkommen!"
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Oi! Prazer, Dona Márcia!",
+            "de": "Hallo! Freut mich, Dona Márcia!"
+          },
+          {
+            "speaker": "Dona Márcia",
+            "voice": "f2",
+            "pt": "O prazer é meu! Pode me chamar de Márcia. Tudo bem? Fez boa viagem?",
+            "de": "Ganz meinerseits! Du kannst mich Márcia nennen. Alles gut? Hattest du eine gute Reise?"
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Tudo bem, obrigada. A viagem foi boa, mas tô cansada.",
+            "de": "Alles gut, danke. Die Reise war gut, aber ich bin müde."
+          },
+          {
+            "speaker": "Seu Paulo",
+            "voice": "m",
+            "pt": "Oi, Anna! Eu sou o Paulo, o pai do Leo. Nossa, você fala português!",
+            "de": "Hallo, Anna! Ich bin Paulo, Leos Vater. Wow, du sprichst ja Portugiesisch!"
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Prazer, Seu Paulo! Eu falo um pouco. Eu falo alemão, inglês e um pouco de espanhol.",
+            "de": "Freut mich, Herr Paulo! Ich spreche ein bisschen. Ich spreche Deutsch, Englisch und ein bisschen Spanisch."
+          },
+          {
+            "speaker": "Dona Márcia",
+            "voice": "f2",
+            "pt": "Que chique! E você faz o quê? Estuda?",
+            "de": "Wie toll! Und was machst du? Studierst du?"
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Eu sou engenheira civil. Acabei o mestrado agora, em Aachen.",
+            "de": "Ich bin Bauingenieurin. Ich habe gerade meinen Master gemacht, in Aachen."
+          },
+          {
+            "speaker": "Seu Paulo",
+            "voice": "m",
+            "pt": "E quantos anos você tem, Anna?",
+            "de": "Und wie alt bist du, Anna?"
+          },
+          {
+            "speaker": "Anna",
+            "voice": "f",
+            "pt": "Tenho vinte e oito anos.",
+            "de": "Ich bin achtundzwanzig."
+          },
+          {
+            "speaker": "Dona Márcia",
+            "voice": "f2",
+            "pt": "Ai, que bom ter você aqui! A Júlia e a vó Cida chegam daqui a pouco. A gente almoça todo mundo junto, tá bom?",
+            "de": "Ach, wie schön, dass du da bist! Júlia und Oma Cida kommen gleich. Wir essen alle zusammen zu Mittag, okay?"
+          }
+        ],
+        "questions": [
+          {
+            "q_de": "Wie soll Anna Leos Mutter nennen?",
+            "options_de": [
+              "Dona Márcia",
+              "Márcia",
+              "Mãe"
+            ],
+            "answer": 1
+          },
+          {
+            "q_de": "Welche Sprachen spricht Anna?",
+            "options_de": [
+              "Deutsch, Englisch und ein bisschen Spanisch",
+              "Deutsch und Französisch",
+              "Nur Deutsch und Englisch"
+            ],
+            "answer": 0
+          },
+          {
+            "q_de": "Wer kommt gleich noch dazu?",
+            "options_de": [
+              "Leos Bruder und sein Onkel",
+              "Júlia und Oma Cida",
+              "Niemand, die Familie ist komplett"
+            ],
+            "answer": 1
+          }
+        ],
+        "new_words": [
+          {
+            "pt": "finalmente",
+            "de": "endlich"
+          },
+          {
+            "pt": "fez boa viagem?",
+            "de": "hattest du eine gute Reise?"
+          },
+          {
+            "pt": "que chique!",
+            "de": "wie schick, wie toll!"
+          },
+          {
+            "pt": "você faz o quê?",
+            "de": "was machst du (beruflich)?"
+          },
+          {
+            "pt": "acabei o mestrado",
+            "de": "ich habe den Master abgeschlossen"
+          },
+          {
+            "pt": "agora",
+            "de": "jetzt, gerade"
+          },
+          {
+            "pt": "chegam",
+            "de": "(sie) kommen an"
+          },
+          {
+            "pt": "todo mundo junto",
+            "de": "alle zusammen"
+          }
+        ]
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "l01v01",
+      "pt": "oi",
+      "de": "hallo, hi",
+      "ipa": "[ˈoj]",
+      "pron_de": "OI",
+      "es": "hola",
+      "hint_es_de": "„Olá“ gibt es auch, klingt aber förmlicher. Im Alltag sagt man fast immer „oi“.",
+      "ex_pt": "Oi, gente!",
+      "ex_de": "Hallo, Leute!",
+      "kind": "word"
+    },
+    {
+      "id": "l01v02",
+      "pt": "tudo bem?",
+      "de": "alles gut? wie geht's?",
+      "ipa": "[ˈtudʊ ˈbẽj̃]",
+      "pron_de": "TU-du bäing",
+      "es": "¿todo bien?",
+      "hint_es_de": "Das „m“ am Ende wird nicht gesprochen, nur die Nase klingt mit.",
+      "ex_pt": "Oi, Márcia, tudo bem?",
+      "ex_de": "Hallo, Márcia, alles gut?",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v03",
+      "pt": "tudo, e você?",
+      "de": "gut, und dir?",
+      "ipa": "[ˈtudʊ i voˈse]",
+      "pron_de": "TU-du i wo-SSE",
+      "es": "bien, ¿y tú?",
+      "hint_es_de": "Auf „tudo bem?“ antwortet man einfach mit „tudo“ oder „tudo bem“. Das „e“ (und) klingt wie „i“.",
+      "ex_pt": "Tudo bem? Tudo, e você?",
+      "ex_de": "Alles gut? Ja, und bei dir?",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v04",
+      "pt": "prazer!",
+      "de": "freut mich!",
+      "ipa": "[pɾaˈzeɾ]",
+      "pron_de": "pra-SER",
+      "es": "¡mucho gusto!",
+      "hint_es_de": "Das „z“ ist ein weiches, summendes s wie in „Rose“. Das r am Ende ist nur ganz leicht, oft fast verschluckt.",
+      "ex_pt": "Prazer, eu sou a Anna.",
+      "ex_de": "Freut mich, ich bin Anna.",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v05",
+      "pt": "o prazer é meu",
+      "de": "ganz meinerseits",
+      "ipa": "[ʊ pɾaˈzeɾ ɛ ˈmew]",
+      "pron_de": "u pra-SER ä MEU",
+      "es": "el gusto es mío",
+      "ex_pt": "Prazer, Dona Márcia! O prazer é meu!",
+      "ex_de": "Freut mich, Dona Márcia! Ganz meinerseits!",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v06",
+      "pt": "seja bem-vinda!",
+      "de": "herzlich willkommen! (zu einer Frau)",
+      "ipa": "[ˈseʒɐ bẽj̃ˈvĩdɐ]",
+      "pron_de": "SE-scha bäing-WIN-da",
+      "es": "¡bienvenida!",
+      "hint_es_de": "Zu einem Mann sagt man „bem-vindo“. Das „j“ klingt wie „sch“ in „Garage“.",
+      "ex_pt": "Seja bem-vinda ao Brasil!",
+      "ex_de": "Willkommen in Brasilien!",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v07",
+      "pt": "que saudade!",
+      "de": "ich hab dich so vermisst!",
+      "ipa": "[ki sawˈdadʒi]",
+      "pron_de": "ki sau-DA-dschi",
+      "es": "¡te extrañé mucho!",
+      "hint_es_de": "„Saudade“ ist das berühmte Sehnsuchtswort. „Que saudade!“ sagt man beim Wiedersehen.",
+      "ex_pt": "Leo! Que saudade!",
+      "ex_de": "Leo! Ich hab dich so vermisst!",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v08",
+      "pt": "tô cansada",
+      "de": "ich bin müde (als Frau)",
+      "ipa": "[ˈto kɐ̃ˈsadɐ]",
+      "pron_de": "TO kang-SA-da",
+      "es": "estoy cansada",
+      "hint_es_de": "„Tô“ ist die gesprochene Kurzform von „estou“. Ein Mann sagt „tô cansado“.",
+      "ex_pt": "Tô muito cansada da viagem.",
+      "ex_de": "Ich bin sehr müde von der Reise.",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v09",
+      "pt": "tô com fome",
+      "de": "ich habe Hunger",
+      "ipa": "[ˈto kõ ˈfõmi]",
+      "pron_de": "TO kong FO-mi",
+      "es": "tengo hambre",
+      "hint_es_de": "Anders als im Spanischen sagt man im Alltag estar com (wörtlich: sein mit). „Tenho fome“ ist auch richtig, klingt aber förmlicher.",
+      "ex_pt": "Você tá com fome?",
+      "ex_de": "Hast du Hunger?",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v10",
+      "pt": "tô com sono",
+      "de": "ich bin schläfrig",
+      "ipa": "[ˈto kõ ˈsõnʊ]",
+      "pron_de": "TO kong SO-nu",
+      "es": "tengo sueño",
+      "hint_es_de": "Wie bei Hunger: im Alltag estar com sono statt tener sueño.",
+      "ex_pt": "Desculpa, tô com muito sono.",
+      "ex_de": "Entschuldigung, ich bin total müde.",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v11",
+      "pt": "como foi a viagem?",
+      "de": "wie war die Reise?",
+      "ipa": "[ˈkõmʊ ˈfoj a viˈaʒẽj̃]",
+      "pron_de": "KO-mu foi a wi-A-schäing",
+      "es": "¿qué tal el viaje?",
+      "hint_es_de": "„A viagem“ ist weiblich, im Spanischen ist „el viaje“ männlich.",
+      "ex_pt": "Oi, querida! Como foi a viagem?",
+      "ex_de": "Hallo, Liebes! Wie war die Reise?",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v12",
+      "pt": "o voo",
+      "de": "der Flug",
+      "ipa": "[ʊ ˈvo.ʊ]",
+      "pron_de": "u WO-u",
+      "es": "el vuelo",
+      "ex_pt": "O voo foi longo.",
+      "ex_de": "Der Flug war lang.",
+      "kind": "word",
+      "icon": "plane"
+    },
+    {
+      "id": "l01v13",
+      "pt": "a mala",
+      "de": "der Koffer",
+      "ipa": "[a ˈmalɐ]",
+      "pron_de": "a MA-la",
+      "es": "la maleta",
+      "hint_es_de": "Achtung: „mala“ heißt im Spanischen „schlecht“. Auf Portugiesisch ist es dein Koffer.",
+      "ex_pt": "Deixa que eu levo a mala.",
+      "ex_de": "Lass mich den Koffer tragen.",
+      "kind": "word",
+      "icon": "suitcase"
+    },
+    {
+      "id": "l01v14",
+      "pt": "o aeroporto",
+      "de": "der Flughafen",
+      "ipa": "[ʊ aeɾoˈpoɾtʊ]",
+      "pron_de": "u a-e-ro-POR-tu",
+      "es": "el aeropuerto",
+      "ex_pt": "O Leo me busca no aeroporto.",
+      "ex_de": "Leo holt mich am Flughafen ab.",
+      "kind": "word",
+      "icon": "plane"
+    },
+    {
+      "id": "l01v15",
+      "pt": "meu nome é …",
+      "de": "mein Name ist …",
+      "ipa": "[ˈmew ˈnõmi ɛ]",
+      "pron_de": "meu NO-mi ä",
+      "es": "mi nombre es …",
+      "hint_es_de": "„Nome“ endet auf einem i-Laut: NO-mi.",
+      "ex_pt": "Meu nome é Anna.",
+      "ex_de": "Mein Name ist Anna.",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v16",
+      "pt": "pode me chamar de …",
+      "de": "du kannst mich … nennen",
+      "ipa": "[ˈpɔdʒi mi ʃaˈmaɾ dʒi]",
+      "pron_de": "PO-dschi mi scha-MAR dschi",
+      "es": "puedes llamarme …",
+      "ex_pt": "Pode me chamar de Márcia.",
+      "ex_de": "Du kannst mich Márcia nennen.",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v17",
+      "pt": "de onde você é?",
+      "de": "woher kommst du?",
+      "ipa": "[dʒi ˈõdʒi voˈse ˈɛ]",
+      "pron_de": "dschi ON-dschi wo-SSE ä",
+      "es": "¿de dónde eres?",
+      "hint_es_de": "Kein „eres“: você verbindet sich mit der 3. Person „é“.",
+      "ex_pt": "E você, de onde você é?",
+      "ex_de": "Und du, woher kommst du?",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v18",
+      "pt": "eu sou da Alemanha",
+      "de": "ich komme aus Deutschland",
+      "ipa": "[ˈew ˈso da aleˈmɐɲɐ]",
+      "pron_de": "eu SO da a-le-MA-nja",
+      "es": "soy de Alemania",
+      "hint_es_de": "Vor Ländern steht meist ein Artikel: da Alemanha (de + a), do Brasil (de + o). „Sou“ klingt wie „so“.",
+      "ex_pt": "Eu sou da Alemanha. Eu moro em Aachen.",
+      "ex_de": "Ich komme aus Deutschland. Ich wohne in Aachen.",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v19",
+      "pt": "alemão / alemã",
+      "de": "deutsch, Deutscher / Deutsche",
+      "ipa": "[aleˈmɐ̃w̃] / [aleˈmɐ̃]",
+      "pron_de": "a-le-MAUNG / a-le-MANG",
+      "es": "alemán / alemana",
+      "hint_es_de": "Die weibliche Form endet auf „-ã“, nicht auf „-ana“.",
+      "ex_pt": "Eu sou alemã.",
+      "ex_de": "Ich bin Deutsche.",
+      "kind": "word"
+    },
+    {
+      "id": "l01v20",
+      "pt": "eu falo um pouco de português",
+      "de": "ich spreche ein bisschen Portugiesisch",
+      "ipa": "[ˈew ˈfalʊ ũ ˈpokʊ dʒi poɾtuˈɡes]",
+      "pron_de": "eu FA-lu ung PO-ku dschi por-tu-GES",
+      "es": "hablo un poco de portugués",
+      "hint_es_de": "„Pouco“ wird wie „POku“ gesprochen, das u verschwindet.",
+      "ex_pt": "Desculpa, eu falo um pouco de português.",
+      "ex_de": "Entschuldigung, ich spreche ein bisschen Portugiesisch.",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v21",
+      "pt": "eu sou engenheira civil",
+      "de": "ich bin Bauingenieurin",
+      "ipa": "[ˈew ˈso ẽʒeˈɲejɾɐ siˈviw]",
+      "pron_de": "eu SO en-sche-NJEI-ra si-WIU",
+      "es": "soy ingeniera civil",
+      "hint_es_de": "Beruf mit „ser“ und ohne Artikel, wie im Spanischen. Das l am Ende von „civil“ klingt wie u: si-WIU.",
+      "ex_pt": "Eu sou engenheira civil e vou trabalhar em obras.",
+      "ex_de": "Ich bin Bauingenieurin und werde auf Baustellen arbeiten.",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v22",
+      "pt": "quantos anos você tem?",
+      "de": "wie alt bist du?",
+      "ipa": "[ˈkwɐ̃tʊz ˈɐ̃nʊs voˈse ˈtẽj̃]",
+      "pron_de": "KWAN-tus A-nus wo-SSE TÄING",
+      "es": "¿cuántos años tienes?",
+      "ex_pt": "E quantos anos você tem?",
+      "ex_de": "Und wie alt bist du?",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v23",
+      "pt": "eu tenho vinte e oito anos",
+      "de": "ich bin achtundzwanzig Jahre alt",
+      "ipa": "[ˈew ˈtẽɲʊ ˈvĩtʃi i ˈojtʊ ˈɐ̃nʊs]",
+      "pron_de": "eu TÄN-nju WIN-tschi i OI-tu A-nus",
+      "es": "tengo veintiocho años",
+      "hint_es_de": "Wie im Spanischen mit „ter“ (haben). „Vinte“ klingt wie WIN-tschi.",
+      "ex_pt": "Eu tenho vinte e oito anos.",
+      "ex_de": "Ich bin achtundzwanzig.",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v24",
+      "pt": "a gente",
+      "de": "wir (umgangssprachlich)",
+      "ipa": "[a ˈʒẽtʃi]",
+      "pron_de": "a SCHÄN-tschi",
+      "es": "nosotros",
+      "hint_es_de": "Sieht aus wie „la gente“, heißt aber meistens „wir“. Das Verb steht in der 3. Person Singular: a gente vai.",
+      "ex_pt": "A gente vai direto pra casa.",
+      "ex_de": "Wir fahren direkt nach Hause.",
+      "kind": "word"
+    },
+    {
+      "id": "l01v25",
+      "pt": "você",
+      "de": "du",
+      "ipa": "[voˈse]",
+      "pron_de": "wo-SSE",
+      "es": "tú",
+      "hint_es_de": "In São Paulo sagt man zu fast allen „você“, mit Verb in der 3. Person wie bei „usted“, aber ganz locker.",
+      "ex_pt": "Você fala inglês?",
+      "ex_de": "Sprichst du Englisch?",
+      "kind": "word"
+    },
+    {
+      "id": "l01v26",
+      "pt": "obrigada",
+      "de": "danke (wenn eine Frau spricht)",
+      "ipa": "[obɾiˈɡadɐ]",
+      "pron_de": "o-bri-GA-da",
+      "es": "gracias",
+      "hint_es_de": "Es richtet sich nach der Person, die dankt: Anna sagt „obrigada“, Leo sagt „obrigado“.",
+      "ex_pt": "Obrigada, Dona Márcia!",
+      "ex_de": "Danke, Dona Márcia!",
+      "kind": "word"
+    },
+    {
+      "id": "l01v27",
+      "pt": "a mãe",
+      "de": "die Mutter",
+      "ipa": "[a ˈmɐ̃j̃]",
+      "pron_de": "a MAING (nasal)",
+      "es": "la madre",
+      "ex_pt": "Minha mãe tá em casa.",
+      "ex_de": "Meine Mutter ist zu Hause.",
+      "kind": "word",
+      "icon": "family"
+    },
+    {
+      "id": "l01v28",
+      "pt": "o pai",
+      "de": "der Vater",
+      "ipa": "[ʊ ˈpaj]",
+      "pron_de": "u PAI",
+      "es": "el padre",
+      "ex_pt": "Eu sou o Paulo, o pai do Leo.",
+      "ex_de": "Ich bin Paulo, Leos Vater.",
+      "kind": "word",
+      "icon": "family"
+    },
+    {
+      "id": "l01v29",
+      "pt": "a irmã",
+      "de": "die Schwester",
+      "ipa": "[a iɾˈmɐ̃]",
+      "pron_de": "a ir-MANG",
+      "es": "la hermana",
+      "hint_es_de": "Kein h am Anfang und eine kurze Endung mit Nasal: ir-MANG.",
+      "ex_pt": "A Júlia é a irmã do Leo.",
+      "ex_de": "Júlia ist Leos Schwester.",
+      "kind": "word",
+      "icon": "family"
+    },
+    {
+      "id": "l01v30",
+      "pt": "a vó",
+      "de": "die Oma",
+      "ipa": "[a ˈvɔ]",
+      "pron_de": "a WO (offenes o)",
+      "es": "la abuela",
+      "hint_es_de": "Kurzform von „avó“ (Großmutter). Der Opa ist „o vô“ mit geschlossenem o.",
+      "ex_pt": "A vó Cida chega daqui a pouco.",
+      "ex_de": "Oma Cida kommt gleich.",
+      "kind": "word",
+      "icon": "family"
+    },
+    {
+      "id": "l01v31",
+      "pt": "a sogra",
+      "de": "die Schwiegermutter",
+      "ipa": "[a ˈsɔɡɾɐ]",
+      "pron_de": "a SO-gra (offenes o)",
+      "es": "la suegra",
+      "ex_pt": "Minha sogra é muito simpática.",
+      "ex_de": "Meine Schwiegermutter ist sehr nett.",
+      "kind": "word",
+      "icon": "family"
+    },
+    {
+      "id": "l01v32",
+      "pt": "o namorado",
+      "de": "der (feste) Freund",
+      "ipa": "[ʊ namoˈɾadʊ]",
+      "pron_de": "u na-mo-RA-du",
+      "es": "el novio",
+      "hint_es_de": "Achtung: „noivo“ heißt auf Portugiesisch Verlobter. Für den Freund sagt man „namorado“, für dich „namorada“.",
+      "ex_pt": "O Leo é meu namorado.",
+      "ex_de": "Leo ist mein Freund.",
+      "kind": "word"
+    },
+    {
+      "id": "l01v33",
+      "pt": "nossa!",
+      "de": "wow! krass!",
+      "ipa": "[ˈnɔsɐ]",
+      "pron_de": "NO-ssa",
+      "es": "¡guau! ¡madre mía!",
+      "hint_es_de": "Kommt von „Nossa Senhora“. Man hört es in São Paulo ständig, für Staunen aller Art.",
+      "ex_pt": "Nossa, que calor!",
+      "ex_de": "Wow, ist das heiß!",
+      "kind": "word"
+    },
+    {
+      "id": "l01v34",
+      "pt": "que calor!",
+      "de": "ist das heiß!",
+      "ipa": "[ki kaˈloɾ]",
+      "pron_de": "ki ka-LOR",
+      "es": "¡qué calor!",
+      "hint_es_de": "„Que“ klingt wie „ki“.",
+      "ex_pt": "Nossa, que calor hoje!",
+      "ex_de": "Wow, ist das heute heiß!",
+      "kind": "phrase",
+      "icon": "sun"
+    },
+    {
+      "id": "l01v35",
+      "pt": "pois é",
+      "de": "tja, genau, so ist es",
+      "ipa": "[ˈpojz ɛ]",
+      "pron_de": "POIS ä",
+      "es": "pues sí, así es",
+      "hint_es_de": "Typische Zustimmung, wenn man nicht viel zu sagen hat.",
+      "ex_pt": "Tá calor, né? Pois é!",
+      "ex_de": "Heiß, oder? Tja, genau!",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v36",
+      "pt": "relaxa!",
+      "de": "entspann dich!",
+      "ipa": "[heˈlaʃɐ]",
+      "pron_de": "he-LA-scha",
+      "es": "¡tranquila!",
+      "hint_es_de": "Das r am Wortanfang klingt wie ein deutsches h.",
+      "ex_pt": "Relaxa, eles já te adoram.",
+      "ex_de": "Entspann dich, sie lieben dich schon.",
+      "kind": "word"
+    },
+    {
+      "id": "l01v37",
+      "pt": "um beijinho",
+      "de": "ein Küsschen",
+      "ipa": "[ũ bejˈʒiɲʊ]",
+      "pron_de": "ung bei-SCHI-nju",
+      "es": "un besito",
+      "hint_es_de": "In São Paulo gibt man zur Begrüßung meist ein Küsschen auf die rechte Wange. Am Ende von Nachrichten: „beijos!“",
+      "ex_pt": "Um beijinho, vó!",
+      "ex_de": "Ein Küsschen, Oma!",
+      "kind": "phrase"
+    },
+    {
+      "id": "l01v38",
+      "pt": "o apelido",
+      "de": "der Spitzname",
+      "ipa": "[ʊ apeˈlidʊ]",
+      "pron_de": "u a-pe-LI-du",
+      "es": "el apodo",
+      "false_friend_de": "Falscher Freund: „apellido“ heißt im Spanischen Nachname. Auf Portugiesisch ist „apelido“ der Spitzname, der Nachname heißt „sobrenome“.",
+      "ex_pt": "Meu apelido é Ju.",
+      "ex_de": "Mein Spitzname ist Ju.",
+      "kind": "word"
+    },
+    {
+      "id": "l01v39",
+      "pt": "esquisito",
+      "de": "komisch, seltsam",
+      "ipa": "[iskiˈzitʊ]",
+      "pron_de": "is-ki-SI-tu",
+      "es": "raro",
+      "false_friend_de": "Falscher Freund: „exquisito“ heißt im Spanischen köstlich. „Esquisito“ heißt seltsam. Lob also nie das Essen deiner Schwiegermutter mit „esquisito“!",
+      "ex_pt": "Que barulho esquisito!",
+      "ex_de": "Was für ein komisches Geräusch!",
+      "kind": "word"
+    },
+    {
+      "id": "l01v40",
+      "pt": "embaraçada",
+      "de": "verlegen (als Frau)",
+      "ipa": "[ẽbaɾaˈsadɐ]",
+      "pron_de": "äng-ba-ra-SSA-da",
+      "es": "avergonzada",
+      "false_friend_de": "Falscher Freund: „embarazada“ heißt im Spanischen schwanger. „Embaraçada“ heißt verlegen. Schwanger heißt auf Portugiesisch „grávida“.",
+      "ex_pt": "Fiquei embaraçada com tantos elogios.",
+      "ex_de": "Bei so viel Lob wurde ich ganz verlegen.",
+      "kind": "word"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l01g1",
+      "title_de": "você und a gente",
+      "explain_de": [
+        "In São Paulo sagt man zu fast allen „você“ (du). Das Verb steht dabei in der 3. Person, also genau so wie bei „ele“ und „ela“: você fala, você é, você tem.",
+        "Für „wir“ benutzt man im Alltag meistens „a gente“. Auch hier steht das Verb in der 3. Person Singular: a gente fala, a gente vai. „Nós falamos“ ist richtig, klingt aber eher nach Schrift oder Nachrichten.",
+        "Älteren Menschen wie Leos Oma zeigst du Respekt mit „a senhora“ (bei einem Mann „o senhor“). Das Verb bleibt wieder in der 3. Person: A senhora quer café?",
+        "Praktisch für dich: Du brauchst im Alltag für du, er, sie, wir dieselbe Verbform. Nur „eu“ und „vocês“ (ihr) haben eigene Formen."
+      ],
+      "table": {
+        "head": [
+          "",
+          "falar",
+          "morar",
+          "ser"
+        ],
+        "rows": [
+          [
+            "eu",
+            "falo",
+            "moro",
+            "sou"
+          ],
+          [
+            "você / ele / ela",
+            "fala",
+            "mora",
+            "é"
+          ],
+          [
+            "a gente",
+            "fala",
+            "mora",
+            "é"
+          ],
+          [
+            "nós (formell)",
+            "falamos",
+            "moramos",
+            "somos"
+          ],
+          [
+            "vocês / eles / elas",
+            "falam",
+            "moram",
+            "são"
+          ]
+        ]
+      },
+      "es_compare_de": "Wie im Spanischen? Fast. „Você“ funktioniert grammatisch wie „usted“ (Verb in der 3. Person), ist aber locker wie „tú“. Die Form „tu falas“ hörst du in São Paulo kaum. „A gente“ sieht aus wie „la gente“, bedeutet aber „wir“: „A gente mora aqui“ heißt „Wir wohnen hier“, nicht „Die Leute wohnen hier“.",
+      "memo_de": "Merke: você, ele, ela, a gente plus dieselbe Verbform. Also: a gente vai, nie „a gente vamos“.",
+      "examples": [
+        {
+          "pt": "Você fala português muito bem!",
+          "de": "Du sprichst sehr gut Portugiesisch!"
+        },
+        {
+          "pt": "A gente vai direto pra casa.",
+          "de": "Wir fahren direkt nach Hause."
+        },
+        {
+          "pt": "A gente almoça às duas.",
+          "de": "Wir essen um zwei zu Mittag."
+        },
+        {
+          "pt": "A senhora é a avó do Leo?",
+          "de": "Sind Sie Leos Großmutter?"
+        },
+        {
+          "pt": "Vocês moram em São Paulo?",
+          "de": "Wohnt ihr in São Paulo?"
+        }
+      ]
+    },
+    {
+      "id": "l01g2",
+      "title_de": "So klingt São Paulo: Aussprache-Grundlagen",
+      "explain_de": [
+        "Brasilianisch klingt weicher als Spanisch, weil viele Laute am Wortende schwächer werden. Wenn du diese sechs Regeln kennst, verstehst du viel mehr.",
+        "1. „de“ und „di“ klingen wie „dschi“: cidade (si-DA-dschi), dia (DSCHI-a). 2. „te“ und „ti“ klingen wie „tschi“: noite (NOI-tschi), tia (TSCHI-a). Das gilt für „e“ am Wortende und für jedes „i“.",
+        "3. Ein „o“ am Wortende klingt wie „u“: tudo (TU-du), obrigado (o-bri-GA-du). 4. Ein „e“ am Wortende klingt wie „i“: nome (NO-mi), que (ki). Auch das kleine Wort „e“ (und) klingt wie „i“.",
+        "5. Nasale: Bei ão, ã, em, im, om, um spricht die Nase mit, und das m oder n wird nicht wirklich ausgesprochen. mãe (MAING), irmã (ir-MANG), bem (BÄING), São Paulo (saung PAU-lu).",
+        "6. Das „r“ am Wortanfang und „rr“ klingen wie ein deutsches h: Rio (HI-u), relaxa (he-LA-scha), carro (KA-hu). Ein einzelnes „r“ zwischen Vokalen ist ein kurzes Zungen-r: caro (KA-ru)."
+      ],
+      "table": {
+        "head": [
+          "Schreibung",
+          "Klang",
+          "Beispiel",
+          "Spanisch klingt"
+        ],
+        "rows": [
+          [
+            "de, di",
+            "dschi",
+            "cidade, dia",
+            "ciudad, día mit d"
+          ],
+          [
+            "te, ti",
+            "tschi",
+            "noite, tia",
+            "noche, tía mit t"
+          ],
+          [
+            "-o am Ende",
+            "u",
+            "tudo, cansado",
+            "todo, cansado mit o"
+          ],
+          [
+            "-e am Ende",
+            "i",
+            "nome, gente",
+            "nombre, gente mit e"
+          ],
+          [
+            "ão, ã, em",
+            "nasal",
+            "mãe, irmã, bem",
+            "madre, hermana, bien"
+          ],
+          [
+            "r- am Anfang, rr",
+            "h",
+            "Rio, carro",
+            "Río, carro gerollt"
+          ]
+        ]
+      },
+      "es_compare_de": "Wie im Spanischen? Nein, hier hilft dir Spanisch eher nicht. Spanisch liest man so, wie man schreibt. Brasilianisch nicht: „tarde“ klingt nicht wie spanisch „tarde“, sondern wie TAR-dschi. Und das gerollte spanische rr wird zum hauchigen h: „carro“ klingt wie KA-hu.",
+      "memo_de": "Merke: Am Wortende werden o zu u und e zu i. Vor i werden d und t zu dschi und tschi. R am Anfang ist ein h.",
+      "examples": [
+        {
+          "pt": "Boa tarde!",
+          "de": "Guten Tag! (gesprochen: BO-a TAR-dschi)"
+        },
+        {
+          "pt": "A gente mora em São Paulo.",
+          "de": "Wir wohnen in São Paulo. (a SCHÄN-tschi MO-ra äing saung PAU-lu)"
+        },
+        {
+          "pt": "Que saudade da minha mãe!",
+          "de": "Ich vermisse meine Mutter so! (ki sau-DA-dschi da MI-nja MAING)"
+        },
+        {
+          "pt": "O Rio é muito bonito.",
+          "de": "Rio ist sehr schön. (u HI-u ä MUIN-tu bo-NI-tu)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l01e1",
+      "type": "gap",
+      "grammar": "l01g1",
+      "title_de": "Verb einsetzen",
+      "prompt_de": "Setz das Verb in der richtigen Form ein.",
+      "items": [
+        {
+          "pt": "Você ___ português?",
+          "answers": [
+            "fala"
+          ],
+          "hint_de": "falar"
+        },
+        {
+          "pt": "A gente ___ em São Paulo.",
+          "answers": [
+            "mora"
+          ],
+          "hint_de": "morar"
+        },
+        {
+          "pt": "Eu ___ alemã.",
+          "answers": [
+            "sou"
+          ],
+          "hint_de": "ser"
+        },
+        {
+          "pt": "A gente ___ da Alemanha.",
+          "answers": [
+            "é"
+          ],
+          "hint_de": "ser"
+        },
+        {
+          "pt": "Você ___ o quê?",
+          "answers": [
+            "estuda"
+          ],
+          "hint_de": "estudar"
+        },
+        {
+          "pt": "Quantos anos você ___?",
+          "answers": [
+            "tem"
+          ],
+          "hint_de": "ter"
+        },
+        {
+          "pt": "A gente ___ às oito.",
+          "answers": [
+            "janta"
+          ],
+          "hint_de": "jantar"
+        },
+        {
+          "pt": "Eu ___ um pouco de espanhol.",
+          "answers": [
+            "falo"
+          ],
+          "hint_de": "falar"
+        }
+      ]
+    },
+    {
+      "id": "l01e2",
+      "type": "choice",
+      "grammar": "l01g1",
+      "title_de": "você, a gente, a senhora",
+      "prompt_de": "Wähle die passende Form.",
+      "items": [
+        {
+          "q_pt": "Nós moramos aqui. = A gente ___ aqui.",
+          "options": [
+            "moramos",
+            "mora",
+            "moram"
+          ],
+          "answer": 1,
+          "explain_de": "Nach „a gente“ steht das Verb in der 3. Person Singular."
+        },
+        {
+          "q_de": "Wie fragst du Leos Schwester locker, woher sie kommt?",
+          "options": [
+            "De onde tu és?",
+            "De onde você é?",
+            "De onde você és?"
+          ],
+          "answer": 1,
+          "explain_de": "In São Paulo sagt man „você“ mit der 3. Person „é“. „Tu és“ klingt nach Portugal."
+        },
+        {
+          "q_de": "Wie bietest du Leos Oma höflich einen Kaffee an?",
+          "options": [
+            "Tu queres café?",
+            "A senhora quer café?",
+            "Vocês quer café?"
+          ],
+          "answer": 1,
+          "explain_de": "Älteren Menschen gegenüber benutzt man „a senhora“ oder „o senhor“, mit Verb in der 3. Person."
+        },
+        {
+          "q_pt": "Você ___ de onde?",
+          "options": [
+            "é",
+            "és",
+            "sou"
+          ],
+          "answer": 0,
+          "explain_de": "você + 3. Person: você é."
+        },
+        {
+          "q_pt": "A gente ___ pra casa agora.",
+          "options": [
+            "vamos",
+            "vai",
+            "vão"
+          ],
+          "answer": 1,
+          "explain_de": "„A gente vai“ ist richtig. „A gente vamos“ hört man manchmal, es gilt aber als falsch."
+        },
+        {
+          "q_de": "Was bedeutet „a gente“ in „A gente chega amanhã“?",
+          "options": [
+            "die Leute",
+            "wir",
+            "ihr"
+          ],
+          "answer": 1,
+          "explain_de": "„A gente“ heißt im Alltag fast immer „wir“."
+        }
+      ]
+    },
+    {
+      "id": "l01e3",
+      "type": "transform",
+      "grammar": "l01g1",
+      "title_de": "Sag es wie in São Paulo",
+      "prompt_de": "Schreib den Satz um: „a gente“ statt „nós“, „você“ statt „tu“.",
+      "items": [
+        {
+          "from_pt": "Nós moramos em São Paulo.",
+          "answers": [
+            "A gente mora em São Paulo."
+          ],
+          "explain_de": "nós moramos wird zu a gente mora."
+        },
+        {
+          "from_pt": "Nós falamos alemão.",
+          "answers": [
+            "A gente fala alemão."
+          ],
+          "explain_de": "a gente + 3. Person Singular."
+        },
+        {
+          "from_pt": "Tu falas inglês?",
+          "answers": [
+            "Você fala inglês?"
+          ],
+          "explain_de": "tu falas wird zu você fala."
+        },
+        {
+          "from_pt": "Nós somos da Alemanha.",
+          "answers": [
+            "A gente é da Alemanha."
+          ],
+          "explain_de": "nós somos wird zu a gente é."
+        },
+        {
+          "from_pt": "Tu estudas o quê?",
+          "answers": [
+            "Você estuda o quê?",
+            "O que você estuda?",
+            "O que que você estuda?"
+          ],
+          "explain_de": "tu estudas wird zu você estuda."
+        },
+        {
+          "from_pt": "Nós chegamos amanhã.",
+          "answers": [
+            "A gente chega amanhã."
+          ],
+          "explain_de": "nós chegamos wird zu a gente chega."
+        },
+        {
+          "from_pt": "Tu tens irmãos?",
+          "answers": [
+            "Você tem irmãos?"
+          ],
+          "explain_de": "tu tens wird zu você tem."
+        }
+      ]
+    },
+    {
+      "id": "l01e4",
+      "type": "order",
+      "title_de": "Satzbau: Ich stelle mich vor",
+      "prompt_de": "Bring die Wörter in die richtige Reihenfolge.",
+      "items": [
+        {
+          "words": [
+            "Meu",
+            "nome",
+            "é",
+            "Anna"
+          ],
+          "answers": [
+            "Meu nome é Anna."
+          ],
+          "de": "Ich heiße Anna."
+        },
+        {
+          "words": [
+            "Eu",
+            "sou",
+            "da",
+            "Alemanha"
+          ],
+          "answers": [
+            "Eu sou da Alemanha."
+          ],
+          "de": "Ich komme aus Deutschland."
+        },
+        {
+          "words": [
+            "Eu",
+            "tenho",
+            "vinte",
+            "e",
+            "oito",
+            "anos"
+          ],
+          "answers": [
+            "Eu tenho vinte e oito anos."
+          ],
+          "de": "Ich bin achtundzwanzig."
+        },
+        {
+          "words": [
+            "Eu",
+            "falo",
+            "um",
+            "pouco",
+            "de",
+            "português"
+          ],
+          "answers": [
+            "Eu falo um pouco de português."
+          ],
+          "de": "Ich spreche ein bisschen Portugiesisch."
+        },
+        {
+          "words": [
+            "A",
+            "gente",
+            "vai",
+            "direto",
+            "pra",
+            "casa"
+          ],
+          "answers": [
+            "A gente vai direto pra casa."
+          ],
+          "de": "Wir fahren direkt nach Hause."
+        },
+        {
+          "words": [
+            "Prazer",
+            "eu",
+            "sou",
+            "a",
+            "namorada",
+            "do",
+            "Leo"
+          ],
+          "answers": [
+            "Prazer, eu sou a namorada do Leo."
+          ],
+          "de": "Freut mich, ich bin Leos Freundin."
+        },
+        {
+          "words": [
+            "Como",
+            "foi",
+            "a",
+            "viagem"
+          ],
+          "answers": [
+            "Como foi a viagem?"
+          ],
+          "de": "Wie war die Reise?"
+        }
+      ]
+    },
+    {
+      "id": "l01e5",
+      "type": "dictation",
+      "grammar": "l01g2",
+      "title_de": "Hördiktat",
+      "prompt_de": "Hör genau hin und schreib den Satz auf.",
+      "items": [
+        {
+          "pt": "Tudo bem com você?",
+          "answers": [
+            "Tudo bem com você?"
+          ]
+        },
+        {
+          "pt": "Tô muito cansada.",
+          "answers": [
+            "Tô muito cansada.",
+            "Estou muito cansada.",
+            "Eu tô muito cansada.",
+            "Eu estou muito cansada."
+          ]
+        },
+        {
+          "pt": "Bem-vinda a São Paulo!",
+          "answers": [
+            "Bem-vinda a São Paulo!"
+          ]
+        },
+        {
+          "pt": "A gente janta às oito.",
+          "answers": [
+            "A gente janta às oito.",
+            "A gente janta às 8."
+          ]
+        },
+        {
+          "pt": "Prazer, meu nome é Anna.",
+          "answers": [
+            "Prazer, meu nome é Anna."
+          ]
+        },
+        {
+          "pt": "De onde você é?",
+          "answers": [
+            "De onde você é?"
+          ]
+        },
+        {
+          "pt": "Eu tenho vinte e oito anos.",
+          "answers": [
+            "Eu tenho vinte e oito anos.",
+            "Eu tenho 28 anos.",
+            "Tenho vinte e oito anos.",
+            "Tenho 28 anos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l01e6",
+      "type": "choice",
+      "grammar": "l01g2",
+      "title_de": "Wie klingt das?",
+      "prompt_de": "Wähle die Aussprache, die man in São Paulo hört.",
+      "items": [
+        {
+          "q_de": "Wie klingt „cidade“?",
+          "options": [
+            "si-DA-de",
+            "si-DA-dschi",
+            "si-DA-di mit hartem d"
+          ],
+          "answer": 1,
+          "explain_de": "„de“ am Wortende klingt wie „dschi“."
+        },
+        {
+          "q_de": "Wie klingt „noite“?",
+          "options": [
+            "NOI-te",
+            "NOI-tschi",
+            "NOI-ti mit hartem t"
+          ],
+          "answer": 1,
+          "explain_de": "„te“ am Wortende klingt wie „tschi“."
+        },
+        {
+          "q_de": "Wie klingt „tudo“?",
+          "options": [
+            "TU-do",
+            "TU-du",
+            "TU-de"
+          ],
+          "answer": 1,
+          "explain_de": "Das „o“ am Wortende wird zu „u“."
+        },
+        {
+          "q_de": "Wie klingt das R in „Rio“?",
+          "options": [
+            "gerollt wie im Spanischen",
+            "wie ein deutsches h",
+            "gar nicht"
+          ],
+          "answer": 1,
+          "explain_de": "R am Wortanfang klingt wie h: HI-u."
+        },
+        {
+          "q_de": "Welches Wort hat einen Nasal?",
+          "options": [
+            "mala",
+            "mãe",
+            "mesa"
+          ],
+          "answer": 1,
+          "explain_de": "Die Tilde in „mãe“ zeigt den Nasal."
+        },
+        {
+          "q_de": "Wie klingt „nome“?",
+          "options": [
+            "NO-me",
+            "NO-mi",
+            "NOM"
+          ],
+          "answer": 1,
+          "explain_de": "Das „e“ am Wortende wird zu „i“."
+        },
+        {
+          "q_de": "Wie klingt „carro“?",
+          "options": [
+            "KA-ro mit gerolltem r",
+            "KA-hu",
+            "KA-ru mit Zungen-r"
+          ],
+          "answer": 1,
+          "explain_de": "rr klingt wie h, das o am Ende wie u."
+        }
+      ]
+    }
+  ],
+  "speaking": {
+    "shadowing": [
+      {
+        "pt": "Oi, tudo bem?",
+        "de": "Hi, alles gut?",
+        "tip_de": "TU-du mit u am Ende. Bei „bem“ das m nicht sprechen, die Nase klingt mit: BÄING."
+      },
+      {
+        "pt": "Prazer, meu nome é Anna.",
+        "de": "Freut mich, ich heiße Anna.",
+        "tip_de": "„nome“ endet auf i: NO-mi. Das r in „prazer“ ganz leicht oder fast gar nicht."
+      },
+      {
+        "pt": "Eu sou da Alemanha.",
+        "de": "Ich komme aus Deutschland.",
+        "tip_de": "„nh“ klingt wie „nj“: a-le-MA-nja. „Sou“ klingt wie „so“."
+      },
+      {
+        "pt": "Tô muito cansada.",
+        "de": "Ich bin sehr müde.",
+        "tip_de": "„muito“ klingt leicht nasal: MUIN-tu. „can“ mit Nase: kang-SA-da."
+      },
+      {
+        "pt": "De onde você é?",
+        "de": "Woher kommst du?",
+        "tip_de": "Zweimal „dschi“: dschi ON-dschi. Melodie am Ende nach oben."
+      },
+      {
+        "pt": "A gente mora em São Paulo.",
+        "de": "Wir wohnen in São Paulo.",
+        "tip_de": "„gente“ klingt SCHÄN-tschi. „São“ ist nasal: SAUNG. „Paulo“ endet auf u."
+      },
+      {
+        "pt": "Que saudade! Bem-vinda ao Brasil!",
+        "de": "Ich hab dich so vermisst! Willkommen in Brasilien!",
+        "tip_de": "sau-DA-dschi. Das l am Ende von „Brasil“ klingt wie u: bra-SIU."
+      },
+      {
+        "pt": "Eu tenho vinte e oito anos.",
+        "de": "Ich bin achtundzwanzig.",
+        "tip_de": "„vinte“ klingt WIN-tschi, „e“ klingt wie i, „oito“ wie OI-tu. „tenho“ mit nj: TÄN-nju."
+      }
+    ],
+    "roleplay": {
+      "title_de": "Oma Cida lernt dich kennen",
+      "situation_de": "Leos Oma kommt zum Mittagessen und will alles über dich wissen. Antworte kurz und freundlich.",
+      "turns": [
+        {
+          "other": "Vó Cida",
+          "voice": "f2",
+          "pt": "Oi, minha filha! Você que é a Anna?",
+          "de": "Hallo, mein Kind! Bist du Anna?",
+          "you_hint_de": "Bestätige und begrüße sie herzlich.",
+          "sample_pt": "Sou eu, sim! Muito prazer!"
+        },
+        {
+          "other": "Vó Cida",
+          "voice": "f2",
+          "pt": "Prazer, querida! Tudo bem? Fez boa viagem?",
+          "de": "Freut mich, Liebes! Alles gut? Hattest du eine gute Reise?",
+          "you_hint_de": "Sag, dass die Reise gut war, du aber müde bist.",
+          "sample_pt": "Tudo bem, obrigada. A viagem foi boa, mas tô muito cansada."
+        },
+        {
+          "other": "Vó Cida",
+          "voice": "f2",
+          "pt": "Coitadinha! E de onde você é, exatamente?",
+          "de": "Du Arme! Und woher kommst du genau?",
+          "you_hint_de": "Nenne dein Land und wo du wohnst.",
+          "sample_pt": "Eu sou da Alemanha. Eu moro em Aachen."
+        },
+        {
+          "other": "Vó Cida",
+          "voice": "f2",
+          "pt": "Alemanha! Que longe! E você fala português tão bem!",
+          "de": "Deutschland! So weit weg! Und du sprichst so gut Portugiesisch!",
+          "you_hint_de": "Bedank dich und sag, welche Sprachen du sprichst.",
+          "sample_pt": "Obrigada! Eu falo um pouco. Eu também falo espanhol e inglês."
+        },
+        {
+          "other": "Vó Cida",
+          "voice": "f2",
+          "pt": "E o que você faz? Estuda, trabalha?",
+          "de": "Und was machst du? Studierst du, arbeitest du?",
+          "you_hint_de": "Sag, was du beruflich machst.",
+          "sample_pt": "Eu sou engenheira civil. Vou trabalhar em obras."
+        },
+        {
+          "other": "Vó Cida",
+          "voice": "f2",
+          "pt": "Que bonito! Ai, a gente vai se dar muito bem, viu? Quer um cafezinho?",
+          "de": "Wie schön! Ach, wir werden uns sehr gut verstehen, weißt du? Möchtest du einen kleinen Kaffee?",
+          "you_hint_de": "Nimm dankend an und sei höflich zu ihr (a senhora).",
+          "sample_pt": "Quero sim, obrigada! A senhora é muito gentil."
+        }
+      ]
+    },
+    "monologue": {
+      "task_de": "Stell dich in etwa einer Minute Leos Familie vor: Name, Herkunft, Alter, Studium oder Beruf, Sprachen und wie es dir gerade geht. Sprich laut, gern vor dem Spiegel.",
+      "prompts_pt": [
+        "Oi, gente! Meu nome é …",
+        "Eu sou da …. Eu moro em …",
+        "Eu tenho … anos.",
+        "Eu sou …",
+        "Eu falo … e um pouco de …",
+        "Agora eu tô …"
+      ],
+      "sample_pt": "Oi, gente! Tudo bem? Meu nome é Anna. Eu sou da Alemanha e moro em Aachen. Eu tenho vinte e oito anos e sou engenheira civil. Eu falo alemão, inglês e um pouco de espanhol. Português eu falo só um pouco, mas tô aprendendo. Agora eu tô muito cansada, mas tô muito feliz de estar aqui com vocês!"
+    }
+  },
+  "reading": [
+    {
+      "id": "l01r1",
+      "kind": "whatsapp",
+      "title_de": "Die Familiengruppe",
+      "intro_de": "Am Tag vor deiner Ankunft schreibt Leos Familie in der WhatsApp-Gruppe. Du bist schon Mitglied.",
+      "messages": [
+        {
+          "from": "Márcia",
+          "pt": "Gente, a Anna chega amanhã! 🎉",
+          "me": false
+        },
+        {
+          "from": "Júlia",
+          "pt": "Aeee finalmente!! Que horas?",
+          "me": false
+        },
+        {
+          "from": "Leo",
+          "pt": "O voo chega às 6h da manhã em Guarulhos. Eu vou buscar ela",
+          "me": false
+        },
+        {
+          "from": "Paulo",
+          "pt": "Eu vou com você, filho. A gente vai de carro",
+          "me": false
+        },
+        {
+          "from": "Vó Cida",
+          "pt": "Que bom!!! Vou fazer pão de queijo pra ela 😍",
+          "me": false
+        },
+        {
+          "from": "Júlia",
+          "pt": "Vó, ela nem sabe o que é pão de queijo kkkk",
+          "me": false
+        },
+        {
+          "from": "Márcia",
+          "pt": "Então vai aprender, né? kkkkk",
+          "me": false
+        },
+        {
+          "from": "Leo",
+          "pt": "Gente, ela tá lendo o grupo 😅",
+          "me": false
+        },
+        {
+          "from": "Anna",
+          "pt": "Oi, gente! Tô lendo sim kkkk Tô muito feliz! Até amanhã!",
+          "me": true
+        },
+        {
+          "from": "Márcia",
+          "pt": "Até amanhã, querida! Beijos!",
+          "me": false
+        }
+      ],
+      "glossary": [
+        {
+          "pt": "gente",
+          "de": "Leute (als Anrede)"
+        },
+        {
+          "pt": "amanhã",
+          "de": "morgen"
+        },
+        {
+          "pt": "buscar",
+          "de": "abholen"
+        },
+        {
+          "pt": "pão de queijo",
+          "de": "Käsebällchen aus Maniokmehl"
+        },
+        {
+          "pt": "nem sabe",
+          "de": "weiß nicht mal"
+        },
+        {
+          "pt": "aprender",
+          "de": "lernen"
+        },
+        {
+          "pt": "tá lendo",
+          "de": "liest gerade mit"
+        },
+        {
+          "pt": "kkkk",
+          "de": "hahaha (brasilianisches Lachen im Chat)"
+        }
+      ],
+      "questions": [
+        {
+          "q_de": "Wann landet Anna?",
+          "options_de": [
+            "Um 6 Uhr morgens",
+            "Um 6 Uhr abends",
+            "Um Mitternacht"
+          ],
+          "answer": 0
+        },
+        {
+          "q_de": "Was will Oma Cida machen?",
+          "options_de": [
+            "Kaffee kochen",
+            "Pão de queijo backen",
+            "Zum Flughafen fahren"
+          ],
+          "answer": 1
+        },
+        {
+          "q_de": "Wer fährt zum Flughafen?",
+          "options_de": [
+            "Nur Leo",
+            "Leo und sein Vater",
+            "Júlia und Márcia"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "l01r2",
+      "kind": "text",
+      "title_de": "Ein Zettel von Júlia",
+      "intro_de": "Auf deinem Bett liegt ein Zettel von Leos Schwester.",
+      "text_pt": "Oi, Anna! Bem-vinda à nossa casa! Eu sou a Júlia, a irmã do Leo. Eu tenho dezenove anos e estudo direito. Meu apelido é Ju, então pode me chamar de Ju. A gente vai ser muito amigas, com certeza! Precisa de alguma coisa? É só falar comigo. Ah, e cuidado: o Leo ronca muito! kkkk Beijos, Ju",
+      "glossary": [
+        {
+          "pt": "à nossa casa",
+          "de": "in unserem Haus"
+        },
+        {
+          "pt": "dezenove",
+          "de": "neunzehn"
+        },
+        {
+          "pt": "direito",
+          "de": "Jura (Studienfach)"
+        },
+        {
+          "pt": "o apelido",
+          "de": "der Spitzname"
+        },
+        {
+          "pt": "com certeza",
+          "de": "ganz sicher"
+        },
+        {
+          "pt": "precisa de alguma coisa?",
+          "de": "brauchst du etwas?"
+        },
+        {
+          "pt": "é só falar comigo",
+          "de": "sag mir einfach Bescheid"
+        },
+        {
+          "pt": "ronca",
+          "de": "schnarcht"
+        }
+      ],
+      "questions": [
+        {
+          "q_de": "Wie alt ist Júlia?",
+          "options_de": [
+            "17",
+            "19",
+            "24"
+          ],
+          "answer": 1
+        },
+        {
+          "q_de": "Was ist Júlias Spitzname?",
+          "options_de": [
+            "Ju",
+            "Juju",
+            "Lia"
+          ],
+          "answer": 0
+        },
+        {
+          "q_de": "Wovor warnt Júlia dich?",
+          "options_de": [
+            "Leo schnarcht",
+            "Der Hund beißt",
+            "Das Wasser ist kalt"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "writing": {
+    "id": "l01w1",
+    "title_de": "Hallo, Familie!",
+    "task_de": "Schreib eine Nachricht an die Familiengruppe von {partner}. Stell dich vor (Name, Herkunft, Alter, Studium oder Beruf, Sprachen) und sag, wie du dich auf die Reise freust. Benutze mindestens einmal „a gente“.",
+    "task_pt": "Escreva uma mensagem para o grupo da família de {partner}. Se apresente (nome, origem, idade, estudos ou trabalho, línguas) e conte como você está se sentindo com a viagem. Use “a gente” pelo menos uma vez.",
+    "min_words": 50,
+    "max_words": 100,
+    "sample_pt": "Oi, gente! Tudo bem? Meu nome é {learner}, eu sou a namorada do {partner}. Eu sou da Alemanha, moro em Aachen e tenho vinte e oito anos. Eu sou engenheira civil. Eu falo alemão, inglês e um pouco de espanhol. Agora eu tô aprendendo português, mas ainda é difícil! Eu chego em dezembro e tô muito feliz. Tô um pouco nervosa também, kkkk. A gente vai se ver logo! Beijos!",
+    "checklist_de": [
+      "Steht nach „você“ und „a gente“ das Verb in der 3. Person (a gente vai, nicht a gente vamos)?",
+      "Habe ich das Alter mit „ter“ geschrieben: eu tenho … anos?",
+      "Steht vor dem Land der Artikel: sou da Alemanha (nicht „de Alemanha“)?",
+      "Habe ich als Frau die weiblichen Formen benutzt: obrigada, cansada, nervosa, alemã?",
+      "Spanisch-Fallen vermieden: e statt y, muito statt muy/mucho, com statt con, também statt también?",
+      "Stimmen Akzente und Tilden: você, alemã, português, também, tô?"
+    ],
+    "focus_en": [
+      "self-introduction (name, origin, age, studies, languages)",
+      "você / a gente with 3rd person singular verb",
+      "ser da Alemanha, ter ... anos",
+      "feminine agreement (obrigada, cansada, alemã)",
+      "Spanish interference (y/e, muy/muito, con/com, también/também)",
+      "accents and tildes"
+    ]
+  },
+  "conversations": [
+    {
+      "id": "l01c1",
+      "title_pt": "Primeiro jantar com a sogra",
+      "title_de": "Erstes Abendessen mit der Schwiegermutter",
+      "minutes": 12,
+      "situation_de": "Dein erster Abend in São Paulo. Am Tisch fragt dich die Mutter von {partner} neugierig aus.",
+      "situation_pt": "É a primeira noite de {learner} em São Paulo. No jantar, a mãe de {partner} quer saber tudo sobre ela.",
+      "role_learner_de": "Du bist du selbst: gerade angekommen, etwas müde, aber gut gelaunt.",
+      "role_partner_pt": "Você faz o papel da sua mãe: simpática, curiosa e muito falante. Trate {learner} com carinho.",
+      "goal_de": "Dich vorstellen: Name, Herkunft, Alter, Studium oder Beruf, Sprachen und wie es dir geht.",
+      "goal_pt": "{learner} se apresenta com frases simples: nome, origem, idade, estudos ou trabalho, línguas e como ela está.",
+      "cheatsheet": [
+        {
+          "pt": "Meu nome é …",
+          "de": "Mein Name ist …"
+        },
+        {
+          "pt": "Eu sou da Alemanha. Eu moro em …",
+          "de": "Ich komme aus Deutschland. Ich wohne in …"
+        },
+        {
+          "pt": "Eu tenho … anos.",
+          "de": "Ich bin … Jahre alt."
+        },
+        {
+          "pt": "Eu sou engenheira civil.",
+          "de": "Ich bin Bauingenieurin."
+        },
+        {
+          "pt": "Eu falo … e um pouco de …",
+          "de": "Ich spreche … und ein bisschen …"
+        },
+        {
+          "pt": "Tô cansada, mas tô feliz.",
+          "de": "Ich bin müde, aber glücklich."
+        },
+        {
+          "pt": "A gente …",
+          "de": "Wir …"
+        },
+        {
+          "pt": "Desculpa, pode repetir?",
+          "de": "Entschuldigung, kannst du das wiederholen?"
+        },
+        {
+          "pt": "Pode falar mais devagar, por favor?",
+          "de": "Kannst du bitte langsamer sprechen?"
+        },
+        {
+          "pt": "Como se diz … em português?",
+          "de": "Wie sagt man … auf Portugiesisch?"
+        }
+      ],
+      "questions": [
+        {
+          "pt": "Oi, querida! Tudo bem? Como você tá?",
+          "followups_pt": [
+            "Tá cansada?",
+            "Tá com fome?"
+          ]
+        },
+        {
+          "pt": "Qual é o seu nome completo? Você tem apelido?",
+          "followups_pt": [
+            "Como se escreve?"
+          ]
+        },
+        {
+          "pt": "De onde você é?",
+          "followups_pt": [
+            "De que cidade?",
+            "É uma cidade grande?"
+          ]
+        },
+        {
+          "pt": "Quantos anos você tem?",
+          "followups_pt": [
+            "Você tem irmãos?",
+            "Como eles se chamam?"
+          ]
+        },
+        {
+          "pt": "O que você faz? Qual é a sua profissão?",
+          "followups_pt": [
+            "Você gosta?",
+            "Onde você vai trabalhar?"
+          ]
+        },
+        {
+          "pt": "Quais línguas você fala?",
+          "followups_pt": [
+            "O espanhol é parecido com o português?",
+            "O que é mais difícil no português?"
+          ]
+        },
+        {
+          "pt": "Como foi a viagem? E o que vocês querem fazer aqui em São Paulo, você e o {partner}?",
+          "followups_pt": [
+            "Vocês vão viajar também?",
+            "Você quer conhecer a praia?"
+          ]
+        }
+      ],
+      "partner_tips_pt": [
+        "Fale devagar e com frases curtas.",
+        "Não corrija na hora. Deixe {learner} terminar de falar.",
+        "Guarde de cabeça 1 a 3 erros que se repetem e comente só no final.",
+        "Se ela travar, repita a pergunta de outro jeito ou dê duas opções.",
+        "Elogie quando ela usar “a gente” ou “tô” do jeito certo.",
+        "Use sempre „você“, como em São Paulo."
+      ],
+      "target_grammar_de": [
+        "você + Verb in der 3. Person",
+        "a gente + Verb in der 3. Person Singular",
+        "eu sou da … / eu tenho … anos"
+      ],
+      "target_words": [
+        "prazer",
+        "tô cansada",
+        "a gente",
+        "eu sou da Alemanha",
+        "eu tenho … anos",
+        "eu sou engenheira"
+      ]
+    },
+    {
+      "id": "l01c2",
+      "title_pt": "No carro, saindo de Guarulhos",
+      "title_de": "Im Auto vom Flughafen nach Hause",
+      "minutes": 10,
+      "situation_de": "Der Vater von {partner} holt dich in Guarulhos ab. Im Stau auf dem Weg nach Hause macht er Small Talk.",
+      "situation_pt": "O pai de {partner} busca {learner} em Guarulhos. No trânsito, a caminho de casa, ele puxa conversa.",
+      "role_learner_de": "Du bist gerade gelandet und lernst deinen Schwiegervater kennen.",
+      "role_partner_pt": "Você faz o papel do seu pai. Ele é tranquilo, gosta de futebol e quer conhecer {learner} melhor.",
+      "goal_de": "Über die Reise, das Wetter, deine Familie und deine Pläne sprechen.",
+      "goal_pt": "{learner} fala da viagem, do tempo, da família dela e dos planos no Brasil.",
+      "cheatsheet": [
+        {
+          "pt": "A viagem foi …",
+          "de": "Die Reise war …"
+        },
+        {
+          "pt": "Tô com sono / com fome.",
+          "de": "Ich bin müde / hungrig."
+        },
+        {
+          "pt": "Nossa, que calor!",
+          "de": "Wow, ist das heiß!"
+        },
+        {
+          "pt": "Na Alemanha agora tá frio.",
+          "de": "In Deutschland ist es jetzt kalt."
+        },
+        {
+          "pt": "Eu moro com …",
+          "de": "Ich wohne mit …"
+        },
+        {
+          "pt": "Eu tenho um irmão / uma irmã.",
+          "de": "Ich habe einen Bruder / eine Schwester."
+        },
+        {
+          "pt": "É a minha primeira vez no Brasil.",
+          "de": "Es ist mein erstes Mal in Brasilien."
+        },
+        {
+          "pt": "Eu quero conhecer …",
+          "de": "Ich möchte … kennenlernen."
+        },
+        {
+          "pt": "A gente vai …",
+          "de": "Wir werden …"
+        }
+      ],
+      "questions": [
+        {
+          "pt": "Oi, {learner}! Prazer! Tudo bem com você?",
+          "followups_pt": [
+            "Tá cansada?"
+          ]
+        },
+        {
+          "pt": "Como foi o voo?",
+          "followups_pt": [
+            "Foi longo?",
+            "Você dormiu no avião?"
+          ]
+        },
+        {
+          "pt": "Tá calor, né? E na Alemanha, tá frio agora?",
+          "followups_pt": [
+            "Tem neve lá?"
+          ]
+        },
+        {
+          "pt": "Você mora com seus pais na Alemanha?",
+          "followups_pt": [
+            "Você tem irmãos?",
+            "Como eles se chamam?"
+          ]
+        },
+        {
+          "pt": "É a sua primeira vez no Brasil?",
+          "followups_pt": [
+            "O que você quer conhecer?"
+          ]
+        },
+        {
+          "pt": "Você e o {partner}, como vocês se conheceram?",
+          "followups_pt": [
+            "Faz quanto tempo que vocês namoram?"
+          ]
+        },
+        {
+          "pt": "O que a gente vai fazer com você aqui no Brasil? Praia, futebol, comida?",
+          "followups_pt": [
+            "Você gosta de futebol?",
+            "Vai torcer pra qual time?"
+          ]
+        }
+      ],
+      "partner_tips_pt": [
+        "Fale devagar, como se estivesse dirigindo com calma.",
+        "Não corrija na hora. Só escute e deixe a conversa fluir.",
+        "Lembre de 1 a 3 erros que ela repete e fale deles no final.",
+        "As últimas perguntas são mais difíceis. Se ela travar, ajude com uma palavra.",
+        "Se ela responder só com uma palavra, use a pergunta extra.",
+        "Use “você” e “a gente”, como no dia a dia."
+      ],
+      "target_grammar_de": [
+        "você + Verb in der 3. Person",
+        "a gente + Verb in der 3. Person Singular",
+        "tô com sono / com fome"
+      ],
+      "target_words": [
+        "a viagem",
+        "o voo",
+        "que calor",
+        "tô com sono",
+        "a gente",
+        "nossa"
+      ]
+    }
+  ]
+}

@@ -290,3 +290,30 @@ details > summary { cursor: pointer; font-weight: 800; min-height: 44px; display
 .tline.past { opacity: .6; }
 .tandem-bar { position: sticky; bottom: 12px; display: flex; gap: 10px; padding-top: 8px; }
 .tandem-bar .btn { min-height: 56px; }
+
+/* ---------- Tandem-Gespräch ---------- */
+.glevel { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 750; }
+.glevel span:not(.gdot) { margin-left: 4px; }
+.gdot { width: 10px; height: 10px; border-radius: 50%; background: currentColor; opacity: .25; display: inline-block; }
+.gdot.on { opacity: 1; }
+.qprogress { display: flex; gap: 4px; margin: 0 0 12px; }
+.qprogress span { flex: 1; height: 8px; border-radius: 4px; background: rgba(16,50,90,.15); }
+:root.dark .qprogress span { background: rgba(255,255,255,.15); }
+.qprogress span.cur { background: var(--text); }
+.qprogress span.done.ok { background: var(--ok); }
+.qprogress span.done.almost { background: var(--near); }
+.qprogress span.done.again { background: var(--bad); }
+.tq-main { font-size: 24px; font-weight: 750; line-height: 1.3; margin-top: 4px; }
+.tq-help { padding-top: 12px; padding-bottom: 12px; }
+.rate { display: flex; gap: 6px; margin-top: 8px; }
+.rate .opt { flex: 1 1 0; min-width: 0; justify-content: center; padding: 12px 4px; margin: 0; white-space: nowrap; font-size: 15px; }
+.starters { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
+.starter { background: rgba(16,50,90,.06); border-radius: 14px; padding: 10px 12px; font-size: 18px; font-weight: 650; }
+:root.dark .starter { background: rgba(255,255,255,.08); }
+.starter .gap { color: var(--muted); letter-spacing: 1px; }
+[data-area="partner"] .qprogress span { background: rgba(255,255,255,.22); }
+[data-area="partner"] .qprogress span.cur { background: #fff; }
+[data-area="partner"] .qprogress span.done.ok { background: var(--ok); }
+[data-area="partner"] .qprogress span.done.almost { background: var(--mango); }
+[data-area="partner"] .qprogress span.done.again { background: var(--bad); }
+[data-area="partner"] .tandem-bar .btn.soft { background: rgba(255,255,255,.18); color: #fff; }

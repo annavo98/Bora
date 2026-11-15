@@ -2279,50 +2279,108 @@
       "questions": [
         {
           "pt": "Oi, querida! Tudo bem? Como você tá?",
+          "de": "Hallo, Liebes! Alles gut? Wie geht's dir?",
           "followups_pt": [
             "Tá cansada?",
             "Tá com fome?"
+          ],
+          "easier_pt": "Tudo bem?",
+          "sample_pt": "Tudo bem, obrigada! Tô um pouco cansada, mas tô feliz.",
+          "starters_pt": [
+            "Tudo bem, obrigada!",
+            "Tô um pouco cansada.",
+            "Tô feliz.",
+            "Tô com fome."
           ]
         },
         {
           "pt": "Qual é o seu nome completo? Você tem apelido?",
+          "de": "Wie ist dein ganzer Name? Hast du einen Spitznamen?",
           "followups_pt": [
             "Como se escreve?"
+          ],
+          "easier_pt": "Qual é o seu nome?",
+          "sample_pt": "Meu nome é Anna … . Meu apelido é … .",
+          "starters_pt": [
+            "Meu nome é ___.",
+            "Meu apelido é ___.",
+            "Eu não tenho apelido."
           ]
         },
         {
           "pt": "De onde você é?",
+          "de": "Woher kommst du?",
           "followups_pt": [
             "De que cidade?",
             "É uma cidade grande?"
+          ],
+          "easier_pt": "Você é da Alemanha?",
+          "sample_pt": "Eu sou da Alemanha. Eu moro em Aachen.",
+          "starters_pt": [
+            "Eu sou da ___.",
+            "Eu moro em ___.",
+            "Aachen é uma cidade ___."
           ]
         },
         {
           "pt": "Quantos anos você tem?",
+          "de": "Wie alt bist du?",
           "followups_pt": [
             "Você tem irmãos?",
-            "Como eles se chamam?"
+            "Quantos anos eles têm?"
+          ],
+          "easier_pt": "Você tem vinte e oito anos?",
+          "sample_pt": "Eu tenho vinte e oito anos.",
+          "starters_pt": [
+            "Eu tenho ___ anos.",
+            "Eu tenho ___ irmão(s).",
+            "Eu não tenho irmãos."
           ]
         },
         {
           "pt": "O que você faz? Qual é a sua profissão?",
+          "de": "Was machst du? Was ist dein Beruf?",
           "followups_pt": [
             "Você gosta?",
-            "Onde você vai trabalhar?"
+            "Você gosta de obras?"
+          ],
+          "easier_pt": "Você é engenheira?",
+          "sample_pt": "Eu sou engenheira civil. Eu gosto muito de obras.",
+          "starters_pt": [
+            "Eu sou ___.",
+            "Eu gosto muito de ___.",
+            "Agora eu estudo português."
           ]
         },
         {
           "pt": "Quais línguas você fala?",
+          "de": "Welche Sprachen sprichst du?",
           "followups_pt": [
             "O espanhol é parecido com o português?",
-            "O que é mais difícil no português?"
+            "O português é difícil?"
+          ],
+          "easier_pt": "Você fala inglês?",
+          "sample_pt": "Eu falo alemão, inglês e um pouco de espanhol. Português eu falo só um pouco.",
+          "starters_pt": [
+            "Eu falo ___ e ___.",
+            "Eu falo um pouco de ___.",
+            "O português é ___."
           ]
         },
         {
           "pt": "Como foi a viagem? Foi longa?",
+          "de": "Wie war die Reise? War sie lang?",
           "followups_pt": [
             "Você tá cansada?",
             "Você tem fome?"
+          ],
+          "easier_pt": "A viagem foi boa?",
+          "sample_pt": "A viagem foi longa. São doze horas de voo! Tô muito cansada.",
+          "starters_pt": [
+            "A viagem foi boa.",
+            "A viagem foi longa.",
+            "São ___ horas de voo.",
+            "Tô muito cansada."
           ]
         }
       ],
@@ -2346,7 +2404,8 @@
         "eu sou da Alemanha",
         "eu tenho … anos",
         "eu sou engenheira"
-      ]
+      ],
+      "guidance": 1
     },
     {
       "id": "l01c2",
@@ -2400,47 +2459,103 @@
       "questions": [
         {
           "pt": "Oi, {learner}! Prazer! Tudo bem com você?",
+          "de": "Hallo, {learner}! Freut mich! Alles gut bei dir?",
           "followups_pt": [
             "Tá cansada?"
+          ],
+          "easier_pt": "Tudo bem?",
+          "sample_pt": "Prazer, Seu Paulo! Tudo bem, obrigada.",
+          "starters_pt": [
+            "Prazer, ___!",
+            "Tudo bem, obrigada.",
+            "Tô um pouco cansada."
           ]
         },
         {
           "pt": "Como foi o voo?",
+          "de": "Wie war der Flug?",
           "followups_pt": [
             "Foi longo?",
-            "Você dormiu no avião?"
+            "Você tá com sono?"
+          ],
+          "easier_pt": "O voo foi bom?",
+          "sample_pt": "Foi longo, mas foi bom. Tô com sono.",
+          "starters_pt": [
+            "Foi longo.",
+            "Foi bom.",
+            "Tô com sono."
           ]
         },
         {
           "pt": "Tá calor, né? E na Alemanha, tá frio agora?",
+          "de": "Heiß, oder? Und in Deutschland, ist es jetzt kalt?",
           "followups_pt": [
             "Tem neve lá?"
+          ],
+          "easier_pt": "Na Alemanha é inverno agora?",
+          "sample_pt": "Nossa, que calor! Na Alemanha agora é inverno.",
+          "starters_pt": [
+            "Nossa, que calor!",
+            "Na Alemanha agora é ___.",
+            "Eu gosto de ___."
           ]
         },
         {
           "pt": "Você mora com seus pais na Alemanha?",
+          "de": "Wohnst du in Deutschland bei deinen Eltern?",
           "followups_pt": [
             "Você tem irmãos?",
-            "Como eles se chamam?"
+            "Quantos anos eles têm?"
+          ],
+          "easier_pt": "Você mora em Aachen?",
+          "sample_pt": "Não, eu moro em Aachen. Meus pais moram em … .",
+          "starters_pt": [
+            "Não, eu moro em ___.",
+            "Meus pais moram em ___.",
+            "Eu tenho ___ irmão(s)."
           ]
         },
         {
           "pt": "É a sua primeira vez no Brasil?",
+          "de": "Bist du zum ersten Mal in Brasilien?",
           "followups_pt": [
             "Você gosta de calor?"
+          ],
+          "easier_pt": "Você gosta do Brasil?",
+          "sample_pt": "É, sim! É a minha primeira vez no Brasil. Eu gosto muito!",
+          "starters_pt": [
+            "É, sim!",
+            "É a minha ___ vez no Brasil.",
+            "Eu gosto muito do ___."
           ]
         },
         {
           "pt": "Você estuda ou trabalha?",
+          "de": "Studierst du oder arbeitest du?",
           "followups_pt": [
             "O que você estuda?",
             "Você gosta?"
+          ],
+          "easier_pt": "Você é engenheira?",
+          "sample_pt": "Eu sou engenheira civil. Agora eu estudo português!",
+          "starters_pt": [
+            "Eu sou ___.",
+            "Agora eu estudo ___.",
+            "Eu gosto de ___."
           ]
         },
         {
           "pt": "Você gosta de futebol? E de praia?",
+          "de": "Magst du Fußball? Und den Strand?",
           "followups_pt": [
             "Você gosta de comida brasileira?"
+          ],
+          "easier_pt": "Você gosta de praia?",
+          "sample_pt": "Eu gosto de praia! Futebol … mais ou menos.",
+          "starters_pt": [
+            "Eu gosto de ___.",
+            "Eu não gosto de ___.",
+            "___ mais ou menos."
           ]
         }
       ],
@@ -2464,7 +2579,8 @@
         "tô com sono",
         "a gente",
         "nossa"
-      ]
+      ],
+      "guidance": 1
     }
   ],
   "tandem_can_pt": "Verbos em -ar no presente (eu falo, você fala, a gente fala, vocês falam), ser e ter (sou, é, tenho, tem), números até 30 e frases prontas como “tô cansada” e “como foi a viagem?”. Ela ainda não aprendeu o passado nem o futuro com “vou”. Use frases curtas e o presente."

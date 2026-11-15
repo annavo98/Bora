@@ -99,11 +99,7 @@
     "questions": "Verstanden?",
     "done": "Alle Dialoge geschafft.",
     "newWords": "Neue Wörter im Dialog ({n})",
-    "newWordsHint": "Wörter aus dem Dialog, die nicht in den Wendungen dieser Lektion stehen. Wo Spanisch hilft, steht es dabei. Gern vor dem Hören kurz anschauen.",
-    "tandem": "Mit {partner} üben",
-    "tandemHint": "Schick {partner} einen Link. Er sieht dann seine Rolle und deine Sätze zum Mitlesen und gibt dir Rückmeldung, auch im Videocall.",
-    "tandemCopied": "Link kopiert. Füg ihn in WhatsApp ein.",
-    "tandemCopyFail": "Diesen Link an {partner} schicken:"
+    "newWordsHint": "Wörter aus dem Dialog, die nicht in den Wendungen dieser Lektion stehen. Wo Spanisch hilft, steht es dabei. Gern vor dem Hören kurz anschauen."
   },
   "vocabList": {
     "title": "Wendungen",
@@ -332,7 +328,43 @@
     "mode": {
       "together": "zusammen",
       "call": "im Call"
-    }
+    },
+    "tandemTitle": "Aufwärmen: Dialog zu zweit nachspielen",
+    "tandemIntro": "Vor dem Gespräch: Spielt einen Dialog aus der Lektion nach. Schick {partner} den Link, er liest die anderen Rollen und gibt dir zu jedem Satz Rückmeldung.",
+    "tandemBtn": "Link an {partner} schicken",
+    "tandemCopied": "Link kopiert. Füg ihn in WhatsApp ein.",
+    "tandemCopyFail": "Diesen Link an {partner} schicken:",
+    "tandemStart": "Mit {partner} sprechen, jeder am eigenen Handy",
+    "tandemStartHint": "{partner} bekommt einen Link und stellt dir die Fragen. Du hast Bausteine für deine Antworten. Klappt vor Ort und im Videocall.",
+    "tandemTitle2": "Gespräch mit Link",
+    "guidanceLabel": "Stufe {n} von 4: {name}",
+    "guidance": {
+      "1": "Geführt",
+      "2": "Gestützt",
+      "3": "Gelenkt",
+      "4": "Frei"
+    },
+    "guidanceText": {
+      "1": "Am Anfang mit viel Hilfe: Du siehst jede Frage auch auf Deutsch, Bausteine für deine Antwort und auf Wunsch eine Beispielantwort.",
+      "2": "Du siehst die Fragen auf Portugiesisch und Satzanfänge, aber keine fertigen Antworten mehr.",
+      "3": "Du kennst Thema und Ziel. Satzanfänge kannst du bei Bedarf aufklappen.",
+      "4": "Freies Gespräch zum Thema. Hilfen gibt es nur noch auf Wunsch."
+    },
+    "tandemSteps": [
+      "Schick {partner} den Link (WhatsApp oder Nachrichten).",
+      "{partner} öffnet ihn und stellt dir die Fragen der Reihe nach.",
+      "Du antwortest mit den Bausteinen. Wo ___ steht, setzt du deine eigenen Angaben ein.",
+      "{partner} gibt dir zu jeder Antwort Rückmeldung. Am Ende fragst du ihn kurz nach seiner Bewertung."
+    ],
+    "tandemSendBtn": "Link an {partner} schicken",
+    "tandemGo": "Gespräch starten",
+    "tandemQ": "Frage {n} von {total}",
+    "tandemAsks": "{name} fragt",
+    "tandemStarters": "Bausteine für deine Antwort",
+    "tandemStartersHint": "Wo ___ steht, setzt du deine eigenen Angaben ein.",
+    "tandemSample": "Beispielantwort zeigen",
+    "tandemSync": "{name} sieht dieselbe Frage auf seinem Handy. Tippt beide auf „Weiter“, wenn die Antwort fertig ist.",
+    "tandemNext": "Weiter"
   },
   "timer": {
     "start": "Start",

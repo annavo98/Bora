@@ -80,6 +80,33 @@
     "sumHint": "Conte para a {name} quais frases foram difíceis. Nada fica salvo neste celular.",
     "restart": "Fazer de novo",
     "notFound": "Esse diálogo não foi encontrado. Peça um link novo.",
-    "shareText": "Bora treinar o diálogo “{title}”? Você faz os outros papéis e me dá um retorno. Abre aqui:"
+    "shareText": "Bora treinar o diálogo “{title}”? Você faz os outros papéis e me dá um retorno. Abre aqui:",
+    "convTitle": "Conversa em dupla",
+    "convShareText": "Bora conversar em português? Tema: “{title}”. Você faz as perguntas, eu respondo. Abre aqui:",
+    "levelLabel": "Nível {n} de 4: {name}",
+    "level": {
+      "1": "guiado",
+      "2": "com apoio",
+      "3": "orientado",
+      "4": "livre"
+    },
+    "convHow": [
+      "São {n} perguntas. Faça uma de cada vez, devagar.",
+      "Embaixo da pergunta tem um exemplo de resposta. A {name} não precisa falar igual, só parecido.",
+      "Se ela travar, use a pergunta mais fácil.",
+      "Depois da resposta, marque: Certo, Quase ou De novo. Se quiser, use uma pergunta extra para continuar a conversa.",
+      "Não corrija no meio da frase. Deixe ela terminar primeiro."
+    ],
+    "start": "Começar",
+    "q": "Pergunta {n} de {total}",
+    "ask": "Pergunte",
+    "sample": "Exemplo de resposta da {name}",
+    "easier": "Se ela travar, pergunte",
+    "followups": "Para continuar a conversa",
+    "nextQ": "Próxima pergunta",
+    "prevQ": "Pergunta anterior",
+    "againToast": "Repita a pergunta ou use a mais fácil.",
+    "hardTitle": "Perguntas difíceis:",
+    "convSumHint": "Conte para a {name} o que foi bom e o que foi difícil. Ela vai te fazer três perguntas rápidas sobre a conversa. Nada fica salvo neste celular."
   }
 }

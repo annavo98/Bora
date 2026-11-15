@@ -5,7 +5,6 @@ import { icon } from '../art.js';
 import { render, setArea, esc, topbar, sayBtn, feedback, cheer, shuffle, toast, laterTag, $, $$ } from '../ui.js';
 import { getLesson, findExercise } from '../content.js';
 import { exerciseUnlocked } from '../plan.js';
-import { shareTandem } from './tandem.js';
 import { checkAnswer } from '../check.js';
 import { play, stop, playSequence, canRecord, startRecording } from '../audio.js';
 
@@ -58,8 +57,6 @@ export function viewListening(id) {
       <button class="btn small-btn soft" data-act="play" data-speed="s">${icon('slow', 18)} ${esc(t('listening.slow'))}</button>
       <button class="btn small-btn soft" data-act="stop" aria-label="${esc(t('audio.stop'))}">${icon('stop', 18)}</button>
     </div>
-    <button class="btn small-btn mango tandem-share" data-act="tandem">${icon('share', 18)} ${esc(t('listening.tandem'))}</button>
-    <p class="small muted" style="margin:4px 0 10px">${esc(t('listening.tandemHint'))}</p>
     <div class="row wrap small" style="margin-bottom:8px">
       <label class="row"><input type="checkbox" data-act="hide"> ${esc(t('listening.hideText'))}</label>
       <label class="row"><input type="checkbox" data-act="hidetr" checked> ${esc(t('listening.hideTr'))}</label>
@@ -86,7 +83,6 @@ export function viewListening(id) {
         playSequence(d.lines.map(x => x.pt), b.dataset.speed,
           i => $$('.line', lines).forEach((el, k) => el.classList.toggle('active', k === i)),
           () => my !== token);
-      } else if (b.dataset.act === 'tandem') { shareTandem(id, d);
       } else if (b.dataset.act === 'stop') { token++; stop(); $$('.line', lines).forEach(el => el.classList.remove('active')); }
     });
     sec.addEventListener('change', e => {

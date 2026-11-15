@@ -1,7 +1,8 @@
 import { get } from '../store.js';
 import { t, fill } from '../i18n.js';
 import { cover, icon } from '../art.js';
-import { render, setArea, esc, topbar } from '../ui.js';
+import { render, setArea, esc, topbar, $$ } from '../ui.js';
+import { shareTandem, guidanceDots } from './tandem.js';
 import { getCourse, getLesson } from '../content.js';
 import { PARTS, partRatio, partDone, lessonRatio, currentLessonIndex, writingUnlocked } from '../plan.js';
 
@@ -55,7 +56,14 @@ export function viewConversaList(id) {
   ${topbar(t('areas.conversation'), '#/lesson/' + id)}
   <p>${esc(t('conversa.listIntro'))}</p>
   ${l.conversations.map(c => `<a class="card" style="display:block;text-decoration:none" href="#/conversa/${c.id}">
-    <div class="row"><div class="kicker grow">${esc(t('conversa.minutes', { n: c.minutes || 10 }))}</div>${done[c.id] ? `<span class="pill">${icon('check', 16)} ${esc(t('course.done'))}</span>` : ''}</div>
+    <div class="row"><div class="kicker grow">${esc(t('conversa.minutes', { n: c.minutes || 10 }))}${c.guidance ? ` · ${esc(t('conversa.guidance.' + c.guidance))}` : ''}</div>${done[c.id] ? `<span class="pill">${icon('check', 16)} ${esc(t('course.done'))}</span>` : ''}</div>
     <h2 style="margin:4px 0 2px">${esc(c.title_pt)}</h2><div class="muted">${esc(c.title_de)}</div>
-    <p class="small" style="margin:8px 0 0">${esc(fill(c.situation_de))}</p></a>`).join('')}`);
+    <p class="small" style="margin:8px 0 0">${esc(fill(c.situation_de))}</p></a>`).join('')}
+  ${l.listening?.dialogs?.length ? `<h2 style="margin:22px 0 4px">${esc(t('conversa.tandemTitle'))}</h2>
+  <p>${esc(t('conversa.tandemIntro'))}</p>
+  ${l.listening.dialogs.map((d, di) => `<section class="card">
+    <h3 style="margin:0 0 2px">${esc(d.title)}</h3>
+    <p class="small" style="margin:4px 0 10px">${esc(fill(d.situation_de))}</p>
+    <button class="btn block-btn mango" data-tandem="${di}">${icon('share', 18)} ${esc(t('conversa.tandemBtn'))}</button></section>`).join('')}` : ''}`);
+  $$('[data-tandem]').forEach(b => b.addEventListener('click', () => shareTandem(id, l.listening.dialogs[+b.dataset.tandem])));
 }

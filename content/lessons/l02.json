@@ -1815,46 +1815,102 @@
       "questions": [
         {
           "pt": "Oi, querida! Você tá bem? Tá gostando da casa?",
+          "de": "Hallo, Liebes! Geht's dir gut? Gefällt dir das Haus?",
           "followups_pt": [
             "Qual é o seu lugar preferido da casa?"
+          ],
+          "easier_pt": "A casa é bonita?",
+          "sample_pt": "Tô bem, obrigada! Tô adorando! A casa é muito bonita.",
+          "starters_pt": [
+            "Tô bem, obrigada!",
+            "A casa é muito ___.",
+            "Eu gosto muito do/da ___."
           ]
         },
         {
           "pt": "Me conta da sua família. Quem faz parte da sua família?",
+          "de": "Erzähl mir von deiner Familie. Wer gehört zu deiner Familie?",
           "followups_pt": [
             "Você tem irmãos?",
             "E avós?"
+          ],
+          "easier_pt": "Você tem irmãos?",
+          "sample_pt": "Na minha família tem … . Eu tenho … irmão(s).",
+          "starters_pt": [
+            "Na minha família tem ___.",
+            "Eu tenho ___ irmão(s).",
+            "Eu não tenho ___."
           ]
         },
         {
           "pt": "Como se chama a sua mãe? Como ela é?",
+          "de": "Wie heißt deine Mutter? Wie ist sie?",
           "followups_pt": [
             "E o seu pai, como ele é?"
+          ],
+          "easier_pt": "A sua mãe é simpática?",
+          "sample_pt": "O nome da minha mãe é … . Ela é muito simpática.",
+          "starters_pt": [
+            "O nome da minha mãe é ___.",
+            "Ela é muito ___.",
+            "Meu pai é ___."
           ]
         },
         {
           "pt": "Onde a sua família mora? Numa casa ou num apartamento?",
+          "de": "Wo wohnt deine Familie? In einem Haus oder in einer Wohnung?",
           "followups_pt": [
             "Como é a casa?",
             "Tem quintal?"
+          ],
+          "easier_pt": "A sua família mora numa casa?",
+          "sample_pt": "A minha família mora em … , numa casa. Tem um quintal pequeno.",
+          "starters_pt": [
+            "A minha família mora em ___.",
+            "Eles moram numa ___.",
+            "Tem ___ na casa."
           ]
         },
         {
           "pt": "E agora, como eles tão? Tão com saudade de você?",
+          "de": "Und wie geht es ihnen jetzt? Vermissen sie dich?",
           "followups_pt": [
             "Vocês se falam todo dia?"
+          ],
+          "easier_pt": "Eles tão bem?",
+          "sample_pt": "Eles tão bem, mas tão com muita saudade! A gente fala no WhatsApp.",
+          "starters_pt": [
+            "Eles tão ___.",
+            "Eles tão com saudade.",
+            "A gente fala no ___."
           ]
         },
         {
           "pt": "Na Alemanha, a família almoça junta no domingo, como aqui?",
+          "de": "Isst die Familie in Deutschland am Sonntag zusammen zu Mittag, wie hier?",
           "followups_pt": [
-            "O que vocês comem?"
+            "É bem diferente?"
+          ],
+          "easier_pt": "Vocês almoçam juntos no domingo?",
+          "sample_pt": "Às vezes, sim. Mas na Alemanha a gente janta mais cedo.",
+          "starters_pt": [
+            "Às vezes, sim.",
+            "Na Alemanha a gente ___.",
+            "É um pouco diferente."
           ]
         },
         {
           "pt": "O que é diferente aqui em casa, comparado com a casa dos seus pais?",
+          "de": "Was ist hier im Haus anders als bei deinen Eltern?",
           "followups_pt": [
             "E o que você mais gosta aqui?"
+          ],
+          "easier_pt": "A casa aqui é diferente?",
+          "sample_pt": "Aqui a casa tá sempre cheia! E aqui tem um cachorro, o Pipoca.",
+          "starters_pt": [
+            "Aqui a casa é/tá ___.",
+            "Aqui tem ___.",
+            "Eu gosto muito do/da ___."
           ]
         }
       ],
@@ -1878,7 +1934,8 @@
         "a casa",
         "o quarto",
         "tô com saudade"
-      ]
+      ],
+      "guidance": 1
     },
     {
       "id": "l02c2",
@@ -1932,44 +1989,100 @@
       "questions": [
         {
           "pt": "Oi! Você que é a {learner}? Eu sou a Cris, tia do {partner}. Tudo bom?",
+          "de": "Hallo! Bist du {learner}? Ich bin Cris, {partner}s Tante. Alles gut?",
           "followups_pt": [
             "Tá muito calor pra você?"
+          ],
+          "easier_pt": "Você é a {learner}?",
+          "sample_pt": "Sou eu, sim! Prazer, Cris! Tudo bom, e você?",
+          "starters_pt": [
+            "Sou eu, sim!",
+            "Prazer, ___!",
+            "Tudo bom, e você?"
           ]
         },
         {
           "pt": "Você tá gostando de morar aqui com a família?",
+          "de": "Gefällt es dir, hier bei der Familie zu wohnen?",
           "followups_pt": [
             "E o quarto, é confortável?"
+          ],
+          "easier_pt": "Você tá feliz aqui?",
+          "sample_pt": "Tô adorando! A família do {partner} é muito simpática.",
+          "starters_pt": [
+            "Tô adorando!",
+            "A família é muito ___.",
+            "O quarto é ___."
           ]
         },
         {
           "pt": "Quer mais arroz? Feijão? Tá gostando da comida?",
+          "de": "Möchtest du mehr Reis? Bohnen? Schmeckt dir das Essen?",
           "followups_pt": [
             "Qual é a sua comida preferida até agora?"
+          ],
+          "easier_pt": "A comida tá boa?",
+          "sample_pt": "Quero sim, obrigada! A comida tá uma delícia. Eu gosto muito do feijão.",
+          "starters_pt": [
+            "Quero sim, obrigada!",
+            "A comida tá ___.",
+            "Eu gosto muito do/da ___."
           ]
         },
         {
           "pt": "Ué, cadê o sal? Você tá vendo o sal?",
+          "de": "Nanu, wo ist das Salz? Siehst du das Salz?",
           "followups_pt": [
             "E a farofa, cadê?"
+          ],
+          "easier_pt": "O sal tá na mesa?",
+          "sample_pt": "O sal tá ali, do lado do arroz.",
+          "starters_pt": [
+            "O sal tá ___.",
+            "Tá na ___.",
+            "Tá do lado do/da ___."
           ]
         },
         {
           "pt": "O que você faz aqui durante a semana?",
+          "de": "Was machst du hier unter der Woche?",
           "followups_pt": [
-            "Você sai sozinha ou com o {partner}?"
+            "Você estuda muito?"
+          ],
+          "easier_pt": "Você estuda português aqui?",
+          "sample_pt": "Eu estudo português e ajudo a Márcia em casa.",
+          "starters_pt": [
+            "Eu estudo ___.",
+            "Eu ajudo ___.",
+            "Eu passeio com o ___."
           ]
         },
         {
           "pt": "Como é um almoço de domingo na Alemanha?",
+          "de": "Wie ist ein Sonntagsessen in Deutschland?",
           "followups_pt": [
             "É muito diferente daqui?"
+          ],
+          "easier_pt": "É diferente na Alemanha?",
+          "sample_pt": "É mais calmo. A família é menor e a comida é diferente.",
+          "starters_pt": [
+            "É mais ___.",
+            "A família é ___.",
+            "A comida é ___."
           ]
         },
         {
           "pt": "E o {partner}, ele é organizado em casa ou bagunceiro?",
+          "de": "Und {partner}, ist er zu Hause ordentlich oder chaotisch?",
           "followups_pt": [
             "E você, como você é?"
+          ],
+          "easier_pt": "O {partner} é organizado?",
+          "sample_pt": "Ele é um pouco bagunceiro! Eu sou mais organizada.",
+          "starters_pt": [
+            "Ele é ___.",
+            "Ele é um pouco ___.",
+            "Eu sou mais ___."
           ]
         }
       ],
@@ -1993,7 +2106,8 @@
         "cadê",
         "do lado de",
         "mais um pouco"
-      ]
+      ],
+      "guidance": 1
     }
   ],
   "tandem_can_pt": "Tudo da lição 1, mais estar (tô, tá), a diferença entre ser e estar, “tem” no sentido de “há” e no, na, do, da. Ela ainda não aprendeu o passado nem o futuro com “vou”. Use frases curtas e o presente."

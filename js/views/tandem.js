@@ -1,4 +1,4 @@
-// Tandem: Leo öffnet einen geteilten Link und sieht den Dialog aus seiner Sicht (Portugiesisch).
+// Tandem: Leo öffnet einen geteilten Link und sieht ein geführtes Gespräch oder einen Dialog aus seiner Sicht (Portugiesisch).
 // Nur lokale Rückmeldung, nichts wird gespeichert, keine Verbindung zwischen den Handys.
 import { get } from '../store.js';
 import { t, tp, fill } from '../i18n.js';
@@ -8,25 +8,28 @@ import { getLesson } from '../content.js';
 
 const isLearner = speaker => speaker === 'Anna' || speaker === get().settings.learner;
 
-export function tandemUrl(lessonId, dialogId) {
-  return `${location.origin}${location.pathname}#/tandem/${lessonId}/${dialogId}`;
+export function tandemUrl(lessonId, itemId) {
+  return `${location.origin}${location.pathname}#/tandem/${lessonId}/${itemId}`;
 }
+export const guidanceDots = g => [1, 2, 3, 4].map(i => `<span class="gdot${i <= g ? ' on' : ''}"></span>`).join('');
 
-// Knopf in der Hören-Ansicht (Annas Seite, Deutsch). Die Nachricht selbst liest Leo, also Portugiesisch.
-export async function shareTandem(lessonId, dialog) {
-  const url = tandemUrl(lessonId, dialog.id);
-  const text = tp('tandem.shareText', { title: dialog.title });
+// Knopf im Conversa-Bereich (Annas Seite, Deutsch). Die Nachricht selbst liest Leo, also Portugiesisch.
+export async function shareTandem(lessonId, item) {
+  const url = tandemUrl(lessonId, item.id);
+  const text = item.questions ? tp('tandem.convShareText', { title: item.title_pt }) : tp('tandem.shareText', { title: item.title });
   if (navigator.share) {
     try { await navigator.share({ text, url }); return; } catch (e) { if (e.name === 'AbortError') return; }
   }
-  try { await navigator.clipboard.writeText(`${text}\n${url}`); toast(t('listening.tandemCopied'), 4000); }
-  catch { window.prompt(t('listening.tandemCopyFail'), url); }
+  try { await navigator.clipboard.writeText(`${text}\n${url}`); toast(t('conversa.tandemCopied'), 4000); }
+  catch { window.prompt(t('conversa.tandemCopyFail'), url); }
 }
 
-export function viewTandem(lessonId, dialogId) {
-  setArea('listening', { tabs: false });
+export function viewTandem(lessonId, itemId) {
   const l = getLesson(lessonId);
-  const d = l?.listening?.dialogs.find(x => x.id === dialogId);
+  const conv = l?.conversations?.find(x => x.id === itemId);
+  if (conv) return viewTandemConversation(l, conv);
+  setArea('listening', { tabs: false });
+  const d = l?.listening?.dialogs.find(x => x.id === itemId);
   if (!d) {
     render(`${topbar(tp('tandem.title'), '')}<div class="card" lang="pt-BR"><p>${esc(tp('tandem.notFound'))}</p></div>`);
     return;
@@ -108,4 +111,86 @@ export function viewTandem(lessonId, dialogId) {
   $('#tnext').onclick = next;
   $('#tprev').onclick = () => { if (cur > 0) { cur--; show(); } };
   show(false);
+}
+
+/* ---------- Geführtes Gespräch (Leos Seite) ---------- */
+// Stufe 1 bis 4 (TANDEM_KONZEPT.md): je höher, desto weniger Vorgaben.
+function viewTandemConversation(l, c) {
+  setArea('partner', { tabs: false, leaves: false });
+  const g = c.guidance || 1;
+  const learner = get().settings.learner || 'Anna';
+  const qs = c.questions;
+  const ratings = {};   // nur im Speicher, wird nie gesichert
+  let cur = -1;         // -1 = Einstieg
+
+  const level = `<div class="glevel">${guidanceDots(g)} <span>${esc(tp('tandem.levelLabel', { n: g, name: tp('tandem.level.' + g) }))}</span></div>`;
+
+  const intro = () => {
+    render(`<div lang="pt-BR">
+      ${topbar(tp('tandem.convTitle'), '')}
+      <section class="card">
+        ${level}
+        <h2 style="margin:6px 0">${esc(c.title_pt)}</h2>
+        <p style="margin:0 0 8px">${esc(fill(c.situation_pt))}</p>
+        <p style="margin:0 0 6px"><b>${esc(tp('partner.yourRole'))}:</b> ${esc(fill(c.role_partner_pt))}</p>
+        <p style="margin:0"><b>${esc(tp('partner.goal'))}:</b> ${esc(fill(c.goal_pt))}</p>
+      </section>
+      <details class="card tandem-info" open><summary>${esc(tp('tandem.howTitle'))}</summary>
+        <ul class="tandem-how">${tp('tandem.convHow', { name: learner, n: qs.length }).map(x => `<li>${esc(x)}</li>`).join('')}</ul></details>
+      ${l.tandem_can_pt ? `<details class="card tandem-info tandem-can"><summary>${esc(tp('tandem.canTitle', { name: learner }))}</summary>
+        <p style="margin:8px 0 0">${esc(fill(l.tandem_can_pt))}</p></details>` : ''}
+      <details class="card tandem-info"><summary>${esc(tp('partner.tipsTitle'))}</summary>
+        <ul class="tandem-how">${c.partner_tips_pt.map(x => `<li>${esc(fill(x))}</li>`).join('')}</ul></details>
+      <button class="btn block-btn big mango" id="tstart">${esc(tp('tandem.start'))}</button></div>`);
+    $('#tstart').onclick = () => { cur = 0; question(); };
+  };
+
+  const question = () => {
+    const q = qs[cur];
+    const r = ratings[cur];
+    render(`<div lang="pt-BR">
+      <div class="topbar"><div class="title grow">${esc(tp("tandem.q", { n: cur + 1, total: qs.length }))}</div><div class="glevel" aria-label="${esc(tp("tandem.levelLabel", { n: g, name: tp("tandem.level." + g) }))}">${guidanceDots(g)}</div></div>
+      <div class="qprogress">${qs.map((_, i) => `<span class="${i === cur ? 'cur' : ratings[i] ? 'done ' + ratings[i] : ''}"></span>`).join('')}</div>
+      <section class="card tq">
+        <div class="kicker">${esc(tp('tandem.ask'))}</div>
+        <div class="tq-main">${esc(fill(q.pt))}</div>
+      </section>
+      ${g <= 2 && q.sample_pt ? `<section class="card tq-help"><div class="kicker">${esc(tp('tandem.sample', { name: learner }))}</div><p style="margin:4px 0 0">${esc(fill(q.sample_pt))}</p></section>` : ''}
+      ${q.easier_pt ? `<section class="card tq-help"><div class="kicker">${esc(tp('tandem.easier'))}</div><p style="margin:4px 0 0"><b>${esc(fill(q.easier_pt))}</b></p></section>` : ''}
+      ${q.followups_pt?.length ? `<section class="card tq-help"><div class="kicker">${esc(tp('tandem.followups'))}</div><p style="margin:4px 0 0">${esc(q.followups_pt.map(fill).join(' · '))}</p></section>` : ''}
+      <section class="card"><div class="kicker">${esc(tp('tandem.rateLabel'))}</div>
+        <div class="rate">
+          <button class="opt ${r === 'ok' ? 'right' : ''}" data-r="ok">${icon('check', 18)} ${esc(tp('tandem.ok'))}</button>
+          <button class="opt ${r === 'almost' ? 'near' : ''}" data-r="almost">≈ ${esc(tp('tandem.almost'))}</button>
+          <button class="opt ${r === 'again' ? 'wrong' : ''}" data-r="again">${icon('cross', 18)} ${esc(tp('tandem.again'))}</button>
+        </div></section>
+      <div class="tandem-bar">
+        <button class="btn soft" id="tprev" aria-label="${esc(tp('tandem.prevQ'))}">${icon('back', 20)}</button>
+        <button class="btn grow mango" id="tnext">${esc(cur >= qs.length - 1 ? tp('tandem.finish') : tp('tandem.nextQ'))}</button>
+      </div></div>`);
+    $$('[data-r]').forEach(b => b.onclick = () => {
+      ratings[cur] = b.dataset.r;
+      if (b.dataset.r === 'again') { question(); toast(tp('tandem.againToast')); } else next();
+    });
+    $('#tprev').onclick = () => { if (cur > 0) { cur--; question(); } else intro(); };
+    $('#tnext').onclick = next;
+  };
+  const next = () => { if (cur < qs.length - 1) { cur++; question(); } else summary(); };
+
+  const summary = () => {
+    const v = Object.values(ratings);
+    const n = k => v.filter(x => x === k).length;
+    const hard = qs.filter((q, i) => ratings[i] === 'again' || ratings[i] === 'almost');
+    render(`<div lang="pt-BR">
+      ${topbar(tp('tandem.sumTitle'), '')}
+      <section class="card tandem-sum">
+        <p style="font-size:20px;margin:0 0 8px">${icon('check', 20)} ${n('ok')} ${esc(tp('tandem.ok'))} · ≈ ${n('almost')} ${esc(tp('tandem.almost'))} · ${icon('cross', 20)} ${n('again')} ${esc(tp('tandem.again'))}</p>
+        ${hard.length ? `<p style="margin:0 0 4px"><b>${esc(tp('tandem.hardTitle'))}</b></p><ul class="tandem-how">${hard.map(q => `<li>${esc(fill(q.pt))}</li>`).join('')}</ul>` : ''}
+        <p class="small muted">${esc(tp('tandem.convSumHint', { name: learner }))}</p>
+      </section>
+      <button class="btn block-btn soft" id="trestart">${esc(tp('tandem.restart'))}</button></div>`);
+    $('#trestart').onclick = () => { for (const k in ratings) delete ratings[k]; cur = -1; intro(); };
+  };
+
+  intro();
 }

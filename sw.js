@@ -1,6 +1,6 @@
 // Service Worker: alles aus precache.json vorab speichern, dann offline aus dem Cache.
 // VERSION wird von tools/make_manifest.py hochgezählt, damit iOS neue Stände lädt.
-const VERSION = '2b457a3bc4';
+const VERSION = 'b9bb4d0911';
 const CACHE = 'bora-' + VERSION;
 
 self.addEventListener('install', e => {

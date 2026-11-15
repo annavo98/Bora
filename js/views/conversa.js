@@ -5,6 +5,7 @@ import { t, tp, tl, fill, ptArticle } from '../i18n.js';
 import { icon } from '../art.js';
 import { render, setArea, esc, topbar, toast, cheer, $, $$ } from '../ui.js';
 import { findConversation } from '../content.js';
+import { shareTandem, guidanceDots } from './tandem.js';
 
 let timer = null;
 function stopTimer() { if (timer) clearInterval(timer.iv); timer = null; }
@@ -57,9 +58,12 @@ export function viewConversa(cardId) {
         <p><b>${esc(t('conversa.goal'))}:</b> ${esc(fill(c.goal_de))}</p>
         ${c.target_words?.length ? `<p class="small"><b>${esc(t('conversa.targetWords'))}:</b> <span lang="pt-BR">${esc(c.target_words.join(', '))}</span></p>` : ''}
       </section>
-      <button class="btn block-btn big mango" id="go">${esc(t('conversa.startTogether'))}</button>
+      ${c.questions?.[0]?.sample_pt ? `<button class="btn block-btn big mango" id="tandem">${icon('share', 22)} ${esc(t('conversa.tandemStart'))}</button>
+      <p class="small muted" style="margin:6px 0 12px">${esc(t('conversa.tandemStartHint'))}</p>` : ''}
+      <button class="btn block-btn ${c.questions?.[0]?.sample_pt ? 'soft' : 'big mango'}" id="go">${esc(t('conversa.startTogether'))}</button>
       <button class="btn block-btn ghost" style="margin:12px 0 14px" id="call">${icon('share', 22)} ${esc(t('conversa.notThere'))}</button>
       ${cheatsheet()}`);
+      if ($('#tandem')) $('#tandem').onclick = () => { run.mode = 'tandem'; go('tandemSend'); };
       $('#go').onclick = () => { run.mode = 'together'; go('handover'); };
       $('#call').onclick = () => { run.mode = 'call'; go('send'); };
     },
@@ -108,6 +112,49 @@ export function viewConversa(cardId) {
         <p class="mirror-note">${esc(t('conversa.handbackDe'))}</p>
         <button class="btn block-btn big mango" id="ok">${esc(tp('handback.btn'))} · ${esc(t('conversa.handbackBtnDe'))}</button></div>`);
       $('#ok').onclick = () => go('check');
+    },
+    // Tandem 1: Link an Leo schicken (Annas Bildschirm, Deutsch)
+    tandemSend() {
+      setArea('conversation');
+      const g = c.guidance || 1;
+      render(`${topbar(t('conversa.tandemTitle2'), null)}
+        <section class="card">
+          <div class="glevel">${guidanceDots(g)} <span>${esc(t('conversa.guidanceLabel', { n: g, name: t('conversa.guidance.' + g) }))}</span></div>
+          <p>${esc(t('conversa.guidanceText.' + g))}</p>
+          <ol class="tandem-how">${t('conversa.tandemSteps').map(x => `<li>${esc(x)}</li>`).join('')}</ol>
+          <button class="btn block-btn big mango" style="margin-top:12px" id="send">${icon('share', 22)} ${esc(t('conversa.tandemSendBtn'))}</button>
+        </section>
+        <button class="btn block-btn big" id="next">${esc(t('conversa.tandemGo'))}</button>
+        <button class="btn block-btn ghost" style="margin-top:12px" id="back">${esc(t('conversa.backToStart'))}</button>`);
+      $('#send').onclick = () => shareTandem(l.id, c);
+      $('#next').onclick = () => { run.q = 0; go('tandemSheet'); };
+      $('#back').onclick = () => go('start');
+    },
+    // Tandem 2: Annas Seite, Frage für Frage mit Bausteinen (Deutsch, Bausteine Portugiesisch)
+    tandemSheet() {
+      setArea('conversation', { tabs: false });
+      const g = c.guidance || 1;
+      const qs = c.questions;
+      const i = run.q || 0;
+      const q = qs[i];
+      render(`${topbar(t('conversa.tandemQ', { n: i + 1, total: qs.length }), null, `<div class="glevel">${guidanceDots(g)}</div>`)}
+        <div class="qprogress">${qs.map((_, k) => `<span class="${k === i ? 'cur' : k < i ? 'done ok' : ''}"></span>`).join('')}</div>
+        <section class="card tq">
+          <div class="kicker">${esc(t('conversa.tandemAsks', { name: s.partner }))}</div>
+          <div class="tq-main" lang="pt-BR">${esc(fill(q.pt))}</div>
+          ${g <= 1 && q.de ? `<p class="muted" style="margin:6px 0 0">${esc(fill(q.de))}</p>` : ''}
+        </section>
+        ${g <= 3 && q.starters_pt?.length ? `<details class="card" ${g <= 2 ? 'open' : ''}><summary><b>${esc(t('conversa.tandemStarters'))}</b></summary>
+          <div class="starters" lang="pt-BR">${q.starters_pt.map(x => `<div class="starter">${esc(fill(x)).replace(/___/g, '<span class="gap">___</span>')}</div>`).join('')}</div>
+          ${q.starters_pt.some(x => x.includes('___')) ? `<p class="small muted" style="margin:8px 0 0">${esc(t('conversa.tandemStartersHint'))}</p>` : ''}</details>` : ''}
+        ${g <= 1 && q.sample_pt ? `<details class="card"><summary>${esc(t('conversa.tandemSample'))}</summary><p lang="pt-BR" style="margin:8px 0 0">${esc(fill(q.sample_pt))}</p></details>` : ''}
+        <p class="small muted" style="margin-bottom:88px">${esc(t('conversa.tandemSync', { name: s.partner }))}</p>
+        <div class="tandem-bar">
+          <button class="btn soft" id="tprev" aria-label="${esc(t('common.back'))}">${icon('back', 20)}</button>
+          <button class="btn grow mango" id="tnext">${esc(i >= qs.length - 1 ? t('conversa.callEnd') : t('conversa.tandemNext'))}</button>
+        </div>`);
+      $('#tprev').onclick = () => { if (i > 0) { run.q = i - 1; go('tandemSheet'); } else go('tandemSend'); };
+      $('#tnext').onclick = () => { if (i < qs.length - 1) { run.q = i + 1; go('tandemSheet'); } else go('rateLearner'); };
     },
     // Call 2: Nachricht an Leo senden (Annas Bildschirm, Deutsch)
     send() {

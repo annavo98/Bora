@@ -171,7 +171,7 @@
       "(eu )?tô( muito| um pouco| mais)? (cansada|cansado|feliz|nervosa|embaraçada|com fome|com sono|com muito sono)",
       "(você )?tá (cansada|com fome|com sono)",
       "como foi a viagem",
-      "(a viagem )?foi (boa|longa|ótima)",
+      "(a viagem |o voo )?foi (boa|longa|ótima|bom|longo|ótimo)",
       "pode me chamar de",
       "seja bem-vind[ao]",
       "pode (repetir|falar mais devagar)",

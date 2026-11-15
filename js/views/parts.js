@@ -2,9 +2,10 @@
 import { get, update, lessonProgress } from '../store.js';
 import { t, fill } from '../i18n.js';
 import { icon } from '../art.js';
-import { render, setArea, esc, topbar, sayBtn, feedback, cheer, shuffle, toast, $, $$ } from '../ui.js';
+import { render, setArea, esc, topbar, sayBtn, feedback, cheer, shuffle, toast, laterTag, $, $$ } from '../ui.js';
 import { getLesson, findExercise } from '../content.js';
 import { exerciseUnlocked } from '../plan.js';
+import { shareTandem } from './tandem.js';
 import { checkAnswer } from '../check.js';
 import { play, stop, playSequence, canRecord, startRecording } from '../audio.js';
 
@@ -57,13 +58,15 @@ export function viewListening(id) {
       <button class="btn small-btn soft" data-act="play" data-speed="s">${icon('slow', 18)} ${esc(t('listening.slow'))}</button>
       <button class="btn small-btn soft" data-act="stop" aria-label="${esc(t('audio.stop'))}">${icon('stop', 18)}</button>
     </div>
+    <button class="btn small-btn mango tandem-share" data-act="tandem">${icon('share', 18)} ${esc(t('listening.tandem'))}</button>
+    <p class="small muted" style="margin:4px 0 10px">${esc(t('listening.tandemHint'))}</p>
     <div class="row wrap small" style="margin-bottom:8px">
       <label class="row"><input type="checkbox" data-act="hide"> ${esc(t('listening.hideText'))}</label>
       <label class="row"><input type="checkbox" data-act="hidetr" checked> ${esc(t('listening.hideTr'))}</label>
     </div>
     ${d.new_words?.length ? `<details class="newwords"><summary>${esc(t('listening.newWords', { n: d.new_words.length }))}</summary>
-      <p class="small muted" style="margin:0 0 6px">${esc(t('listening.newWordsHint'))}</p>
-      ${d.new_words.map(w => `<div class="ex">${sayBtn(w.pt)}<div><b lang="pt-BR">${esc(w.pt)}</b><span class="tr">${esc(w.de)}</span></div></div>`).join('')}</details>` : ''}
+      <p class="small muted" style="margin:0 0 6px">${esc(t('listening.newWordsHint'))}${d.new_words.some(w => w.later) ? ' ' + esc(t('common.laterHint')) : ''}</p>
+      ${d.new_words.map(w => `<div class="ex">${sayBtn(w.pt)}<div><b lang="pt-BR">${esc(w.pt)}</b> ${laterTag(w.later)}<span class="tr">${esc(w.de)}</span></div></div>`).join('')}</details>` : ''}
     <div class="lines hide-tr">${d.lines.map((ln, i) => `<div class="line" data-i="${i}">${sayBtn(ln.pt)}<div><span class="who">${esc(ln.speaker)}:</span> <span class="pt">${esc(ln.pt)}</span><span class="tr">${esc(ln.de)}</span></div></div>`).join('')}</div>
     <div class="hr"></div>
     <h3>${esc(t('listening.questions'))}</h3>
@@ -83,6 +86,7 @@ export function viewListening(id) {
         playSequence(d.lines.map(x => x.pt), b.dataset.speed,
           i => $$('.line', lines).forEach((el, k) => el.classList.toggle('active', k === i)),
           () => my !== token);
+      } else if (b.dataset.act === 'tandem') { shareTandem(id, d);
       } else if (b.dataset.act === 'stop') { token++; stop(); $$('.line', lines).forEach(el => el.classList.remove('active')); }
     });
     sec.addEventListener('change', e => {
@@ -105,7 +109,8 @@ export function viewVocabList(id) {
   render(`
   ${topbar(t('vocabList.title'), back(id))}
   <p>${esc(t('vocabList.intro', { n: l.vocab.length }))}</p>
-  <div class="card vlist">${l.vocab.map(v => `<div class="v">${sayBtn(v.pt)}<div class="grow"><b>${esc(v.pt)}</b>
+  ${l.vocab.some(v => v.wendung) ? `<p class="later-note">${esc(t('common.laterHint'))}</p>` : ''}
+  <div class="card vlist">${l.vocab.map(v => `<div class="v">${sayBtn(v.pt)}<div class="grow"><b>${esc(v.pt)}</b> ${laterTag(v.wendung)}
     <span class="small muted">${esc(v.ipa || '')}${v.pron_de ? ` · ${esc(v.pron_de)}` : ''}</span><div>${esc(v.de)}</div>
     ${v.es ? `<div class="small muted">ES: ${esc(v.es)}</div>` : ''}
     ${v.false_friend_de ? `<div class="ff" style="margin-top:4px">${icon('cross', 16)} ${esc(v.false_friend_de)}</div>` : ''}</div></div>`).join('')}</div>

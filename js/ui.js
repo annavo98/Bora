@@ -69,6 +69,9 @@ export function feedback(status, expected, extra = '') {
   return `<div class="fb ${cls}" role="status">${icon(ic, 22)}<div><b>${esc(label)}</b>${sol}${extra ? `<div>${extra}</div>` : ''}</div></div>`;
 }
 
+// Etikett für Vorgriffe: als fertigen Block lernen, Grammatik kommt später (LEHRPLAN.md).
+export const laterTag = lid => lid ? `<span class="later-tag" title="${esc(t('common.laterHint'))}">${esc(t('common.later', { n: parseInt(String(lid).slice(1), 10) }))}</span>` : '';
+
 export const CHEERS = ['Arrasou!', 'Mandou bem!', 'Boa!', 'Show!', 'Isso aí!', 'Perfeito!'];
 export const cheer = () => CHEERS[Math.floor(Math.random() * CHEERS.length)];
 

@@ -145,7 +145,8 @@
           },
           {
             "pt": "arrumou",
-            "de": "hat hergerichtet, aufgeräumt (arrumar)"
+            "de": "hat hergerichtet, aufgeräumt (arrumar)",
+            "later": "l05"
           },
           {
             "pt": "a toalha nova",
@@ -163,7 +164,8 @@
             "pt": "feliz de estar aqui",
             "de": "glücklich, hier zu sein"
           }
-        ]
+        ],
+        "situation_pt": "O Leo mostra a casa dos pais dele para a {learner}."
       },
       {
         "id": "l02d2",
@@ -303,13 +305,15 @@
           },
           {
             "pt": "quero sim",
-            "de": "ja, gern"
+            "de": "ja, gern",
+            "later": "l03"
           },
           {
             "pt": "o melhor",
             "de": "der/das beste (ES: el mejor)"
           }
-        ]
+        ],
+        "situation_pt": "Jantar com os pais do Leo. Comida do dia a dia."
       }
     ]
   },
@@ -484,7 +488,8 @@
       "hint_es_de": "Gute Frage für jede Küche. Das j klingt wie „sch“.",
       "ex_pt": "Márcia, posso ajudar?",
       "ex_de": "Márcia, kann ich helfen?",
-      "kind": "phrase"
+      "kind": "phrase",
+      "wendung": "l03"
     },
     {
       "id": "l02v15",
@@ -530,7 +535,7 @@
       "pron_de": "u TSCHI-u / a TSCHI-a",
       "es": "el tío / la tía",
       "hint_es_de": "Wie im Spanischen, aber mit „tschi“ gesprochen.",
-      "ex_pt": "A tia Cris vem no domingo.",
+      "ex_pt": "A tia Cris chega no domingo.",
       "ex_de": "Tante Cris kommt am Sonntag.",
       "kind": "word",
       "icon": "family"
@@ -555,8 +560,8 @@
       "pron_de": "u ku-NJA-du / a ku-NJA-da",
       "es": "el cuñado / la cuñada",
       "hint_es_de": "Spanisches ñ wird auf Portugiesisch nh geschrieben.",
-      "ex_pt": "A Júlia vai ser minha cunhada.",
-      "ex_de": "Júlia wird meine Schwägerin.",
+      "ex_pt": "A Júlia é minha cunhada.",
+      "ex_de": "Júlia ist meine Schwägerin.",
       "kind": "word",
       "icon": "family"
     },
@@ -680,8 +685,8 @@
       "pron_de": "MAIS ung PO-ku",
       "es": "¿un poco más?",
       "hint_es_de": "Wortstellung andersherum als im Spanischen: mais um pouco.",
-      "ex_pt": "Quer mais um pouco de feijão?",
-      "ex_de": "Möchtest du noch ein paar Bohnen?",
+      "ex_pt": "Mais um pouco de feijão?",
+      "ex_de": "Noch ein paar Bohnen?",
       "kind": "phrase"
     },
     {
@@ -787,8 +792,8 @@
       "pron_de": "u si-NJOR / a si-NJO-ra",
       "es": "usted (señor / señora)",
       "hint_es_de": "Wie „usted“, aber nur für Ältere und Respektspersonen. Das Verb steht in der 3. Person.",
-      "ex_pt": "A senhora quer ajuda?",
-      "ex_de": "Möchten Sie Hilfe?",
+      "ex_pt": "A senhora precisa de ajuda?",
+      "ex_de": "Brauchen Sie Hilfe?",
       "kind": "word"
     },
     {
@@ -876,11 +881,12 @@
     },
     {
       "id": "l02g2",
-      "title_de": "no, na, do, da und né?",
+      "title_de": "no, na, do, da, tem (es gibt) und né?",
       "explain_de": [
         "Die Präpositionen em (in, an, auf) und de (von, aus) verschmelzen immer mit dem Artikel. Das ist Pflicht, nicht nur Umgangssprache: em + a cozinha = na cozinha, de + o Leo = do Leo.",
         "In São Paulo steht vor Namen von Personen meist ein Artikel: o Leo, a Júlia. Darum heißt es: a mãe do Leo, o quarto da Júlia, na casa da vó.",
         "Achtung: „no“ heißt hier „im“ oder „auf dem“, nicht „nein“. Nein heißt „não“.",
+        "„Es gibt“ heißt im Alltag „tem“ (von ter, kennst du aus Lektion 1): Na casa tem três quartos. Tem toalha nova na cama. „Há“ ist auch richtig, klingt aber schriftlich. Unterschied zu estar: „O cachorro tá no quintal“ sagt, wo der Hund ist. „No quintal tem um cachorro“ sagt, dass es dort einen Hund gibt.",
         "né? ist die Kurzform von „não é?“ und steht wie „oder?“ am Satzende, wenn du Zustimmung erwartest: A casa é bonita, né? Brasilianer benutzen es ständig, oft auch einfach als Füllwort mitten im Satz."
       ],
       "table": {
@@ -908,8 +914,8 @@
           ]
         ]
       },
-      "es_compare_de": "Wie im Spanischen? Nur teilweise. Spanisch verschmilzt nur de + el = del und a + el = al. „En la cocina“ bleibt im Spanischen getrennt, auf Portugiesisch muss es „na cozinha“ heißen. Auch die weiblichen Formen verschmelzen: da, das, na, nas. Und „né?“ entspricht ungefähr spanischem „¿no?“ oder „¿verdad?“.",
-      "memo_de": "Merke: em + o/a = no/na, de + o/a = do/da. Immer zusammen. Und né? = oder?",
+      "es_compare_de": "Wie im Spanischen? Nur teilweise. Spanisch verschmilzt nur de + el = del und a + el = al. „En la cocina“ bleibt im Spanischen getrennt, auf Portugiesisch muss es „na cozinha“ heißen. Auch die weiblichen Formen verschmelzen: da, das, na, nas. Und „né?“ entspricht ungefähr spanischem „¿no?“ oder „¿verdad?“. „Tem“ im Sinn von „es gibt“ entspricht spanischem „hay“: Hay tres cuartos → Tem três quartos.",
+      "memo_de": "Merke: em + o/a = no/na, de + o/a = do/da. Immer zusammen. Es gibt = tem. Und né? = oder?",
       "examples": [
         {
           "pt": "O cachorro tá no quintal.",
@@ -922,6 +928,10 @@
         {
           "pt": "Essa é a irmã do Leo.",
           "de": "Das ist Leos Schwester."
+        },
+        {
+          "pt": "Na casa tem três quartos.",
+          "de": "Im Haus gibt es drei Zimmer."
         },
         {
           "pt": "Eu gosto muito da comida da Márcia.",
@@ -1194,9 +1204,9 @@
           "explain_de": "em + o = no"
         },
         {
-          "from_pt": "A vó (de + o) Leo faz pudim.",
+          "from_pt": "A vó (de + o) Leo mora perto.",
           "answers": [
-            "A vó do Leo faz pudim."
+            "A vó do Leo mora perto."
           ],
           "explain_de": "de + o = do, auch vor Namen."
         }
@@ -1351,6 +1361,65 @@
           ]
         }
       ]
+    },
+    {
+      "id": "l02e7",
+      "type": "choice",
+      "grammar": "l02g2",
+      "title_de": "tem oder tá?",
+      "prompt_de": "Gibt es etwas (tem) oder ist etwas irgendwo (tá)?",
+      "items": [
+        {
+          "q_de": "Im Hof gibt es einen Hund.",
+          "options": [
+            "No quintal tem um cachorro.",
+            "No quintal tá um cachorro.",
+            "No quintal é um cachorro."
+          ],
+          "answer": 0,
+          "explain_de": "„Es gibt“ = tem, wie spanisch „hay“."
+        },
+        {
+          "q_de": "Der Hund ist im Hof.",
+          "options": [
+            "O cachorro tem no quintal.",
+            "O cachorro tá no quintal.",
+            "O cachorro é no quintal."
+          ],
+          "answer": 1,
+          "explain_de": "Wo jemand gerade ist: estar, gesprochen tá."
+        },
+        {
+          "q_de": "Im Haus gibt es drei Zimmer.",
+          "options": [
+            "Na casa são três quartos.",
+            "Na casa tá três quartos.",
+            "Na casa tem três quartos."
+          ],
+          "answer": 2,
+          "explain_de": "tem bleibt gleich, auch bei mehreren Dingen."
+        },
+        {
+          "q_de": "Gibt es ein Handtuch im Bad?",
+          "options": [
+            "Tem toalha no banheiro?",
+            "É toalha no banheiro?",
+            "Tá toalha no banheiro?"
+          ],
+          "answer": 0,
+          "explain_de": "Auch die Frage „gibt es …?“ beginnt mit tem."
+        },
+        {
+          "q_de": "Wo ist Márcia? In der Küche.",
+          "options": [
+            "Ela tem na cozinha.",
+            "Ela tá na cozinha.",
+            "Ela é na cozinha."
+          ],
+          "answer": 1,
+          "explain_de": "Ort einer Person: estar (tá) und Verschmelzung em + a = na."
+        }
+      ]
     }
   ],
   "speaking": {
@@ -1414,7 +1483,7 @@
           "pt": "Não precisa, querida! Senta, fica à vontade.",
           "de": "Nicht nötig, Liebes! Setz dich, mach es dir bequem.",
           "you_hint_de": "Bestehe freundlich darauf und frag, wo die Teller sind.",
-          "sample_pt": "Eu quero ajudar, sim! Onde ficam os pratos?"
+          "sample_pt": "Não, não, eu ajudo, sim! Onde ficam os pratos?"
         },
         {
           "other": "Dona Márcia",
@@ -1926,5 +1995,6 @@
         "mais um pouco"
       ]
     }
-  ]
+  ],
+  "tandem_can_pt": "Tudo da lição 1, mais estar (tô, tá), a diferença entre ser e estar, “tem” no sentido de “há” e no, na, do, da. Ela ainda não aprendeu o passado nem o futuro com “vou”. Use frases curtas e o presente."
 }

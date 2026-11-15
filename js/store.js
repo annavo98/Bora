@@ -26,7 +26,7 @@ export const DEFAULT_STATE = () => ({
 let state = null;
 const listeners = new Set();
 
-export function load() {
+export function load({ readOnly = false } = {}) {
   try {
     const raw = localStorage.getItem(KEY);
     state = raw ? merge(DEFAULT_STATE(), JSON.parse(raw)) : DEFAULT_STATE();
@@ -34,7 +34,7 @@ export function load() {
     console.warn('Lernstand nicht lesbar, starte neu', e);
     state = DEFAULT_STATE();
   }
-  if (!state.settings.startDate) { state.settings.startDate = today(); save(); }
+  if (!state.settings.startDate && !readOnly) { state.settings.startDate = today(); save(); }
   return state;
 }
 

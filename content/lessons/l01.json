@@ -8,9 +8,10 @@
   "cover": "arrival",
   "goals_de": [
     "Leos Familie begrüßen und auf „tudo bem?“ antworten",
-    "Dich vorstellen: Name, Herkunft, Alter, Studium oder Beruf, Sprachen",
-    "Sagen, wie es dir geht: müde, hungrig, glücklich",
-    "você und a gente mit dem Verb in der 3. Person benutzen",
+    "Dich vorstellen: Name, Herkunft, Alter, Beruf, Sprachen",
+    "Verben auf -ar mit eu, você, a gente und vocês bilden",
+    "ser und ter benutzen: Ich bin …, ich habe …, ich bin 28",
+    "Zahlen von 0 bis 30",
     "Die wichtigsten Laute aus São Paulo erkennen und sprechen"
   ],
   "listening": {
@@ -139,7 +140,8 @@
           },
           {
             "pt": "tá fazendo",
-            "de": "macht gerade"
+            "de": "macht gerade",
+            "later": "l03"
           },
           {
             "pt": "o café da manhã",
@@ -153,7 +155,8 @@
             "pt": "o verão",
             "de": "der Sommer (ES: el verano)"
           }
-        ]
+        ],
+        "situation_pt": "A {learner} acabou de chegar em Guarulhos de manhã. O Leo está esperando no saguão de desembarque."
       },
       {
         "id": "l01d2",
@@ -263,7 +266,8 @@
           },
           {
             "pt": "fez boa viagem?",
-            "de": "hattest du eine gute Reise?"
+            "de": "hattest du eine gute Reise?",
+            "later": "l05"
           },
           {
             "pt": "que chique!",
@@ -271,11 +275,13 @@
           },
           {
             "pt": "você faz o quê?",
-            "de": "was machst du (beruflich)?"
+            "de": "was machst du (beruflich)?",
+            "later": "l03"
           },
           {
             "pt": "acabei o mestrado",
-            "de": "ich habe den Master abgeschlossen"
+            "de": "ich habe den Master abgeschlossen",
+            "later": "l05"
           },
           {
             "pt": "agora",
@@ -289,7 +295,8 @@
             "pt": "todo mundo junto",
             "de": "alle zusammen"
           }
-        ]
+        ],
+        "situation_pt": "O Leo e a {learner} chegam na casa dos pais dele. A Dona Márcia e o Seu Paulo abrem a porta."
       }
     ]
   },
@@ -363,7 +370,8 @@
       "hint_es_de": "Zu einem Mann sagt man „bem-vindo“. Das „j“ klingt wie „sch“ in „Garage“.",
       "ex_pt": "Seja bem-vinda ao Brasil!",
       "ex_de": "Willkommen in Brasilien!",
-      "kind": "phrase"
+      "kind": "phrase",
+      "wendung": "l06"
     },
     {
       "id": "l01v07",
@@ -387,7 +395,8 @@
       "hint_es_de": "„Tô“ ist die gesprochene Kurzform von „estou“. Ein Mann sagt „tô cansado“.",
       "ex_pt": "Tô muito cansada da viagem.",
       "ex_de": "Ich bin sehr müde von der Reise.",
-      "kind": "phrase"
+      "kind": "phrase",
+      "wendung": "l02"
     },
     {
       "id": "l01v09",
@@ -399,7 +408,8 @@
       "hint_es_de": "Anders als im Spanischen sagt man im Alltag estar com (wörtlich: sein mit). „Tenho fome“ ist auch richtig, klingt aber förmlicher.",
       "ex_pt": "Você tá com fome?",
       "ex_de": "Hast du Hunger?",
-      "kind": "phrase"
+      "kind": "phrase",
+      "wendung": "l02"
     },
     {
       "id": "l01v10",
@@ -411,7 +421,8 @@
       "hint_es_de": "Wie bei Hunger: im Alltag estar com sono statt tener sueño.",
       "ex_pt": "Desculpa, tô com muito sono.",
       "ex_de": "Entschuldigung, ich bin total müde.",
-      "kind": "phrase"
+      "kind": "phrase",
+      "wendung": "l02"
     },
     {
       "id": "l01v11",
@@ -423,7 +434,8 @@
       "hint_es_de": "„A viagem“ ist weiblich, im Spanischen ist „el viaje“ männlich.",
       "ex_pt": "Oi, querida! Como foi a viagem?",
       "ex_de": "Hallo, Liebes! Wie war die Reise?",
-      "kind": "phrase"
+      "kind": "phrase",
+      "wendung": "l05"
     },
     {
       "id": "l01v12",
@@ -432,8 +444,8 @@
       "ipa": "[ʊ ˈvo.ʊ]",
       "pron_de": "u WO-u",
       "es": "el vuelo",
-      "ex_pt": "O voo foi longo.",
-      "ex_de": "Der Flug war lang.",
+      "ex_pt": "O voo é muito longo.",
+      "ex_de": "Der Flug ist sehr lang.",
       "kind": "word",
       "icon": "plane"
     },
@@ -445,8 +457,8 @@
       "pron_de": "a MA-la",
       "es": "la maleta",
       "hint_es_de": "Achtung: „mala“ heißt im Spanischen „schlecht“. Auf Portugiesisch ist es dein Koffer.",
-      "ex_pt": "Deixa que eu levo a mala.",
-      "ex_de": "Lass mich den Koffer tragen.",
+      "ex_pt": "A mala é muito grande.",
+      "ex_de": "Der Koffer ist sehr groß.",
       "kind": "word",
       "icon": "suitcase"
     },
@@ -483,7 +495,8 @@
       "es": "puedes llamarme …",
       "ex_pt": "Pode me chamar de Márcia.",
       "ex_de": "Du kannst mich Márcia nennen.",
-      "kind": "phrase"
+      "kind": "phrase",
+      "wendung": "l03"
     },
     {
       "id": "l01v17",
@@ -541,8 +554,8 @@
       "pron_de": "eu SO en-sche-NJEI-ra si-WIU",
       "es": "soy ingeniera civil",
       "hint_es_de": "Beruf mit „ser“ und ohne Artikel, wie im Spanischen. Das l am Ende von „civil“ klingt wie u: si-WIU.",
-      "ex_pt": "Eu sou engenheira civil e vou trabalhar em obras.",
-      "ex_de": "Ich bin Bauingenieurin und werde auf Baustellen arbeiten.",
+      "ex_pt": "Eu sou engenheira civil. Eu gosto muito de obras.",
+      "ex_de": "Ich bin Bauingenieurin. Ich mag Baustellen sehr.",
       "kind": "phrase"
     },
     {
@@ -575,9 +588,9 @@
       "ipa": "[a ˈʒẽtʃi]",
       "pron_de": "a SCHÄN-tschi",
       "es": "nosotros",
-      "hint_es_de": "Sieht aus wie „la gente“, heißt aber meistens „wir“. Das Verb steht in der 3. Person Singular: a gente vai.",
-      "ex_pt": "A gente vai direto pra casa.",
-      "ex_de": "Wir fahren direkt nach Hause.",
+      "hint_es_de": "Sieht aus wie „la gente“, heißt aber meistens „wir“. Das Verb steht in der 3. Person Singular: a gente fala, a gente mora.",
+      "ex_pt": "A gente mora em São Paulo.",
+      "ex_de": "Wir wohnen in São Paulo.",
       "kind": "word"
     },
     {
@@ -611,8 +624,8 @@
       "ipa": "[a ˈmɐ̃j̃]",
       "pron_de": "a MAING (nasal)",
       "es": "la madre",
-      "ex_pt": "Minha mãe tá em casa.",
-      "ex_de": "Meine Mutter ist zu Hause.",
+      "ex_pt": "A mãe do Leo é a Márcia.",
+      "ex_de": "Leos Mutter ist Márcia.",
       "kind": "word",
       "icon": "family"
     },
@@ -711,8 +724,8 @@
       "pron_de": "POIS ä",
       "es": "pues sí, así es",
       "hint_es_de": "Typische Zustimmung, wenn man nicht viel zu sagen hat.",
-      "ex_pt": "Tá calor, né? Pois é!",
-      "ex_de": "Heiß, oder? Tja, genau!",
+      "ex_pt": "Que calor, né? Pois é!",
+      "ex_de": "Ganz schön heiß, oder? Tja, genau!",
       "kind": "phrase"
     },
     {
@@ -771,83 +784,423 @@
       "pron_de": "äng-ba-ra-SSA-da",
       "es": "avergonzada",
       "false_friend_de": "Falscher Freund: „embarazada“ heißt im Spanischen schwanger. „Embaraçada“ heißt verlegen. Schwanger heißt auf Portugiesisch „grávida“.",
-      "ex_pt": "Fiquei embaraçada com tantos elogios.",
-      "ex_de": "Bei so viel Lob wurde ich ganz verlegen.",
+      "ex_pt": "Tô embaraçada com tantos elogios.",
+      "ex_de": "Ich bin ganz verlegen bei so viel Lob.",
+      "kind": "word"
+    },
+    {
+      "id": "l01v41",
+      "pt": "um, dois, três",
+      "de": "eins, zwei, drei",
+      "ipa": "[ũ ˈdojs ˈtɾes]",
+      "pron_de": "ung, DOIS, TRES",
+      "es": "uno, dos, tres",
+      "hint_es_de": "„Um“ ist nasal, das m wird nicht gesprochen. Vor weiblichen Wörtern: uma, duas (duas malas).",
+      "ex_pt": "A gente tem duas malas.",
+      "ex_de": "Wir haben zwei Koffer.",
+      "kind": "word"
+    },
+    {
+      "id": "l01v42",
+      "pt": "quatro, cinco, seis",
+      "de": "vier, fünf, sechs",
+      "ipa": "[ˈkwatɾʊ ˈsĩkʊ ˈsejs]",
+      "pron_de": "KWA-tru, SSING-ku, SSEIS",
+      "es": "cuatro, cinco, seis",
+      "hint_es_de": "Am Telefon sagt man für 6 oft „meia“ (von meia dúzia, ein halbes Dutzend), damit man es nicht mit „três“ verwechselt.",
+      "ex_pt": "Seis malas? Nossa!",
+      "ex_de": "Sechs Koffer? Wow!",
+      "kind": "word"
+    },
+    {
+      "id": "l01v43",
+      "pt": "sete, oito, nove, dez",
+      "de": "sieben, acht, neun, zehn",
+      "ipa": "[ˈsɛtʃi ˈojtʊ ˈnɔvi ˈdɛs]",
+      "pron_de": "SSÄ-tschi, OI-tu, NO-wi, DÄS",
+      "es": "siete, ocho, nueve, diez",
+      "hint_es_de": "„Sete“ endet auf tschi, „nove“ auf i.",
+      "ex_pt": "A gente janta às oito.",
+      "ex_de": "Wir essen um acht zu Abend.",
+      "kind": "word"
+    },
+    {
+      "id": "l01v44",
+      "pt": "onze, doze, treze",
+      "de": "elf, zwölf, dreizehn",
+      "ipa": "[ˈõzi ˈdozi ˈtɾezi]",
+      "pron_de": "ON-si, DO-si, TRE-si",
+      "es": "once, doce, trece",
+      "hint_es_de": "Wie im Spanischen, nur mit z statt c und einem i-Laut am Ende.",
+      "ex_pt": "São doze horas de voo.",
+      "ex_de": "Es sind zwölf Stunden Flug.",
+      "kind": "word"
+    },
+    {
+      "id": "l01v45",
+      "pt": "catorze, quinze, dezesseis",
+      "de": "vierzehn, fünfzehn, sechzehn",
+      "ipa": "[kaˈtoɾzi ˈkĩzi dʒizeˈsejs]",
+      "pron_de": "ka-TOR-si, KIN-si, dschi-se-SSEIS",
+      "es": "catorce, quince, dieciséis",
+      "hint_es_de": "Ab 16 steckt „dez“ (zehn) drin: dez-e-seis, zusammengeschrieben mit ss.",
+      "ex_pt": "Quinze minutos e a gente chega!",
+      "ex_de": "Fünfzehn Minuten und wir sind da!",
+      "kind": "word"
+    },
+    {
+      "id": "l01v46",
+      "pt": "dezessete, dezoito, dezenove",
+      "de": "siebzehn, achtzehn, neunzehn",
+      "ipa": "[dʒizeˈsɛtʃi dʒiˈzojtʊ dʒizeˈnɔvi]",
+      "pron_de": "dschi-se-SSÄ-tschi, dschi-SOI-tu, dschi-se-NO-wi",
+      "es": "diecisiete, dieciocho, diecinueve",
+      "hint_es_de": "Das „de“ am Anfang klingt wie „dschi“.",
+      "ex_pt": "A Júlia tem dezenove anos.",
+      "ex_de": "Júlia ist neunzehn.",
+      "kind": "word"
+    },
+    {
+      "id": "l01v47",
+      "pt": "vinte, vinte e um, vinte e dois",
+      "de": "zwanzig, einundzwanzig, zweiundzwanzig",
+      "ipa": "[ˈvĩtʃi ˈvĩtʃi i ˈũ ˈvĩtʃi i ˈdojs]",
+      "pron_de": "WIN-tschi, WIN-tschi i UNG, WIN-tschi i DOIS",
+      "es": "veinte, veintiuno, veintidós",
+      "hint_es_de": "Anders als im Spanischen getrennt und mit „e“ (und): vinte e oito, nicht „vintiocho“.",
+      "ex_pt": "Eu tenho vinte e oito anos.",
+      "ex_de": "Ich bin achtundzwanzig.",
+      "kind": "word"
+    },
+    {
+      "id": "l01v48",
+      "pt": "trinta",
+      "de": "dreißig",
+      "ipa": "[ˈtɾĩtɐ]",
+      "pron_de": "TRIN-ta",
+      "es": "treinta",
+      "hint_es_de": "Kein „e“ wie im Spanischen: trinta.",
+      "ex_pt": "Nossa, trinta graus!",
+      "ex_de": "Wow, dreißig Grad!",
       "kind": "word"
     }
   ],
   "grammar": [
     {
       "id": "l01g1",
-      "title_de": "você und a gente",
+      "title_de": "Personen und Verben auf -ar (você, a gente)",
       "explain_de": [
-        "In São Paulo sagt man zu fast allen „você“ (du). Das Verb steht dabei in der 3. Person, also genau so wie bei „ele“ und „ela“: você fala, você é, você tem.",
-        "Für „wir“ benutzt man im Alltag meistens „a gente“. Auch hier steht das Verb in der 3. Person Singular: a gente fala, a gente vai. „Nós falamos“ ist richtig, klingt aber eher nach Schrift oder Nachrichten.",
-        "Älteren Menschen wie Leos Oma zeigst du Respekt mit „a senhora“ (bei einem Mann „o senhor“). Das Verb bleibt wieder in der 3. Person: A senhora quer café?",
-        "Praktisch für dich: Du brauchst im Alltag für du, er, sie, wir dieselbe Verbform. Nur „eu“ und „vocês“ (ihr) haben eigene Formen."
+        "Die meisten Verben enden auf -ar: falar (sprechen), morar (wohnen), estudar (studieren, lernen), trabalhar (arbeiten), chegar (ankommen), jantar (zu Abend essen), gostar (mögen). Du nimmst -ar weg und hängst die Endung der Person an.",
+        "eu: -o (eu falo). você, ele, ela: -a (você fala). vocês, eles, elas: -am (vocês falam). Mehr brauchst du im Alltag fast nie.",
+        "In São Paulo sagt man zu fast allen „você“ (du). Das Verb steht dabei in der 3. Person, also genau so wie bei „ele“ und „ela“: você fala, você mora.",
+        "Für „wir“ benutzt man im Alltag meistens „a gente“. Auch hier steht das Verb in der 3. Person Singular: a gente fala, a gente mora. „Nós falamos“ ist richtig, klingt aber nach Schrift oder Nachrichten. Du musst es nur erkennen.",
+        "Älteren Menschen wie Leos Oma zeigst du Respekt mit „a senhora“ (bei einem Mann „o senhor“). Das Verb bleibt in der 3. Person: A senhora fala inglês?",
+        "Achtung bei gostar: Es braucht immer „de“. Eu gosto de café. Aus de + o wird do: Eu gosto do Brasil."
       ],
       "table": {
         "head": [
           "",
           "falar",
           "morar",
-          "ser"
+          "estudar"
         ],
         "rows": [
           [
             "eu",
             "falo",
             "moro",
-            "sou"
+            "estudo"
           ],
           [
             "você / ele / ela",
             "fala",
             "mora",
-            "é"
+            "estuda"
           ],
           [
             "a gente",
             "fala",
             "mora",
-            "é"
+            "estuda"
           ],
           [
-            "nós (formell)",
+            "nós (nur erkennen)",
             "falamos",
             "moramos",
-            "somos"
+            "estudamos"
           ],
           [
             "vocês / eles / elas",
             "falam",
             "moram",
-            "são"
+            "estudam"
           ]
         ]
       },
-      "es_compare_de": "Wie im Spanischen? Fast. „Você“ funktioniert grammatisch wie „usted“ (Verb in der 3. Person), ist aber locker wie „tú“. Die Form „tu falas“ hörst du in São Paulo kaum. „A gente“ sieht aus wie „la gente“, bedeutet aber „wir“: „A gente mora aqui“ heißt „Wir wohnen hier“, nicht „Die Leute wohnen hier“.",
-      "memo_de": "Merke: você, ele, ela, a gente plus dieselbe Verbform. Also: a gente vai, nie „a gente vamos“.",
+      "es_compare_de": "Wie im Spanischen? Fast. Die Endungen sind fast gleich: hablo → falo, habla → fala, hablan → falam. Die tú-Form fällt weg, denn „você“ funktioniert grammatisch wie „usted“ (Verb in der 3. Person), ist aber locker wie „tú“. „A gente“ sieht aus wie „la gente“, bedeutet aber „wir“. Und anders als bei „me gusta“ ist bei gostar die Person das Subjekt: Eu gosto de café (me gusta el café).",
+      "memo_de": "Merke: -o für eu, -a für você, ele, ela und a gente, -am für vocês. Also: a gente fala, nie „a gente falamos“.",
       "examples": [
         {
           "pt": "Você fala português muito bem!",
           "de": "Du sprichst sehr gut Portugiesisch!"
         },
         {
-          "pt": "A gente vai direto pra casa.",
-          "de": "Wir fahren direkt nach Hause."
+          "pt": "Eu moro em Aachen.",
+          "de": "Ich wohne in Aachen."
         },
         {
-          "pt": "A gente almoça às duas.",
-          "de": "Wir essen um zwei zu Mittag."
+          "pt": "A gente janta às oito.",
+          "de": "Wir essen um acht zu Abend."
         },
         {
-          "pt": "A senhora é a avó do Leo?",
-          "de": "Sind Sie Leos Großmutter?"
+          "pt": "A senhora fala inglês?",
+          "de": "Sprechen Sie Englisch?"
         },
         {
           "pt": "Vocês moram em São Paulo?",
           "de": "Wohnt ihr in São Paulo?"
+        },
+        {
+          "pt": "Eu gosto muito do Brasil.",
+          "de": "Ich mag Brasilien sehr."
+        }
+      ]
+    },
+    {
+      "id": "l01g3",
+      "title_de": "ser und ter: sein und haben",
+      "explain_de": [
+        "Zwei wichtige Verben sind unregelmäßig. Du lernst sie gleich mit, weil du sie zum Vorstellen brauchst.",
+        "ser (sein) für das, was du bist: Name, Herkunft, Beruf, Eigenschaften. Eu sou a Anna. Eu sou da Alemanha. Eu sou engenheira civil. Beim Beruf steht kein Artikel.",
+        "ter (haben) für Besitz, Familie und das Alter. O Leo tem uma irmã. Eu tenho vinte e oito anos. Wie im Spanischen sagt man beim Alter „haben“, nicht „sein“.",
+        "Im Alltag brauchst du je drei Formen: sou, é, são und tenho, tem, têm. „Tem“ und „têm“ klingen gleich, nur der Zirkumflex zeigt in der Schrift die Mehrzahl.",
+        "Wie es dir gerade geht (müde, hungrig), sagt man mit estar: „tô cansada“. Das lernst du in Lektion 2. Bis dahin benutzt du „tô cansada“ und „tô com fome“ als fertigen Block."
+      ],
+      "table": {
+        "head": [
+          "",
+          "ser",
+          "ter"
+        ],
+        "rows": [
+          [
+            "eu",
+            "sou",
+            "tenho"
+          ],
+          [
+            "você / ele / ela",
+            "é",
+            "tem"
+          ],
+          [
+            "a gente",
+            "é",
+            "tem"
+          ],
+          [
+            "nós (nur erkennen)",
+            "somos",
+            "temos"
+          ],
+          [
+            "vocês / eles / elas",
+            "são",
+            "têm"
+          ]
+        ]
+      },
+      "es_compare_de": "Wie im Spanischen? Ja, fast eins zu eins: soy → sou, es → é, son → são, tengo → tenho, tiene → tem, tienen → têm. Alter wie im Spanischen mit „haben“: tengo 28 años → tenho 28 anos. Aussprache: „sou“ klingt wie „so“, „tem“ wie TÄING (nasal), „tenho“ wie TÄN-nju.",
+      "memo_de": "Merke: Wer und woher mit ser (sou, é, são). Alter und Besitz mit ter (tenho, tem, têm).",
+      "examples": [
+        {
+          "pt": "Eu sou engenheira civil.",
+          "de": "Ich bin Bauingenieurin."
+        },
+        {
+          "pt": "A Júlia é a irmã do Leo.",
+          "de": "Júlia ist Leos Schwester."
+        },
+        {
+          "pt": "Eu tenho vinte e oito anos.",
+          "de": "Ich bin achtundzwanzig."
+        },
+        {
+          "pt": "Você tem irmãos?",
+          "de": "Hast du Geschwister?"
+        },
+        {
+          "pt": "Vocês são da Alemanha?",
+          "de": "Seid ihr aus Deutschland?"
+        },
+        {
+          "pt": "Os pais do Leo têm um cachorro.",
+          "de": "Leos Eltern haben einen Hund."
+        }
+      ]
+    },
+    {
+      "id": "l01g4",
+      "title_de": "Zahlen von 0 bis 30",
+      "explain_de": [
+        "Zahlen brauchst du sofort: für dein Alter, Uhrzeiten, Preise und Telefonnummern. Viele kennst du schon aus dem Spanischen.",
+        "1 und 2 haben eine weibliche Form: um/uma, dois/duas. Also um irmão, uma irmã, dois anos, duas malas. Das gilt auch in 21 und 22: vinte e uma horas, vinte e duas malas.",
+        "16 bis 19 sind „zehn und …“, zusammengeschrieben: dezesseis, dezessete, dezoito, dezenove.",
+        "Ab 21 kommt „e“ (und) dazwischen, getrennt geschrieben: vinte e um, vinte e oito. Im Spanischen schreibt man das zusammen (veintiocho).",
+        "Tipp aus São Paulo: Bei Telefonnummern sagt man für 6 oft „meia“ (halbes Dutzend). Nicht wundern, wenn Leos Mutter „nove, meia, três …“ diktiert."
+      ],
+      "table": {
+        "head": [
+          "Zahl",
+          "Portugiesisch",
+          "Spanisch"
+        ],
+        "rows": [
+          [
+            "0",
+            "zero",
+            "cero"
+          ],
+          [
+            "1",
+            "um / uma",
+            "uno / una"
+          ],
+          [
+            "2",
+            "dois / duas",
+            "dos"
+          ],
+          [
+            "3",
+            "três",
+            "tres"
+          ],
+          [
+            "4",
+            "quatro",
+            "cuatro"
+          ],
+          [
+            "5",
+            "cinco",
+            "cinco"
+          ],
+          [
+            "6",
+            "seis",
+            "seis"
+          ],
+          [
+            "7",
+            "sete",
+            "siete"
+          ],
+          [
+            "8",
+            "oito",
+            "ocho"
+          ],
+          [
+            "9",
+            "nove",
+            "nueve"
+          ],
+          [
+            "10",
+            "dez",
+            "diez"
+          ],
+          [
+            "11",
+            "onze",
+            "once"
+          ],
+          [
+            "12",
+            "doze",
+            "doce"
+          ],
+          [
+            "13",
+            "treze",
+            "trece"
+          ],
+          [
+            "14",
+            "catorze",
+            "catorce"
+          ],
+          [
+            "15",
+            "quinze",
+            "quince"
+          ],
+          [
+            "16",
+            "dezesseis",
+            "dieciséis"
+          ],
+          [
+            "17",
+            "dezessete",
+            "diecisiete"
+          ],
+          [
+            "18",
+            "dezoito",
+            "dieciocho"
+          ],
+          [
+            "19",
+            "dezenove",
+            "diecinueve"
+          ],
+          [
+            "20",
+            "vinte",
+            "veinte"
+          ],
+          [
+            "21",
+            "vinte e um",
+            "veintiuno"
+          ],
+          [
+            "22",
+            "vinte e dois",
+            "veintidós"
+          ],
+          [
+            "28",
+            "vinte e oito",
+            "veintiocho"
+          ],
+          [
+            "30",
+            "trinta",
+            "treinta"
+          ]
+        ]
+      },
+      "es_compare_de": "Wie im Spanischen? Sehr ähnlich, aber mit eigener Schreibung: z statt c (doze, treze), ss in dezesseis und dezessete, und ab 21 getrennt mit „e“. Fallen: „oito“ (8) statt „ocho“, „sete“ (7) statt „siete“.",
+      "memo_de": "Merke: um/uma und dois/duas richten sich nach dem Wort. Ab 21: vinte e …, getrennt.",
+      "examples": [
+        {
+          "pt": "Eu tenho vinte e oito anos.",
+          "de": "Ich bin achtundzwanzig."
+        },
+        {
+          "pt": "A Júlia tem dezenove anos.",
+          "de": "Júlia ist neunzehn."
+        },
+        {
+          "pt": "São doze horas de voo.",
+          "de": "Es sind zwölf Stunden Flug."
+        },
+        {
+          "pt": "A gente tem duas malas.",
+          "de": "Wir haben zwei Koffer."
         }
       ]
     },
@@ -952,18 +1305,11 @@
           "hint_de": "morar"
         },
         {
-          "pt": "Eu ___ alemã.",
+          "pt": "Eu ___ em Aachen.",
           "answers": [
-            "sou"
+            "moro"
           ],
-          "hint_de": "ser"
-        },
-        {
-          "pt": "A gente ___ da Alemanha.",
-          "answers": [
-            "é"
-          ],
-          "hint_de": "ser"
+          "hint_de": "morar"
         },
         {
           "pt": "Você ___ o quê?",
@@ -973,11 +1319,11 @@
           "hint_de": "estudar"
         },
         {
-          "pt": "Quantos anos você ___?",
+          "pt": "Vocês ___ alemão?",
           "answers": [
-            "tem"
+            "falam"
           ],
-          "hint_de": "ter"
+          "hint_de": "falar"
         },
         {
           "pt": "A gente ___ às oito.",
@@ -985,6 +1331,13 @@
             "janta"
           ],
           "hint_de": "jantar"
+        },
+        {
+          "pt": "O Leo ___ muito.",
+          "answers": [
+            "trabalha"
+          ],
+          "hint_de": "trabalhar"
         },
         {
           "pt": "Eu ___ um pouco de espanhol.",
@@ -1023,34 +1376,34 @@
           "explain_de": "In São Paulo sagt man „você“ mit der 3. Person „é“. „Tu és“ klingt nach Portugal."
         },
         {
-          "q_de": "Wie bietest du Leos Oma höflich einen Kaffee an?",
+          "q_de": "Wie fragst du Leos Oma höflich, ob sie Englisch spricht?",
           "options": [
-            "Tu queres café?",
-            "A senhora quer café?",
-            "Vocês quer café?"
+            "Tu falas inglês?",
+            "A senhora fala inglês?",
+            "Vocês fala inglês?"
           ],
           "answer": 1,
           "explain_de": "Älteren Menschen gegenüber benutzt man „a senhora“ oder „o senhor“, mit Verb in der 3. Person."
         },
         {
-          "q_pt": "Você ___ de onde?",
+          "q_pt": "Você ___ alemão?",
           "options": [
-            "é",
-            "és",
-            "sou"
+            "fala",
+            "falas",
+            "falo"
           ],
           "answer": 0,
-          "explain_de": "você + 3. Person: você é."
+          "explain_de": "você + 3. Person: você fala."
         },
         {
-          "q_pt": "A gente ___ pra casa agora.",
+          "q_pt": "A gente ___ às oito.",
           "options": [
-            "vamos",
-            "vai",
-            "vão"
+            "jantamos",
+            "janta",
+            "jantam"
           ],
           "answer": 1,
-          "explain_de": "„A gente vai“ ist richtig. „A gente vamos“ hört man manchmal, es gilt aber als falsch."
+          "explain_de": "„A gente janta“ ist richtig. „A gente jantamos“ hört man manchmal, es gilt aber als falsch."
         },
         {
           "q_de": "Was bedeutet „a gente“ in „A gente chega amanhã“?",
@@ -1093,11 +1446,11 @@
           "explain_de": "tu falas wird zu você fala."
         },
         {
-          "from_pt": "Nós somos da Alemanha.",
+          "from_pt": "Nós trabalhamos muito.",
           "answers": [
-            "A gente é da Alemanha."
+            "A gente trabalha muito."
           ],
-          "explain_de": "nós somos wird zu a gente é."
+          "explain_de": "nós trabalhamos wird zu a gente trabalha."
         },
         {
           "from_pt": "Tu estudas o quê?",
@@ -1116,11 +1469,188 @@
           "explain_de": "nós chegamos wird zu a gente chega."
         },
         {
-          "from_pt": "Tu tens irmãos?",
+          "from_pt": "Tu moras em Aachen?",
           "answers": [
-            "Você tem irmãos?"
+            "Você mora em Aachen?"
           ],
-          "explain_de": "tu tens wird zu você tem."
+          "explain_de": "tu moras wird zu você mora."
+        }
+      ]
+    },
+    {
+      "id": "l01e7",
+      "type": "gap",
+      "grammar": "l01g3",
+      "title_de": "ser oder ter?",
+      "prompt_de": "Setz die richtige Form von ser oder ter ein.",
+      "items": [
+        {
+          "pt": "Eu ___ alemã.",
+          "answers": [
+            "sou"
+          ],
+          "hint_de": "ser"
+        },
+        {
+          "pt": "Quantos anos você ___?",
+          "answers": [
+            "tem"
+          ],
+          "hint_de": "ter"
+        },
+        {
+          "pt": "Eu ___ vinte e oito anos.",
+          "answers": [
+            "tenho"
+          ],
+          "hint_de": "ter"
+        },
+        {
+          "pt": "A Júlia ___ a irmã do Leo.",
+          "answers": [
+            "é"
+          ],
+          "hint_de": "ser"
+        },
+        {
+          "pt": "Vocês ___ da Alemanha?",
+          "answers": [
+            "são"
+          ],
+          "hint_de": "ser"
+        },
+        {
+          "pt": "Os pais do Leo ___ um cachorro.",
+          "answers": [
+            "têm"
+          ],
+          "hint_de": "ter, Mehrzahl"
+        },
+        {
+          "pt": "Eu ___ engenheira civil.",
+          "answers": [
+            "sou"
+          ],
+          "hint_de": "ser"
+        },
+        {
+          "pt": "A gente ___ duas malas.",
+          "answers": [
+            "tem"
+          ],
+          "hint_de": "ter"
+        }
+      ]
+    },
+    {
+      "id": "l01e8",
+      "type": "gap",
+      "grammar": "l01g4",
+      "title_de": "Zahlen ausschreiben",
+      "prompt_de": "Schreib die Zahl auf Portugiesisch.",
+      "items": [
+        {
+          "pt": "12 = ___",
+          "answers": [
+            "doze"
+          ],
+          "hint_de": "ES: doce"
+        },
+        {
+          "pt": "16 = ___",
+          "answers": [
+            "dezesseis"
+          ],
+          "hint_de": "zehn und sechs"
+        },
+        {
+          "pt": "19 = ___",
+          "answers": [
+            "dezenove"
+          ]
+        },
+        {
+          "pt": "28 = ___",
+          "answers": [
+            "vinte e oito"
+          ]
+        },
+        {
+          "pt": "21 = ___",
+          "answers": [
+            "vinte e um"
+          ]
+        },
+        {
+          "pt": "30 = ___",
+          "answers": [
+            "trinta"
+          ]
+        },
+        {
+          "pt": "14 = ___",
+          "answers": [
+            "catorze",
+            "quatorze"
+          ]
+        },
+        {
+          "pt": "2 malas = ___ malas",
+          "answers": [
+            "duas"
+          ],
+          "hint_de": "a mala ist weiblich"
+        }
+      ]
+    },
+    {
+      "id": "l01e9",
+      "type": "dictation",
+      "grammar": "l01g4",
+      "title_de": "Zahlen hören",
+      "prompt_de": "Hör die Zahl und schreib sie als Wort oder Ziffer.",
+      "items": [
+        {
+          "pt": "quinze",
+          "answers": [
+            "quinze",
+            "15"
+          ]
+        },
+        {
+          "pt": "dezoito",
+          "answers": [
+            "dezoito",
+            "18"
+          ]
+        },
+        {
+          "pt": "vinte e dois",
+          "answers": [
+            "vinte e dois",
+            "22"
+          ]
+        },
+        {
+          "pt": "treze",
+          "answers": [
+            "treze",
+            "13"
+          ]
+        },
+        {
+          "pt": "onze",
+          "answers": [
+            "onze",
+            "11"
+          ]
+        },
+        {
+          "pt": "vinte e seis",
+          "answers": [
+            "vinte e seis",
+            "26"
+          ]
         }
       ]
     },
@@ -1184,17 +1714,18 @@
         },
         {
           "words": [
-            "A",
-            "gente",
-            "vai",
-            "direto",
-            "pra",
-            "casa"
+            "Eu",
+            "chego",
+            "em",
+            "São",
+            "Paulo",
+            "em",
+            "dezembro"
           ],
           "answers": [
-            "A gente vai direto pra casa."
+            "Eu chego em São Paulo em dezembro."
           ],
-          "de": "Wir fahren direkt nach Hause."
+          "de": "Ich komme im Dezember in São Paulo an."
         },
         {
           "words": [
@@ -1213,17 +1744,17 @@
         },
         {
           "words": [
-            "Como",
-            "foi",
-            "a",
-            "viagem"
+            "Você",
+            "tem",
+            "irmãos"
           ],
           "answers": [
-            "Como foi a viagem?"
+            "Você tem irmãos?"
           ],
-          "de": "Wie war die Reise?"
+          "de": "Hast du Geschwister?"
         }
-      ]
+      ],
+      "grammar": "l01g3"
     },
     {
       "id": "l01e5",
@@ -1448,7 +1979,7 @@
           "pt": "E o que você faz? Estuda, trabalha?",
           "de": "Und was machst du? Studierst du, arbeitest du?",
           "you_hint_de": "Sag, was du beruflich machst.",
-          "sample_pt": "Eu sou engenheira civil. Vou trabalhar em obras."
+          "sample_pt": "Eu sou engenheira civil. Agora eu estudo português!"
         },
         {
           "other": "Vó Cida",
@@ -1456,7 +1987,7 @@
           "pt": "Que bonito! Ai, a gente vai se dar muito bem, viu? Quer um cafezinho?",
           "de": "Wie schön! Ach, wir werden uns sehr gut verstehen, weißt du? Möchtest du einen kleinen Kaffee?",
           "you_hint_de": "Nimm dankend an und sei höflich zu ihr (a senhora).",
-          "sample_pt": "Quero sim, obrigada! A senhora é muito gentil."
+          "sample_pt": "Sim, obrigada! A senhora é muito gentil."
         }
       ]
     },
@@ -1468,9 +1999,9 @@
         "Eu tenho … anos.",
         "Eu sou …",
         "Eu falo … e um pouco de …",
-        "Agora eu tô …"
+        "Agora eu tô cansada / feliz / nervosa."
       ],
-      "sample_pt": "Oi, gente! Tudo bem? Meu nome é Anna. Eu sou da Alemanha e moro em Aachen. Eu tenho vinte e oito anos e sou engenheira civil. Eu falo alemão, inglês e um pouco de espanhol. Português eu falo só um pouco, mas tô aprendendo. Agora eu tô muito cansada, mas tô muito feliz de estar aqui com vocês!"
+      "sample_pt": "Oi, gente! Tudo bem? Meu nome é Anna. Eu sou da Alemanha e moro em Aachen. Eu tenho vinte e oito anos e sou engenheira civil. Eu falo alemão, inglês e um pouco de espanhol. Português eu falo só um pouco. Agora eu tô muito cansada, mas tô muito feliz!"
     }
   },
   "reading": [
@@ -1673,9 +2204,9 @@
     "task_pt": "Escreva uma mensagem para o grupo da família de {partner}. Se apresente (nome, origem, idade, estudos ou trabalho, línguas) e conte como você está se sentindo com a viagem. Use “a gente” pelo menos uma vez.",
     "min_words": 50,
     "max_words": 100,
-    "sample_pt": "Oi, gente! Tudo bem? Meu nome é {learner}, eu sou a namorada do {partner}. Eu sou da Alemanha, moro em Aachen e tenho vinte e oito anos. Eu sou engenheira civil. Eu falo alemão, inglês e um pouco de espanhol. Agora eu tô aprendendo português, mas ainda é difícil! Eu chego em dezembro e tô muito feliz. Tô um pouco nervosa também, kkkk. A gente vai se ver logo! Beijos!",
+    "sample_pt": "Oi, gente! Tudo bem? Meu nome é {learner}, eu sou a namorada do {partner}. Eu sou da Alemanha, moro em Aachen e tenho vinte e oito anos. Eu sou engenheira civil. Eu falo alemão, inglês e um pouco de espanhol. Agora eu estudo português, mas é difícil! Eu chego em dezembro. Aí a gente janta junto, né? Tô muito feliz e um pouco nervosa também, kkkk. Beijos!",
     "checklist_de": [
-      "Steht nach „você“ und „a gente“ das Verb in der 3. Person (a gente vai, nicht a gente vamos)?",
+      "Steht nach „você“ und „a gente“ das Verb in der 3. Person (a gente janta, nicht a gente jantamos)?",
       "Habe ich das Alter mit „ter“ geschrieben: eu tenho … anos?",
       "Steht vor dem Land der Artikel: sou da Alemanha (nicht „de Alemanha“)?",
       "Habe ich als Frau die weiblichen Formen benutzt: obrigada, cansada, nervosa, alemã?",
@@ -1788,10 +2319,10 @@
           ]
         },
         {
-          "pt": "Como foi a viagem? E o que vocês querem fazer aqui em São Paulo, você e o {partner}?",
+          "pt": "Como foi a viagem? Foi longa?",
           "followups_pt": [
-            "Vocês vão viajar também?",
-            "Você quer conhecer a praia?"
+            "Você tá cansada?",
+            "Você tem fome?"
           ]
         }
       ],
@@ -1826,12 +2357,12 @@
       "situation_pt": "O pai de {partner} busca {learner} em Guarulhos. No trânsito, a caminho de casa, ele puxa conversa.",
       "role_learner_de": "Du bist gerade gelandet und lernst deinen Schwiegervater kennen.",
       "role_partner_pt": "Você faz o papel do seu pai. Ele é tranquilo, gosta de futebol e quer conhecer {learner} melhor.",
-      "goal_de": "Über die Reise, das Wetter, deine Familie und deine Pläne sprechen.",
-      "goal_pt": "{learner} fala da viagem, do tempo, da família dela e dos planos no Brasil.",
+      "goal_de": "Über die Reise, das Wetter, deine Familie und was du magst sprechen.",
+      "goal_pt": "{learner} fala da viagem, do tempo, da família dela e do que ela gosta.",
       "cheatsheet": [
         {
-          "pt": "A viagem foi …",
-          "de": "Die Reise war …"
+          "pt": "A viagem foi boa / longa.",
+          "de": "Die Reise war gut / lang."
         },
         {
           "pt": "Tô com sono / com fome.",
@@ -1842,8 +2373,8 @@
           "de": "Wow, ist das heiß!"
         },
         {
-          "pt": "Na Alemanha agora tá frio.",
-          "de": "In Deutschland ist es jetzt kalt."
+          "pt": "Na Alemanha agora é inverno.",
+          "de": "In Deutschland ist jetzt Winter."
         },
         {
           "pt": "Eu moro com …",
@@ -1858,12 +2389,12 @@
           "de": "Es ist mein erstes Mal in Brasilien."
         },
         {
-          "pt": "Eu quero conhecer …",
-          "de": "Ich möchte … kennenlernen."
+          "pt": "Eu gosto de …",
+          "de": "Ich mag …"
         },
         {
-          "pt": "A gente vai …",
-          "de": "Wir werden …"
+          "pt": "A gente …",
+          "de": "Wir …"
         }
       ],
       "questions": [
@@ -1896,20 +2427,20 @@
         {
           "pt": "É a sua primeira vez no Brasil?",
           "followups_pt": [
-            "O que você quer conhecer?"
+            "Você gosta de calor?"
           ]
         },
         {
-          "pt": "Você e o {partner}, como vocês se conheceram?",
+          "pt": "Você estuda ou trabalha?",
           "followups_pt": [
-            "Faz quanto tempo que vocês namoram?"
+            "O que você estuda?",
+            "Você gosta?"
           ]
         },
         {
-          "pt": "O que a gente vai fazer com você aqui no Brasil? Praia, futebol, comida?",
+          "pt": "Você gosta de futebol? E de praia?",
           "followups_pt": [
-            "Você gosta de futebol?",
-            "Vai torcer pra qual time?"
+            "Você gosta de comida brasileira?"
           ]
         }
       ],
@@ -1924,7 +2455,7 @@
       "target_grammar_de": [
         "você + Verb in der 3. Person",
         "a gente + Verb in der 3. Person Singular",
-        "tô com sono / com fome"
+        "gostar de"
       ],
       "target_words": [
         "a viagem",
@@ -1935,5 +2466,6 @@
         "nossa"
       ]
     }
-  ]
+  ],
+  "tandem_can_pt": "Verbos em -ar no presente (eu falo, você fala, a gente fala, vocês falam), ser e ter (sou, é, tenho, tem), números até 30 e frases prontas como “tô cansada” e “como foi a viagem?”. Ela ainda não aprendeu o passado nem o futuro com “vou”. Use frases curtas e o presente."
 }

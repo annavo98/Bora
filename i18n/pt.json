@@ -16,7 +16,12 @@
     "followups": "Se responder pouco",
     "finish": "Terminar e avaliar"
   },
-  "timer": { "start": "Começar", "pause": "Pausar", "resume": "Continuar", "reset": "Zerar" },
+  "timer": {
+    "start": "Começar",
+    "pause": "Pausar",
+    "resume": "Continuar",
+    "reset": "Zerar"
+  },
   "rate": {
     "title": "Sua avaliação",
     "save": "Salvar avaliação",
@@ -47,5 +52,34 @@
     "tips": "Dicas",
     "rubricIntro": "Depois da conversa, a {learner} vai te fazer estas perguntas (em inglês). Preste atenção nisso:",
     "thanks": "Obrigada! ❤️"
+  },
+  "tandem": {
+    "title": "Treino em dupla",
+    "kicker": "Lição {n} · Diálogo",
+    "yourRole": "Seu papel",
+    "herRole": "A {name} faz o papel dela mesma.",
+    "canTitle": "O que a {name} já sabe",
+    "howTitle": "Como funciona",
+    "how": [
+      "Leia as suas falas em voz alta, devagar e com calma.",
+      "Depois, a {name} fala a parte dela. A frase esperada aparece em cinza.",
+      "Marque: Certo, Quase ou De novo. Se ela travar, dê uma dica.",
+      "Não corrija no meio da frase. Deixe ela terminar primeiro."
+    ],
+    "youSay": "Você ({name})",
+    "sheSays": "{name} diz",
+    "listen": "Ouvir a frase",
+    "rateLabel": "Como ela falou?",
+    "ok": "Certo",
+    "almost": "Quase",
+    "again": "De novo",
+    "next": "Próxima fala",
+    "prev": "Fala anterior",
+    "finish": "Terminar",
+    "sumTitle": "Resultado",
+    "sumHint": "Conte para a {name} quais frases foram difíceis. Nada fica salvo neste celular.",
+    "restart": "Fazer de novo",
+    "notFound": "Esse diálogo não foi encontrado. Peça um link novo.",
+    "shareText": "Bora treinar o diálogo “{title}”? Você faz os outros papéis e me dá um retorno. Abre aqui:"
   }
 }

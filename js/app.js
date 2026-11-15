@@ -12,6 +12,7 @@ import { viewTrainer, viewSession, viewAllVocab } from './views/vocab.js';
 import { viewWriting, viewSubmission } from './views/writing.js';
 import { viewConversa } from './views/conversa.js';
 import { viewProgress, viewSettings } from './views/progress.js';
+import { viewTandem } from './views/tandem.js';
 
 const routes = [
   [/^$|^today$/, () => viewToday()],
@@ -32,7 +33,8 @@ const routes = [
   [/^conversa\/(\w+)$/, m => viewConversa(m[1])],
   [/^submission\/([\w-]+)$/, m => viewSubmission(m[1])],
   [/^progress$/, () => viewProgress()],
-  [/^settings$/, () => viewSettings()]
+  [/^settings$/, () => viewSettings()],
+  [/^tandem\/(\w+)\/(\w+)$/, m => viewTandem(m[1], m[2])]
 ];
 
 const TABS = [['today', 'today'], ['course', 'course'], ['vocab', 'vocab'], ['progress', 'progress']];
@@ -47,7 +49,7 @@ function tabbar(route) {
 async function route() {
   stop();
   const r = location.hash.replace(/^#\/?/, '').replace(/\/$/, '');
-  tabbar(r);
+  if (r.startsWith('tandem/')) document.getElementById('tabbar').innerHTML = ''; else tabbar(r);
   for (const [re, fn] of routes) {
     const m = r.match(re);
     if (m) {
@@ -69,13 +71,15 @@ async function init() {
   // Testhilfe: ?date=2026-11-20 setzt das App-Datum, ?date=off setzt es zurück
   const qd = new URLSearchParams(location.search).get('date');
   if (qd) store.setDateOverride(qd === 'off' ? null : qd);
-  store.load();
+  // Tandem-Link (Leos Ansicht): Lernstand nur lesen, nie schreiben
+  const tandem = /^#\/?tandem\//.test(location.hash);
+  store.load({ readOnly: tandem });
   applyTheme();
   matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', applyTheme);
   await Promise.all([loadI18n(), loadCourse(), loadAudioIndex()]);
   document.title = t('app.title');
   bindSay(document.getElementById('view'));
-  store.update(s => { s.lastActive = store.today(); });
+  if (!tandem) store.update(s => { s.lastActive = store.today(); });
   window.addEventListener('hashchange', route);
   route();
   if ('serviceWorker' in navigator && location.protocol !== 'file:') {

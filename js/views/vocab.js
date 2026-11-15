@@ -2,7 +2,7 @@
 import { get } from '../store.js';
 import { t } from '../i18n.js';
 import { icon } from '../art.js';
-import { render, setArea, esc, topbar, sayBtn, cheer, fmtDate, $, $$ } from '../ui.js';
+import { render, setArea, esc, topbar, sayBtn, cheer, fmtDate, laterTag, $, $$ } from '../ui.js';
 import { stats, buildQueue, grade, GRADES, cardPool, isNew } from '../srs.js';
 import { play } from '../audio.js';
 
@@ -56,6 +56,7 @@ export function viewSession() {
         ${card.es ? `<div class="es-hint" style="margin-top:8px"><b>${esc(t('vocab.es'))}:</b> ${esc(card.es)}${card.hint_es_de ? ` · ${esc(card.hint_es_de)}` : ''}</div>` : ''}
         ${card.false_friend_de ? `<div class="ff" style="margin-top:8px">${icon('cross', 16)} <b>${esc(t('vocab.falseFriend'))}:</b> ${esc(card.false_friend_de)}</div>` : ''}
         ${card.note_de ? `<div class="small" style="margin-top:8px">${esc(card.note_de)}</div>` : ''}
+        ${card.wendung ? `<div style="margin-top:8px">${laterTag(card.wendung)}</div>` : ''}
         ${card.ex_pt ? `<div class="ex" style="margin-top:8px">${sayBtn(card.ex_pt)}<div><b lang="pt-BR">${esc(card.ex_pt)}</b><span class="tr">${esc(card.ex_de || '')}</span></div></div>` : ''}
       </div>
     </div>

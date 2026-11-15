@@ -219,15 +219,15 @@
 "n": "76ddb8fbc95f11.mp3",
 "s": "6f92e1380cc549.mp3"
 },
-"O voo foi longo.": {
-"n": "a79a0946a30212.mp3"
+"O voo é muito longo.": {
+"n": "497462f09b9e48.mp3"
 },
 "a mala": {
 "n": "424d62a5ac37e7.mp3",
 "s": "59834ad0dfadc9.mp3"
 },
-"Deixa que eu levo a mala.": {
-"n": "56b2cf07a66075.mp3"
+"A mala é muito grande.": {
+"n": "7bdf547a576336.mp3"
 },
 "o aeroporto": {
 "n": "c4c71366be4047.mp3",
@@ -282,8 +282,8 @@
 "n": "32652f332285cf.mp3",
 "s": "bbc207e6e09d56.mp3"
 },
-"Eu sou engenheira civil e vou trabalhar em obras.": {
-"n": "b3c73d8885c82d.mp3"
+"Eu sou engenheira civil. Eu gosto muito de obras.": {
+"n": "4a4b5ad9325cef.mp3"
 },
 "quantos anos você tem?": {
 "n": "b332b7f6c92c80.mp3",
@@ -304,8 +304,9 @@
 "n": "917924c76c6494.mp3",
 "s": "a4af1f59fefd8e.mp3"
 },
-"A gente vai direto pra casa.": {
-"n": "4575e1be7f5296.mp3"
+"A gente mora em São Paulo.": {
+"n": "c1968e1a8288a9.mp3",
+"s": "daac10fe83faf6.mp3"
 },
 "você": {
 "n": "e4c67897686057.mp3",
@@ -325,8 +326,8 @@
 "n": "0892431fe0f902.mp3",
 "s": "d245e952f86fba.mp3"
 },
-"Minha mãe tá em casa.": {
-"n": "dd3fd76d588751.mp3"
+"A mãe do Leo é a Márcia.": {
+"n": "d9a7e4cd2620cf.mp3"
 },
 "o pai": {
 "n": "0d322ca7f5aa4e.mp3",
@@ -381,8 +382,8 @@
 "n": "93f353973d08ae.mp3",
 "s": "205ea56362d460.mp3"
 },
-"Tá calor, né? Pois é!": {
-"n": "e59bcacaf19e7a.mp3"
+"Que calor, né? Pois é!": {
+"n": "0ce56f14f2c842.mp3"
 },
 "relaxa!": {
 "n": "b5e034e4c1fab2.mp3",
@@ -416,33 +417,122 @@
 "n": "7cfdc5f31b7877.mp3",
 "s": "3987b28e9ed340.mp3"
 },
-"Fiquei embaraçada com tantos elogios.": {
-"n": "0bf92e45c0f0e0.mp3"
+"Tô embaraçada com tantos elogios.": {
+"n": "a213658f819b1b.mp3"
+},
+"um, dois, três": {
+"n": "dc8916af13e767.mp3",
+"s": "05b60f96a9b791.mp3"
+},
+"A gente tem duas malas.": {
+"n": "9e677c032c6ecc.mp3"
+},
+"quatro, cinco, seis": {
+"n": "432f2316803bb1.mp3",
+"s": "2d6efc645fd80a.mp3"
+},
+"Seis malas? Nossa!": {
+"n": "49696ada68e2d1.mp3"
+},
+"sete, oito, nove, dez": {
+"n": "b425ba17534ab4.mp3",
+"s": "ab1eb52a355129.mp3"
+},
+"A gente janta às oito.": {
+"n": "5b4ddbf5105871.mp3",
+"s": "c032fcce1821ea.mp3"
+},
+"onze, doze, treze": {
+"n": "33045136c64eb8.mp3",
+"s": "2a751747500ea5.mp3"
+},
+"São doze horas de voo.": {
+"n": "0c0f5f8e99e476.mp3"
+},
+"catorze, quinze, dezesseis": {
+"n": "9e01c2d0ad3307.mp3",
+"s": "4a24d2f013086a.mp3"
+},
+"Quinze minutos e a gente chega!": {
+"n": "eca2545b62d736.mp3"
+},
+"dezessete, dezoito, dezenove": {
+"n": "ef2dde5696e218.mp3",
+"s": "30be4f982c60c0.mp3"
+},
+"A Júlia tem dezenove anos.": {
+"n": "a6101c139ed520.mp3"
+},
+"vinte, vinte e um, vinte e dois": {
+"n": "7514dc1b65ab30.mp3",
+"s": "b9f41484dc8945.mp3"
+},
+"trinta": {
+"n": "8eb5e48c0b8b48.mp3",
+"s": "375ee4b7162e9d.mp3"
+},
+"Nossa, trinta graus!": {
+"n": "9e4aa1b96594de.mp3"
 },
 "Você fala português muito bem!": {
 "n": "89ac6eddced893.mp3"
 },
-"A gente almoça às duas.": {
-"n": "64e86cc679d551.mp3"
+"Eu moro em Aachen.": {
+"n": "176a03e3472f30.mp3"
 },
-"A senhora é a avó do Leo?": {
-"n": "346931bcae300b.mp3"
+"A senhora fala inglês?": {
+"n": "5520a2ccb70bdb.mp3"
 },
 "Vocês moram em São Paulo?": {
 "n": "db53c9dc7df7da.mp3"
 },
+"Eu gosto muito do Brasil.": {
+"n": "877ac45216d74f.mp3"
+},
+"Eu sou engenheira civil.": {
+"n": "6456f2f02482cb.mp3"
+},
+"Você tem irmãos?": {
+"n": "254da0d5531ae1.mp3"
+},
+"Vocês são da Alemanha?": {
+"n": "ab7c8d3f641c89.mp3"
+},
+"Os pais do Leo têm um cachorro.": {
+"n": "bffab538e1318e.mp3"
+},
 "Boa tarde!": {
 "n": "817e780c8997df.mp3"
-},
-"A gente mora em São Paulo.": {
-"n": "c1968e1a8288a9.mp3",
-"s": "daac10fe83faf6.mp3"
 },
 "Que saudade da minha mãe!": {
 "n": "70b3a3a7035862.mp3"
 },
 "O Rio é muito bonito.": {
 "n": "04a09d5355ed3c.mp3"
+},
+"quinze": {
+"n": "547538ed5ab670.mp3",
+"s": "5678e573fb3d8d.mp3"
+},
+"dezoito": {
+"n": "bd1fcbe5b43fc9.mp3",
+"s": "2afb488a1b3937.mp3"
+},
+"vinte e dois": {
+"n": "cd63fe956923bd.mp3",
+"s": "6c368a7dfc72b2.mp3"
+},
+"treze": {
+"n": "ca7228ebc4f017.mp3",
+"s": "22acae3773915c.mp3"
+},
+"onze": {
+"n": "1d2ea0773b7daa.mp3",
+"s": "d9ed08a770c166.mp3"
+},
+"vinte e seis": {
+"n": "e0a09e21d6327a.mp3",
+"s": "0dd0fb8edfd558.mp3"
 },
 "Tudo bem com você?": {
 "n": "50f1bc1ba87d15.mp3",
@@ -455,10 +545,6 @@
 "Bem-vinda a São Paulo!": {
 "n": "f0a6e5f82f1c96.mp3",
 "s": "bfb91ae283f5bc.mp3"
-},
-"A gente janta às oito.": {
-"n": "5b4ddbf5105871.mp3",
-"s": "c032fcce1821ea.mp3"
 },
 "Prazer, meu nome é Anna.": {
 "n": "0d2180b2d5deb7.mp3",
@@ -504,17 +590,17 @@
 "E o que você faz? Estuda, trabalha?": {
 "n": "97ede6b549596a.mp3"
 },
-"Eu sou engenheira civil. Vou trabalhar em obras.": {
-"n": "2cf4bc1fdf693e.mp3"
+"Eu sou engenheira civil. Agora eu estudo português!": {
+"n": "3989f903cf9cd2.mp3"
 },
 "Que bonito! Ai, a gente vai se dar muito bem, viu? Quer um cafezinho?": {
 "n": "63cec200ff0881.mp3"
 },
-"Quero sim, obrigada! A senhora é muito gentil.": {
-"n": "33b975f7622d20.mp3"
+"Sim, obrigada! A senhora é muito gentil.": {
+"n": "044f65fd3a8555.mp3"
 },
-"Oi, gente! Tudo bem? Meu nome é Anna. Eu sou da Alemanha e moro em Aachen. Eu tenho vinte e oito anos e sou engenheira civil. Eu falo alemão, inglês e um pouco de espanhol. Português eu falo só um pouco, mas tô aprendendo. Agora eu tô muito cansada, mas tô muito feliz de estar aqui com vocês!": {
-"n": "532b0572eef59d.mp3"
+"Oi, gente! Tudo bem? Meu nome é Anna. Eu sou da Alemanha e moro em Aachen. Eu tenho vinte e oito anos e sou engenheira civil. Eu falo alemão, inglês e um pouco de espanhol. Português eu falo só um pouco. Agora eu tô muito cansada, mas tô muito feliz!": {
+"n": "dc0102bf5d8b19.mp3"
 },
 "Vem, Anna, vou te mostrar a casa.": {
 "n": "00b086deb8126f.mp3",
@@ -784,15 +870,12 @@
 "n": "27ccaef1f9751c.mp3",
 "s": "76a35f9f8463c2.mp3"
 },
-"Você tem irmãos?": {
-"n": "254da0d5531ae1.mp3"
-},
 "o tio / a tia": {
 "n": "a2f0fceb9c58a2.mp3",
 "s": "e6ad076f7e488e.mp3"
 },
-"A tia Cris vem no domingo.": {
-"n": "c49a5ff20370c7.mp3"
+"A tia Cris chega no domingo.": {
+"n": "bae43a3259240f.mp3"
 },
 "o primo / a prima": {
 "n": "aaebeec690d7d8.mp3",
@@ -805,8 +888,8 @@
 "n": "5eb309557826ec.mp3",
 "s": "fe971e3d386957.mp3"
 },
-"A Júlia vai ser minha cunhada.": {
-"n": "36c77667f3d0be.mp3"
+"A Júlia é minha cunhada.": {
+"n": "e52ca5f7e38aef.mp3"
 },
 "o sogro": {
 "n": "53f2cb65b1e894.mp3",
@@ -875,6 +958,9 @@
 "n": "7861650db3d945.mp3",
 "s": "9f406ae7adc2d4.mp3"
 },
+"Mais um pouco de feijão?": {
+"n": "8e7802821de8e2.mp3"
+},
 "tô satisfeita": {
 "n": "1bd64da65bc7b4.mp3",
 "s": "cab6090940545d.mp3"
@@ -935,8 +1021,8 @@
 "n": "6570cba268d834.mp3",
 "s": "ed36bc0e6ddf7a.mp3"
 },
-"A senhora quer ajuda?": {
-"n": "7628611920941d.mp3"
+"A senhora precisa de ajuda?": {
+"n": "aa5da72676f5d2.mp3"
 },
 "a toalha": {
 "n": "e30a53331484b3.mp3",
@@ -962,6 +1048,9 @@
 },
 "Essa é a irmã do Leo.": {
 "n": "6cadd65575f2fd.mp3"
+},
+"Na casa tem três quartos.": {
+"n": "b8a35dd122f23c.mp3"
 },
 "Eu gosto muito da comida da Márcia.": {
 "n": "efcab80653746c.mp3"
@@ -1014,8 +1103,8 @@
 "Não precisa, querida! Senta, fica à vontade.": {
 "n": "e84aec87b83e9e.mp3"
 },
-"Eu quero ajudar, sim! Onde ficam os pratos?": {
-"n": "51e324ecea3c7a.mp3"
+"Não, não, eu ajudo, sim! Onde ficam os pratos?": {
+"n": "b4a1b5247b844a.mp3"
 },
 "Tá bom, então. Os pratos ficam no armário, do lado da geladeira.": {
 "n": "072e343ae63276.mp3"

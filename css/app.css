@@ -198,6 +198,9 @@ textarea.field { min-height: 160px; resize: vertical; line-height: 1.5; }
 .flash .back { border-top: 2.5px dashed var(--line); padding-top: 12px; }
 .flash .de { font-size: 22px; font-weight: 800; }
 .es-hint { background: var(--mango); color: var(--mango-ink); border-radius: 14px; padding: 10px 12px; font-size: 15px; }
+.later-tag { display: inline-block; background: var(--mango); color: var(--mango-ink); border-radius: 999px; padding: 2px 10px; font-size: 13px; font-weight: 650; vertical-align: middle; white-space: nowrap; }
+.vlist .later-tag { display: table; margin: 4px 0 2px; }
+.later-note { background: var(--cream); border-radius: 14px; padding: 10px 12px; font-size: 15px; margin: 0 0 12px; }
 .ff { background: var(--bad-bg); color: var(--bad); border-radius: 14px; padding: 10px 12px; font-size: 15px; font-weight: 650; }
 .grades { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 14px; }
 .grades .btn { padding: 8px 4px; font-size: 15px; flex-direction: column; gap: 0; border-radius: 18px; min-height: 60px; }
@@ -267,3 +270,23 @@ details > summary { cursor: pointer; font-weight: 800; min-height: 44px; display
 .rec-list audio { width: 100%; margin-top: 6px; }
 
 .newwords { background: var(--sand); border-radius: var(--r-sm); padding: 4px 14px 8px; margin: 0 0 12px; }
+
+/* ---------- Tandem (Leos Ansicht) ---------- */
+.opt.near { border-color: var(--near); background: var(--near-bg); }
+.tandem-share { margin-bottom: 0; }
+.tandem-how { margin: 0; padding-left: 20px; }
+.tandem-how li { margin: 4px 0; }
+.tandem-can { background: var(--near-bg); }
+.tlines { display: flex; flex-direction: column; gap: 10px; margin-bottom: 12px; padding-bottom: 72px; }
+.tline { background: var(--cream); color: var(--text); border-radius: 22px; padding: 14px 16px; border: 3px solid transparent; }
+.tline .who { font-weight: 800; font-size: 14px; text-transform: uppercase; letter-spacing: .04em; opacity: .75; margin-bottom: 4px; }
+.tline.mine .pt { font-size: 22px; font-weight: 700; line-height: 1.3; }
+.tline.her .pt { font-size: 17px; color: var(--muted); font-style: italic; }
+.tline .rate { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+.tline .rate .opt { flex: 1 1 0; min-width: 0; justify-content: center; padding: 10px 4px; margin: 0; white-space: nowrap; font-size: 15px; }
+.tandem-info summary { font-weight: 800; cursor: pointer; }
+.tandem-info { padding-top: 14px; padding-bottom: 14px; }
+.tline.active { border-color: var(--text); }
+.tline.past { opacity: .6; }
+.tandem-bar { position: sticky; bottom: 12px; display: flex; gap: 10px; padding-top: 8px; }
+.tandem-bar .btn { min-height: 56px; }
